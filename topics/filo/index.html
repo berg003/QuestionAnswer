@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="../../img/filo.png" type="image/x-icon" />
+		<script type="text/javascript" async="" src="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="index.css"></link>
+		<title>Egészségfilozófia kérdés-válasz</title>
+	</head>
+	<body onload="init();">	
+	  <input list="questions" id="question" style="width:100%">
+	  <datalist id="questions"></datalist>
+	  <input type="button" onclick="searchAnswer()" value="Keres">
+	  <input type="button" onclick="reset()" value="X">
+	  <a href="../../index.html"><input type="button" value="Vissza"></a>
+	  <div id="answer"></div>
+	</body>
+</html>
