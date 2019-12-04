@@ -5,46 +5,46 @@ var questionAnswers = [
 	answer: 'CE jel <img src="img/oe_ce.png"></br><img src="img/ce.png">'
 },{
 	question: 'Miért alkotott az Európai Unió külön direktívákat?',
-	answer: 'Hogy a technika aktuálisan elvárható szintjét elérjék a gyártók termékei.</br>Bizonyos termékkörök esetén, így az orvostechnikai eszközöknél, az EU nem volt elégedett a kötelezettségek betartásával, ezért ezekre szigorúbb direktívákat hozott létre a termékkörhöz igazítva, különleges követelményekkel.'
+	answer: 'Hogy a technika aktuálisan elvárható szintjét elérjék a gyártók termékei.</br>Bizonyos termékkörök esetén, így az orvostechnikai eszközöknél, az EU nem volt elégedett a kötelezettségek betartásával, ezért ezekre szigorúbb direktívákat hozott létre a termékkörhöz igazítva, különleges követelményekkel.</br><img src="img/eu.png">'
 },{
 	question: 'Milyen orvostechnikai eszköz direktívákat ismer?',
-	answer: 'AIMD - Active Implantable Medical Devices - Aktív beültethető orvostechnikai eszköz<br/>MDD - Medical Devices Directive - Orvostechnikai Eszköz Direktíva</br>IVDD - In Vitro Diagnostic Devices - In vitro orvostechnikai eszközök (labordiagnosztikai eszközök)'
+	answer: 'AIMD - Active Implantable Medical Devices - Aktív beültethető orvostechnikai eszköz<br/><img src="img/aimd.png"><br/>MDD - Medical Devices Directive - Orvostechnikai Eszköz Direktíva<br/><img src="img/mdd.png"></br>IVDD - In Vitro Diagnostic Devices - In vitro orvostechnikai eszközök (labordiagnosztikai eszközök)<br/><img src="img/ivdd.png">'
 },{
 	question: 'Miért kötelező minden tagországban betartani az Európai Unió direktíváit?',
-	answer: 'Mert minden tagországnak a jogrendjébe kell illeszteni a direktívát, tehát jogszabályi erőt nyer, ellentéteseket meg kell szüntetniük.'
+	answer: 'Mert minden tagországnak a jogrendjébe kell illeszteni a direktívát, tehát jogszabályi erőt nyer, ellentéteseket meg kell szüntetniük.<br/><img src="img/eu2.png">'
 },{
 	question: 'Mit nevezünk orvostechnikai eszköznek?',
-	answer: 'Minden olyan eszközt, készüléket, berendezést, anyagot vagy más terméket, amiket gyógyítás céljaira, embereken alkalmaznak.'
+	answer: 'Minden olyan eszközt, készüléket, berendezést, anyagot vagy más terméket, amiket gyógyítás céljaira, embereken alkalmaznak.<br/><img src="img/orvosi_eszkoz.jpg">'
 },{
 	question: 'Mi az orvostechnikai eszközök két legfontosabb alapkövetelménye?',
-	answer: 'Biztonság</br>Hatásosság'
+	answer: 'Biztonság</br>Hatásosság</br><img src="img/safety_eff.png">'
 },{
 	question: 'Hogyan kell bizonyítani a biztonságot?',
-	answer: 'Akkreditált módon történő mérésekkel. Szabványok vannak az orvosi eszközökre. Az összes pontjának teljesülnie kell. A technikai álláspont szerint elvárható színvonalú, teljesíthető.'
+	answer: 'Akkreditált módon történő mérésekkel. Szabványok vannak az orvosi eszközökre. Az összes pontjának teljesülnie kell. A technikai álláspont szerint elvárható színvonalú, teljesíthető.</br><img src="img/todo.png">'
 },{
 	question: 'Hogyan kell bizonyítani a hatásosságot?',
-	answer: 'Valós emberen végzett tudományos kísérlettel, az Egészségügyi Tudományos Tanács jóváhagyásával.'
+	answer: 'Valós emberen végzett tudományos kísérlettel, az Egészségügyi Tudományos Tanács jóváhagyásával.</br><img src="img/ember_kiserlet.png">'
 },{
 	question: 'Milyen különleges követelmények érvényesek emberen való kísérletezésnél?',
-	answer: 'Egészségügyi Tudományos Tanács követelményei, ettől eltérni tilos.'
+	answer: 'Egészségügyi Tudományos Tanács követelményei, ettől eltérni tilos.</br><img src="img/ett.png">'
 },{
 	question: 'Mit jelent az orvostechnikai eszköz kockázati osztálya?',
-	answer: 'Hogy mekkora mértékű károsodást okozhat egy eszköz.</br>Pl.: I. Osztály - gyakorlatilag rizikó mentes.'
+	answer: 'Hogy mekkora mértékű károsodást okozhat egy eszköz.</br>Pl.: I. Osztály - gyakorlatilag rizikó mentes.</br><img src="img/risk.png">'
 },{
 	question: 'Mondjon példákat a kockázati osztályba sorolt orvostechnikai eszközökre!',
-	answer: '<b>I.</b> (gyakorlatilag rizikó mentes): lámpa, kesztyű, szék</br><b>II.a</b> (kis rizikó): EKG, digitális hőmérő, MRI, automata vérnyomásmérő</br><b>II.b</b> (nagy rizikó): röntgen készülék, CT, defibrillátor, lélegeztető, sebészeti lézer</br><b>III.</b> (veszélyes): szívbillentyű, ideiglenes pacemaker vezeték, implantátumok'
+	answer: '<b>I.</b> (gyakorlatilag rizikó mentes): lámpa, kesztyű, szék</br>><img src="img/1class.png"></br><b>II.a</b> (kis rizikó): EKG, digitális hőmérő, MRI, automata vérnyomásmérő</br><img src="img/2aclass.png"></br><b>II.b</b> (nagy rizikó): röntgen készülék, CT, defibrillátor, lélegeztető, sebészeti lézer</br><img src="img/2bclass.png"></br><b>III.</b> (veszélyes): szívbillentyű, ideiglenes pacemaker vezeték, implantátumok</br><img src="img/3class.png">'
 },{
 	question: 'Mivel egészül ki a magasabb kockázatú orvostechnikai eszközök CE jelölése?',
-	answer: 'Nagyobb veszélyt hordozó termékek a veszélyességtől függően II.a, II.b vagy III. kockázatú jelölést kapnak.</br>A tanúsító azonosító száma is felkerül.'
+	answer: 'Nagyobb veszélyt hordozó termékek a veszélyességtől függően II.a, II.b vagy III. kockázatú jelölést kapnak.</br>A tanúsító azonosító száma is felkerül.</br><img src="img/tan_azon.png">'
 },{
 	question: 'Mit jelent a CE jelölés melletti négyjegyű szám?',
-	answer: 'A független tanúsító (Notified Body) azonosító száma, aki ellenőrzi a gyártó kijelentéseit.'
+	answer: 'A független tanúsító (Notified Body) azonosító száma, aki ellenőrzi a gyártó kijelentéseit.</br><img src="img/tan_azon.png">'
 },{
 	question: 'Ki dönti el egy orvostechnikai eszköz használatának módját?',
-	answer: 'Kizárólag a gyártó.'
+	answer: 'Kizárólag a gyártó.</br><img src="img/gyarto.png">'
 },{
 	question: 'Miért a gyártó dönti el egy orvostechnikai eszköz használatának módját?',
-	answer: 'Mert az általuk meghatározott használati mód esetén tudja garantálni a gyártó a biztonsági és teljesítőképességi paramétereket – ezeknek megfelelően kapták meg a tanúsítványokat, engedélyeket.'
+	answer: 'Mert az általuk meghatározott használati mód esetén tudja garantálni a gyártó a biztonsági és teljesítőképességi paramétereket – ezeknek megfelelően kapták meg a tanúsítványokat, engedélyeket.</br><img src="img/engedely.png">'
 },{
 	question: 'Hol található meg az orvostechnikai eszköz használatának módja?',
 	answer: '<b>A használati útmutatóban.</b></br>Formája nincs meghatározva, de a kötelező tartalmi elemei igen, ill. a vásárló nemzeti nyelvén rendelkezésre kell, hogy álljon. Lehet interneten elérhető, videó forma, nyomtatott is.'

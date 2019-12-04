@@ -1,3 +1,4 @@
-a img {width:24px; height:24px;vertical-align:text-bottom}
-a {color:#4b4f56;font-size:24px;text-decoration:none;border:1px solid #ccc;border-radius: 5px;padding:1px;}
-a:hover {background:#aaaaaa;}
+a.menu img {width:24px; height:24px;vertical-align:text-bottom}
+a.menu {color:#4b4f56;font-size:24px;border:1px solid #ccc;border-radius: 5px;padding:1px;}
+a.menu:hover {background:#aaaaaa;}
+a {text-decoration:none;}
