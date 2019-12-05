@@ -591,6 +591,112 @@ var questionAnswers = [
 },{
 	question:'X.18. Ismertesse a hematológiai automatáknál használt elektromos ellenállási mérési eljárás lényegét!',
 	answer: '- Azon alapszik, hogy míg a vérsejt rossz elektromos vezető, bizonyos hígító oldatok jó vezetők</br>- elektródokal elektromos áramlást tartanak fenn a minta és egy kapilláris között'
+},
+// Vérnyomásmérők
+{
+	question:'XI.1. Mit nevezünk szisztolés és diasztolés nyomásértéknek és mi a normál értéke egészséges felnőttnél?',
+	answer:'- szisztolés: vérnyomás mért maximumértéke (90-100)</br>- diasztolés: vérnyomás mért minimumértéke (60-70)</br>- normál érték: 120/80 mmHg'
+},{
+	question:'XI.2. Ismertesse a palpációs vérnyomásmérési módszer lényegét!',
+	answer:'- a tapintásos módszernél a csukló artériájának lüktetését figyeljük.</br>- a mérés megkezdésekor az elzáródást követően a lüktetés megszűnik</br>- a lassú nyomásleeresztésekor, az áramlás megindulásakor a szisztolés nyomásértéknél ismételten pulzus tapintható'
+},{
+	question:'XI.3. Ismertesse az auszkultációs vérnyomásmérési módszer lényegét!',
+	answer:'- ennél a módszernél a mandzsetta az érfalat nyomja.</br>- ha ez a nyomás a szisztolés nyomás alá csökken, akkor az érben lüktető, turbulens áramlás indul el</br>- ez hangjelenséggel jár fonendoszkóppal hallgatjuk első hang systole utolsó hang dyastole'
+},{
+	question:'XI.4. Mi a lamináris és a turbulens áramlás, és mi okozhat az artériás érrendszerben ilyen áramlást?',
+	answer:'- ha az érfal nyomás a szisztolés nyomás alá csökken, akkor az érben lüktető, turbulens áramlás indul el; ez hangjelenséggel jár, az első hang érzékelésekor a szisztolés nyomásérték határozható meg</br>- a kattogó, majd kattogó és sistergő egyre növekvő intenzitású, majd elhalkuló hangokat figyelve a hang megszűnése jelzi a diasztolés értéket, amikor az áramlás zavartalanná /laminárissá válik.'
+},{
+	question:'XI.5. A vérnyomásmérésnél mit nevezünk metodikai hibának?',
+	answer:'-a turbulenciahangok megjelenéséhez egy kissé ki kell nyitni a vizsgált artériát</br>- metodikai hiba lesz, ha a mandzsettában nem állítunk be kissé alacsonyabb nyomást a maximális vagy szisztolés értékhez, hogy hang keletkezzen'
+},{
+	question:'XI.6. Mire használják a vérnyomásmérésnél a fonendoszkópot?',
+	answer:'-A Korotokov-féle zörej hallgatására</br>- a turbulens áramlás által kiváltott hangot teszi hallhatóvá és a könyökhajlatban helyezik el</br>'
+},{
+	question:'XI.7. Milyen nyomást mér a közvetett és a közvetlen vérnyomásmérő?',
+	answer:'- közvetett: érfal nyomását, szakaszos nyomást</br>- közvetlen: a vizsgált érszakasz keresztmetszetében időben folytonos nyomásértéket'
+},{
+	question:'XI.8. Mitől függ a metodikai hiba, hogyan befolyásolja a mérési pontosságot?',
+	answer:'- függ a készülék hibájából és a mérést végző pontatlanságából, csökkenti a mérés pontosságát</br>- a kisebb szívfrekvencia és gyorsabb leeresztés növeli ennek nagyságát'
+},{
+	question:'XI.9. Mi okozza a Korotkov-féle zörejeket?',
+	answer:'Az érben a lüktető turbulens áramlás, amint a mandzsetta érfalra gyakorolt nyomása a szisztolés alá csökken.'
+},{
+	question:'XI.10. Hogyan befolyásolja a mérőszemély hallásküszöbének növekedése a vérnyomásmérés pontosságát?',
+	answer:'Rontja, mert korábban szűnik meg számára a hang azaz magasabbnak méri a dyastoles értéket'
+},{
+	question:'XI.11. Mi az oszcillometriás vérnyomásmérés lényege?',
+	answer:'- A mandzsetta érfelszíni nyomáshullámokat érzékel, melyek nyomásingadozást hoznak létre benne</br>- a nyomásértékek kiszámításához különböző algoritmusokat használnak'
+},{
+	question:'XI.12. Hogyan kell a vérnyomásmérő szivárgástesztjét elvégezni a manuális vérnyomásmérőnél?',
+	answer:'- beföttes üvegen maxra kb 200 mmHgre fújuk fel ha 1 percig nem szivárog jó</br>- a csővezetéket, a csatlakozókat kézi pumpáló gumilabdát állapotukat és rögzítettségüket megvizsgáljuk és a gumicső tengelyirányban enyhén elhúzva tudjuk megállapítani, hogy jól funkcionál-e'
+},{
+	question:'XI.13. Hogyan befolyásolja a vérnyomás értékét a vizsgált érszakasz rigiditásának növekedése?',
+	answer:'- rigiditás erek merevsége</br>- érszakaszonként más és más eltérést okozhat</br>- megfelelő szaktudás szükséges hozzá'
+},{
+	question:'XI.14. Miért nem javasolt az ujjra felhelyezhető miniatűr mandzsettás, oszcillációs vérnyomásmérő használata a klínikumban?',
+	answer:'- mert nem mutat pontos értéket, nincs a szív magasságában.'
+},{
+	question:'XI.15. Ismertesse az ultrahangos vérnyomásmérő módszer lényegét!',
+	answer:'- a meginduló vér áramlását érzékelik</br>- gyermek-csecsemőgyógyászatban használatos</br>- mandzsetta megszorítása következtében fellépő áramláskimaradást, zavart, turbulenst és helyreállt keringést lehet mérni'
+},{
+	question:'XI.16. Hogyan befolyásolja a túl szorosan, illetve a túl lazán felrakott mandzsetta a vérnyomásmérés pontosságát?',
+	answer:'- túl szoros: ténylegestől magasabb vérnyomásérték mérése</br>- túl laza: hibát okoz'
+},{
+	question:'XI.17. Mi a helyes arány a vizsgált karkerület és a mandzsetta szélesség között?',
+	answer:'Mandzsetta szélessége a vizsgált testrész kerületének 40%-a'
+},{
+	question:'XI.18. A helyes mandzsettamérettől való eltérések hogyan befolyásolják a mérési pontosságot?',
+	answer:'- szélesebb: csökkenti a mért értéket</br>- keskenyebb:magasabb a mért érték'
+},{
+	question:'XI.19. Ki jogosult meghatározni és milyen jogcímen a vérnyomásmérő-kalibrálás gyakoriságát?',
+	answer:'a felhasználó'
+},{
+	question:'XI.20. Ismertesse a véres vérnyomásmérés lényegét!',
+	answer:'1. a vizsgált érszakaszt megnyitják</br>2. kanült juttatnak a vizsgált érszakaszba</br>3. a tűt rugalmas csővel kötik össze a nyomás átalakítót tartalmazó nyomásmérővel</br>4. nyomásmérés előtt a csövet és a kanült fiziológiás sóoldattal töltik fel, ügyelve a folyadékoszlop légmentesítésére</br>5. Ez a folyadékoszlop közvetíti a vér nyomását a tű hegyétől a nyomás átalakítóhoz</br>- előnye: a vizsgált érszakasz keresztmetszetében időben folytonos nyomásértékeket tudunk regisztrálni'
+},
+// Hőmérsékletmérés
+{
+	question:'XII.1. Milyen skálákat használnak a hőmérséklet kifejezésére?',
+	answer:'Celsius, Kelvin, Fahrenheit'
+},{
+	question:'XII.2. Mi a hőmérsékletmérés elve?',
+	answer:'olyan anyagot használunk ami megváltoztatja hő hatására valamely tulajdonságát és ezt a tulajdonságot mérve következtetünk a hőmérsékletre pl. higany tágulása'
+},{
+	question:'XII.3. Mit nevezünk a maghőmérséklet?',
+	answer:'test belső hőmérséklete'
+},{
+	question:'XII.4. Milyen pontosságra törekszünk hőmérsékletméréskor?',
+	answer:'Tized pontosságra'
+},{
+	question:'XII.5. Hogyan működnek a higanyos hőmérők?',
+	answer:'zsákban a folyékony higany, a higany átveszi a meleget beletágul a vékony csőbe és aztán leolvassuk.'
+},{
+	question:'XII.6. Mi a beállási idő?',
+	answer:'amíg a mérőeszköz hőmérséklete megközelíti a test hőmérsékletét'
+},{
+	question:'XII.7. Mit értünk azon, hogy maximumhőmérő?',
+	answer:'az üvegcsőbe épített szűkület megakadályozza a folyadék visszatérését a zsákba, így megtartja az értéket.'
+},{
+	question:'XII.8. Miért kell lerázni a higanyos hőmérőket?',
+	answer:'hogy a higany átjusson a szűkületen vissza a higanyzsákba és újra tudjuk használni a hőmérőt'
+},{
+	question:'XII.9. Hogyan működnek a villamos tulajdonságváltozáson alapuló hőmérők?',
+	answer:'villamos tulajdonság megváltozását méri, majd valamely skála szerint megjeleníti számjegyekkel (digitális kijelző)'
+},{
+	question:'XII.10. Hogyan működnek az infravörös hőmérők?',
+	answer:'kibocsátott infravörös sugárzást mérve a kibocsátó forrás hőmérsékletét mutatja ki digitális kijelzőn, anélkül, hogy érintkezne azzal'
+},{
+	question:'XII.11. Hogyan működnek a folyadékkristályos hőmérők?',
+	answer:'hőmérséklet változás hatására kristályszerkezeti változás színe változik'
+},{
+	question:'XII.12. Rakja sorba a hőmérőtípusokat mérési idejük szerint!',
+	answer:'1. infrvörös 0s</br>2. folyadékkristályos 20-30s</br>3. elektromos hőmérő</br>4. higanyos hőmérő 2-10p'
+},{
+	question:'XII.13. Melyik hőmérő képes érintés nélkül mérni?',
+	answer:'infravörös hőmérő'
+},{
+	question:'XII.14. Ön melyik hőmérőt részesítené előnyben egy baba testhőmérsékletének megmérésére miért?',
+	answer:'elektromos hőmérőt, mert:</br>- rugalmas hegyűek, nem sértik</br>- nincs bennük mérgező anyag</br>- viszonylag gyors végbélben</br>- viszonylag pontos'
 }
 ];
 
