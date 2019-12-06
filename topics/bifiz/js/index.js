@@ -697,7 +697,92 @@ var questionAnswers = [
 },{
 	question:'XII.14. Ön melyik hőmérőt részesítené előnyben egy baba testhőmérsékletének megmérésére miért?',
 	answer:'elektromos hőmérőt, mert:</br>- rugalmas hegyűek, nem sértik</br>- nincs bennük mérgező anyag</br>- viszonylag gyors végbélben</br>- viszonylag pontos'
-}
+},
+// Hallásvizsgálat
+{
+	question:'XIII.1. Milyen magyar tudósokat lehet megemlíteni hallásvizsgálat témakörében?',
+	answer:'- Bárány Róbert – fül és egyensúlyszerv élettana</br>- Békésy György – csiga frekvencia függése'
+},{
+	question:'XIII.2. Mi a vezetéses jellegű halláscsökkenés?',
+	answer:'hangvezető rendszer elemei károsodnak.<b>Okai</b>: hallójárat gyulladás, kp- fül gyulladás, dobhártya sérülés, csontosodás'
+},{
+	question:'XIII.3. Mi az idegi alapú halláscsökkenés?',
+	answer:'hallópálya idegelemei károsodnak. <b>Okai</b>: zajártalom, öregkori, hirtelen kialakuló, daganat'
+},{
+	question:'XIII.4. Hogyan változhat idős korban a hallás?',
+	answer:'Hallásromlás oka lehet, ezt nevezzük Presbyacusis-nak.'
+},{
+	question:'XIII.5. Mi a hallásküszöbszint?',
+	answer:'legkisebb hangerősség, amely még érzetet kel az adott frekvencián'
+},{
+	question:'XIII.6. Mi a dB-érték?',
+	answer:'Hangnyomás: a hanghullámok által keltett változó nyomás, Jele: I, mértékegysége: dB (decibel)'
+},{
+	question:'XIII.7. Hogyan lehet csoportosítani a hallásvizsgáló módszereket?',
+	answer:'A hallás pszicho- fizikai mérése, amelyben objektív, fizikailag mérhető mennyiségeket és szubjektív biológiai reakcióit figyeljük meg'
+},{
+	question:'XIII.8. Mi a szubjektív audiometria?',
+	answer:'- hangosság, azaz az érzet erőssége</br>- hangszín, az alaphangok és felhangok összessége. A hang egy pszichoakusztikai jellemzője'
+},{
+	question:'XIII.9. Mi az objektív audiometria?',
+	answer:'- hangintenzitás, azaz az inger erőssége</br>- hangmagasság, a rezgés frekvenciájától függ'
+},{
+	question:'XIII.10. Mi az audiogram?',
+	answer:'- A hallásteszt eredményeit egy audiogram mutatja.</br>- Az audiogram egy grafikon, amely megmutatja a leggyengébb hangokat, amelyeket az emberek különböző hangmagasságokon vagy frekvenciákon hallhatnak.</br>- Az eredményeket mindkét fülre külön egy-egy előrenyomtatott űrlapon rögzíti.</br>- Az audiogram-űrlapot Úgy szerkesztették meg, hogy a vízszintes tengelyen a különböző frekvenciákat (Hz), a függőleges tengelyen a hangerőt (dB) ábrázolják.'
+},{
+	question:'XIII.11. Hogyan működik a Békésy-féle audiométer?',
+	answer:'Elektroncsöves elven működik dr. Török Bélának, a Szent János Kórház fülész főorvosának ötlete alapján.'
+},{
+	question:'XIII.12. Mi a tympanometria?',
+	answer:'A középfül működését vizsgálja. Akusztikus impedancia vizsgálat, a dobhártya hangokkal szembeni ellenállását vizsgálja.'
+},{
+	question:'XIII.13. Mi a BERA?',
+	answer:'Agyi kiváltott válaszú audiometria (Brain Evoked Response Audiometry). A hallórendszer idegelemeinek működését kis elektromos potenciálok kísérik (Idegi impulzusok megjelenése a hallópályán). A hallópálya funkcionális térképét adja.'
+},{
+	question:'XIII.14. Mire való a süketszoba és hogyan valósítják meg?',
+	answer:'- egy szoba, ami kizárja a környezet zaját, ebből következően őrjítő bent a csend.</br>- A hallópálya funkcionális térképét adja.</br>- olyan falat készítenek, aminél a hanghullámok máshogy verődnek vissza.</br><img src="img/suketszoba.png">'
+},{
+	question:'XIII.15. Mire való a maszkolózaj?',
+	answer:'Elfedi a zajokat.'
+},
+// Látásélesség vizsgálat
+{
+	question:'XIV.1. Mit jelent az 1-es látásélesség?',
+	answer:'Normál látás, ha 5 szögperc alatti szögben látott alakok felismerhetők.'
+},{
+	question:'XIV.2. Mi a Kettesy féle tábla jelentősége?',
+	answer:'A látásélességet felmérő tábla, ahol egyre kisebb méretű karakterek láthatóak egymás alatt.'
+},{
+	question:'XIV.3. Mire való a próbakeret?',
+	answer:'Olyan keret, amibe 2-3 lencse egyszerre belehelyezhető.'
+},{
+	question:'XIV.4. Mire használható a szemtükör?',
+	answer:'- A szemgolyó hátsó részének vizsgálata (retina, erek stb)</br>- Speciális nagyító és fényforrás</br>- Sötétített szoba</br>- A retina eltéréseinek (pl. zöldhályog) vizsgálata</br>- Magasvérnyomás, cukorbetegség, és az erek egyéb betegségeinek szövődményei vizsgálhatók</br><img src="img/szemtukor.png">'
+},{
+	question:'XIV.5. Mi a keratométer?',
+	answer:'A törőerő vizsgálata</br>- A cornea elülső felszínének vizsgálata</br>- Fénytörési hibák, aberrációk, asztigmatizmus vizsgálata</br><img src="img/keratometer.png">'
+},{
+	question:'XIV.6. Mire való a réslámpa?',
+	answer:'- Nagy intenzitású fényforrás, állítható alakú rés, amellyel a szembe bevilágítunk</br>- Sztereo mikroszkóp</br>- A különböző törőközegek határáról visszaverődés</br>- Törőközegek vizsgálata</br><img src="img/reslampa.png">'
+},{
+	question:'XIV.7. Mi a szemnyomásmérés jelentősége?',
+	answer:'A szemben lévő folyadék nyomásának mérése (Normál érték: 10 - 21 mmHg).'
+},{
+	question:'XIV.8. Mi a pachiméter?',
+	answer:'Szaruhártya-vastagság mérés</br>- Ultrahangos vagy optikai elv</br>- μm-es pontossággal jelöli a szaruhártya vastagságot'
+},{
+	question:'XIV.9. Mi a szférikus eltérés?',
+	answer:'1. Közellátás(Myopia): szem törőereje túl nagy, a bejövő fény a retina előtt fókuszálódik</br>Távollátás(Hyperopia): szem törőereje túl kicsi, a bejövő fény a retina után fókuszálódik</br><img src="img/szferikus.png">'
+},{
+	question:'XIV.10. Mi a cilindrikus eltérés?',
+	answer:'Hengeres, vagy egyenetlen felszín, több fókuszpont</br><img src="img/cilindrikus.png">'
+},{
+	question:'XIV.11. Mire való a szemüveg?',
+	answer:'A fény útjában lévő újabb anyaggal a törőerő módosítása, a cél a korrekció.'
+},{
+	question:'XIV.12. Mi a lézeres szaruhártya korrekciók lényege?',
+	answer:'A fölösleges szöveti rétegeket UV lézerfénnyel távolítjuk el, amelyet ún. excimer lézerrel hozunk létre.'
+},
 ];
 
 function init() {
