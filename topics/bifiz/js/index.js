@@ -2,16 +2,16 @@ var questionAnswers = [
 // a kórház technikai szempontból
 {
 	question: 'I.1. Mit nevezünk kórháznak?',
-	answer: 'egy olyan fekvőbeteg-gyógyintézetet, ami orvos szakellátást nyújt azon beteg számára, akiknek egészséget helyreállítani betegségének előrehaladását megakadályozni otthon vagy az alapellátás intézményrendszerében nem lehet.'
+	answer: 'egy olyan fekvőbeteg-gyógyintézetet, ami orvos szakellátást nyújt azon beteg számára, akiknek egészséget helyreállítani betegségének előrehaladását megakadályozni otthon vagy az alapellátás intézményrendszerében nem lehet.</br><img src="img/korhaz.png">'
 },{
 	question: 'I.2. Mi jellemzi a pavilonrendszerben épült kórházat?',
-	answer: 'Egymástól különálló épületek, amik jól átszellőzhetőek, jól benapozottak, egymástól elkülönítettek. Pavilonok közötti parkos területek egészséges környezetet teremtenek. Pl. János kórház'
+	answer: 'Egymástól különálló épületek, amik jól átszellőzhetőek, jól benapozottak, egymástól elkülönítettek. Pavilonok közötti parkos területek egészséges környezetet teremtenek. Pl. János kórház</br><img src="img/pavilon.png">'
 },{
 	question: 'I.3. Mi jellemzi a tömbrendszerben épült kórházat?',
-	answer: 'Centralizált, többszintes épületek, amikben a technológia ki van használva, gazdaságos a helykihasználás, van vonalszerű alaprajz (Y, X, H alaprajzú kialakítás), az egyes osztályok és a hozzájuk tartozó orvosi, helységek egy szinten vannak, a betegosztályokon néhány ágyas komfortos szobák találhatók. A belső közlekedő és szállítási útvonalak rövidek.'
+	answer: 'Centralizált, többszintes épületek, amikben a technológia ki van használva, gazdaságos a helykihasználás, van vonalszerű alaprajz (Y, X, H alaprajzú kialakítás), az egyes osztályok és a hozzájuk tartozó orvosi, helységek egy szinten vannak, a betegosztályokon néhány ágyas komfortos szobák találhatók. A belső közlekedő és szállítási útvonalak rövidek.</br><img src="img/tomb.png">'
 },{
 	question: 'I.4. Mi jellemezi a hotel-lepényrendszerben épült kórházakat?',
-	answer: 'A diagnosztika és a terápia , egy 2-3 szintes lepényépületbe kerül, a betegeket a hotelekhez hasonló, de a gyógyászat igényei szerint kialakított magas épületben helyezik el, ahonnan a vizsgálatokra és a kezelésekre a lepényszárnyba mennek át. Szállítási útvonalak rövidek, a beteg forgalmak jól tervezhetőek.'
+	answer: 'A diagnosztika és a terápia , egy 2-3 szintes lepényépületbe kerül, a betegeket a hotelekhez hasonló, de a gyógyászat igényei szerint kialakított magas épületben helyezik el, ahonnan a vizsgálatokra és a kezelésekre a lepényszárnyba mennek át. Szállítási útvonalak rövidek, a beteg forgalmak jól tervezhetőek.</br><img src="img/lepeny.png">'
 },{
 	question: 'I.5. Mi tartozik a kórháztechnika tárgykörébe?',
 	answer: 'Olyan műszaki eszközök és berendezések, amik nem vesznek részt közvetlenül a gyógyítás fő folyamatában, hanem támogatják azokat, és a kórház üzemeltetés mindennapos problémáit oldják meg, de nélkülük a gyógyítási tevékenység nem biztosítható.'
