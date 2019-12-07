@@ -1,3 +1,6 @@
 abbr[title] {
     text-decoration: underline dotted;
 }
+.hidden {
+	visibility:hidden;
+}

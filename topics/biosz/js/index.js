@@ -1,4 +1,4 @@
-var questionAnswers = [
+var shortQuestionAnswers = [
 // Short Tests
 {
 	question: 'Genetikai kód',
@@ -606,8 +606,35 @@ var questionAnswers = [
 }
 ];
 
+var largeQuestionAnswers = [
+// Short Tests
+{
+	question:'largeQuestion',
+	answer:'largeAnswers'
+}
+]
+
+var thesisesQuestionAnswers = [
+{
+	question:'thesisesQuestion',
+	answer:'thesisesAnswers'
+}
+];
+
+
 function init() {
 	const list = document.getElementById('questions'); 
+	list.innerHTML = '';
+	var combobox = document.getElementById('questionType')
+	var value = combobox.options[combobox.selectedIndex].value;
+	var questionAnswers;
+	if (value == 'small') {
+		questionAnswers = shortQuestionAnswers;
+	} else if (value == 'large') {
+		questionAnswers = largeQuestionAnswers;
+	} else {
+		questionAnswers = thesisesQuestionAnswers;
+	}
 	
 	questionAnswers.forEach(item => {
 		let option = document.createElement('option');
@@ -618,6 +645,16 @@ function init() {
 
 function searchAnswer() {
 	const div = document.getElementById('answer');
+	var combobox = document.getElementById('questionType')
+	var value = combobox.options[combobox.selectedIndex].value;
+	var questionAnswers;
+	if (value == 'small') {
+		questionAnswers = shortQuestionAnswers;
+	} else if (value == 'large') {
+		questionAnswers = largeQuestionAnswers;
+	} else {
+		questionAnswers = thesisesQuestionAnswers;
+	}
 	var question = document.getElementById('question').value;
 	questionAnswers.forEach(item => {
 		if (item.question == question) {

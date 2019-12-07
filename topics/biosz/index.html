@@ -12,6 +12,11 @@
 	  <datalist id="questions"></datalist>
 	  <input type="button" onclick="searchAnswer()" value="Keres">
 	  <input type="button" onclick="reset()" value="X">
+	  <select id="questionType" onchange="reset();init();">
+		  <option value="small">Beugró</option>
+		  <option value="large">Rejtvény</option>
+		  <option value="thesis">Tételek</option>
+	   </select>
 	  <a href="../../index.html"><input type="button" value="Vissza"></a>
 	  <div id="answer"></div>
 	</body>
