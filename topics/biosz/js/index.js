@@ -10,7 +10,7 @@ var questionAnswers = [
 },
 {
 	question: 'Molekuláris biológia centrális dogmája',
-	answer: 'Crick által megfogalmazott tétel amely szerint az egész élővilágban az információ átadás egyirányú: <abbr title="Domain Name System">DNS</abbr>  RNS  fehérje. Az újabb eredmények szerint módosított tétel: nukleinsav  fehérje, mert a nukleinsavak között mindkét irányban  lehetséges az információ átvitel. Nukleotidok felépítése:</br>-foszforsav (H3PO3)</br>-pirimidin szerves bázisok (citozin, timin, uracil)</br>-purin szerves bázisok (adenin, guanin)'
+	answer: 'Crick által megfogalmazott tétel amely szerint az egész élővilágban az információ átadás egyirányú: <abbr title="Domain Name System">DNS</abbr>  <abbr title="ribonukleinsav">RNS</abbr>  fehérje. Az újabb eredmények szerint módosított tétel: nukleinsav  fehérje, mert a nukleinsavak között mindkét irányban  lehetséges az információ átvitel. Nukleotidok felépítése:</br>-foszforsav (H3PO3)</br>-pirimidin szerves bázisok (citozin, timin, uracil)</br>-purin szerves bázisok (adenin, guanin)'
 },
 {
 	question: 'tRNS kötőhelyei',
@@ -158,7 +158,7 @@ var questionAnswers = [
 },
 {
 	question: 'Fakultatív heterokromatin',
-	answer: 'A heterokromatin funkcionálisan inaktív. Amennyiben csak a sejt adott állapotában nem működik, és később újra indulhat rajta az RNS-szintézis, akkor beszélünk fakultatív heterokromatinról.'
+	answer: 'A heterokromatin funkcionálisan inaktív. Amennyiben csak a sejt adott állapotában nem működik, és később újra indulhat rajta az <abbr title="ribonukleinsav">RNS</abbr>-szintézis, akkor beszélünk fakultatív heterokromatinról.'
 },
 {
 	question: 'Fáziskontraszt mikroszkóp',
@@ -302,7 +302,7 @@ var questionAnswers = [
 },
 {
 	question: 'Riboszóma',
-	answer: 'Citoplazmában nagy számban (10-30 ezer) jelenlévő ribonukleoprotein komplex, mely a fehérjeszintézis helye. Két alegységes sejtalkotó. A kisebb és a nagyobb alegységet Mg2+ kapcsolja össze. Riboszómális RNS-t (rRNS) és fehérjéket tartalmaz. Feladata a mRNS bázishármasainak leolvasása és ezáltal a fehérjeszintézis irányítása.'
+	answer: 'Citoplazmában nagy számban (10-30 ezer) jelenlévő ribonukleoprotein komplex, mely a fehérjeszintézis helye. Két alegységes sejtalkotó. A kisebb és a nagyobb alegységet Mg2+ kapcsolja össze. Riboszómális <abbr title="ribonukleinsav">RNS</abbr>-t (rRNS) és fehérjéket tartalmaz. Feladata a mRNS bázishármasainak leolvasása és ezáltal a fehérjeszintézis irányítása.'
 },
 {
 	question: 'Kariogram',
@@ -326,7 +326,7 @@ var questionAnswers = [
 },
 {
 	question: 'Kodon',
-	answer: 'mRNS, a <abbr title="Domain Name System">DNS</abbr> információt tároló szakaszának komplementere, a tárolt információ továbbadására szolgál.    (<abbr title="Domain Name System">DNS</abbr> info= Kód,  RNS info=kodon)'
+	answer: 'mRNS, a <abbr title="Domain Name System">DNS</abbr> információt tároló szakaszának komplementere, a tárolt információ továbbadására szolgál.    (<abbr title="Domain Name System">DNS</abbr> info= Kód,  <abbr title="ribonukleinsav">RNS</abbr> info=kodon)'
 },
 {
 	question: 'Kódszótár',
@@ -342,7 +342,7 @@ var questionAnswers = [
 },
 {
 	question: 'Konstitutív heterokromatin',
-	answer: 'Erősen felcsavarodott, szuperspiralizált, <abbr title="Domain Name System">DNS</abbr>-t tartalmazó kromatin terület, mely RNS szintézisre végérvényesen képtelen.'
+	answer: 'Erősen felcsavarodott, szuperspiralizált, <abbr title="Domain Name System">DNS</abbr>-t tartalmazó kromatin terület, mely <abbr title="ribonukleinsav">RNS</abbr> szintézisre végérvényesen képtelen.'
 },
 {
 	question: 'Kortikális reakció',
@@ -478,7 +478,7 @@ var questionAnswers = [
 },
 {
 	question: 'Reverz transzkriptáz',
-	answer: 'A retrovírusokban található egyedülálló enzim, mely arra képes, hogy a vírus genetikai információit hordozó RNS-éről a gazdasejtben <abbr title="Domain Name System">DNS</abbr> molekulát másoljon.'
+	answer: 'A retrovírusokban található egyedülálló enzim, mely arra képes, hogy a vírus genetikai információit hordozó <abbr title="ribonukleinsav">RNS</abbr>-éről a gazdasejtben <abbr title="Domain Name System">DNS</abbr> molekulát másoljon.'
 },
 {
 	question: 'RFLP analízis',
@@ -490,7 +490,7 @@ var questionAnswers = [
 },
 {
 	question: 'RNS típusok',
-	answer: '-Messenger RNS (mRNS) – A <abbr title="Domain Name System">DNS</abbr> megfelelő információt tároló szakaszáról készült komplementer másolat, ami ezáltal a fehérjeszintézis kodonja.</br>-Transzfer RNS (tRNS) – antikodont tartalmazó RNS-ek. Aminosavakat szállítja a fehérjeszintézis helyére.</br>-Riboszomális RNS (rRNS): A fehérjeszintézis a riboszómákon történik. A riboszóma fehérjéből, és rRNS-ből áll.'
+	answer: '-Messenger <abbr title="ribonukleinsav">RNS</abbr> (mRNS) – A <abbr title="Domain Name System">DNS</abbr> megfelelő információt tároló szakaszáról készült komplementer másolat, ami ezáltal a fehérjeszintézis kodonja.</br>-Transzfer <abbr title="ribonukleinsav">RNS</abbr> (tRNS) – antikodont tartalmazó <abbr title="ribonukleinsav">RNS</abbr>-ek. Aminosavakat szállítja a fehérjeszintézis helyére.</br>-Riboszomális <abbr title="ribonukleinsav">RNS</abbr> (rRNS): A fehérjeszintézis a riboszómákon történik. A riboszóma fehérjéből, és rRNS-ből áll.'
 },
 {
 	question: 'Sclerotom',
@@ -574,11 +574,11 @@ var questionAnswers = [
 },
 {
 	question: 'Transzkripció',
-	answer: '(RNS-szintézis) Valamennyi RNS a <abbr title="Domain Name System">DNS</abbr>-ről íródik át, vagyis a <abbr title="Domain Name System">DNS</abbr> bázissorrendje alapján szintetizálódik. A <abbr title="Domain Name System">DNS</abbr> templáton végrehajtott RNS szintézis a transzkripció.'
+	answer: '(<abbr title="ribonukleinsav">RNS</abbr>-szintézis) Valamennyi <abbr title="ribonukleinsav">RNS</abbr> a <abbr title="Domain Name System">DNS</abbr>-ről íródik át, vagyis a <abbr title="Domain Name System">DNS</abbr> bázissorrendje alapján szintetizálódik. A <abbr title="Domain Name System">DNS</abbr> templáton végrehajtott <abbr title="ribonukleinsav">RNS</abbr> szintézis a transzkripció.'
 },
 {
 	question: 'Transzláció',
-	answer: '(fehérjeszintézis) A folyamat résztvevői: 1) riboszóma-ennek felszínén találkoznak a fehérjeszintézis egyéb résztvevői. 2) Kód és antikodon (<abbr title="Domain Name System">DNS</abbr> és mRNS) A <abbr title="Domain Name System">DNS</abbr> bázissorrendjébe rögzített genetikai információ RNS-be írodik át. Ezt az információt az mRNS  viszi ki a riboszómákhoz. 3) Antikodon ( tRNS): aminosavakat szállítja a fehérjeszintézis helyére.  A transzláció lépései: iniciációs szakasz, elongációs fázis, terminációs fázis. (részletesebben tk. 78.o)'
+	answer: '(fehérjeszintézis) A folyamat résztvevői: 1) riboszóma-ennek felszínén találkoznak a fehérjeszintézis egyéb résztvevői. 2) Kód és antikodon (<abbr title="Domain Name System">DNS</abbr> és mRNS) A <abbr title="Domain Name System">DNS</abbr> bázissorrendjébe rögzített genetikai információ <abbr title="ribonukleinsav">RNS</abbr>-be írodik át. Ezt az információt az mRNS  viszi ki a riboszómákhoz. 3) Antikodon ( tRNS): aminosavakat szállítja a fehérjeszintézis helyére.  A transzláció lépései: iniciációs szakasz, elongációs fázis, terminációs fázis. (részletesebben tk. 78.o)'
 },
 {
 	question: 'Trophoblast',
