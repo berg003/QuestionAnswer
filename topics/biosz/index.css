@@ -1,12 +1,3 @@
-img[src*="oe_"], img[src*="vb_"]{
-	height: 20px;
-}
-.green {
-	color:green;
-}
-.yellow {
-	color:yellow;
-}
-.red {
-	color:red;
+abbr[title] {
+    text-decoration: underline dotted;
 }
