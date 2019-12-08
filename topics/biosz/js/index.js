@@ -607,19 +607,254 @@ var shortQuestionAnswers = [
 ];
 
 var largeQuestionAnswers = [
-// Short Tests
+// Large Questions
 {
-	question:'largeQuestion',
-	answer:'largeAnswers'
+	question:'Kérem, rajzolja le a peptidkötés kialakulásának egyenletét két aminosav között!',
+	answer:''
+},{
+	question:'Kérem, rajzolja le a trigliceridek keletkezését, az észterkötés kialakulását!',
+	answer:''
+},{
+	question:'Kérem, rajzolja le a foszfolipidek keletkezését, az észterkötés kialakulását!',
+	answer:''
+},{
+	question:'Kérem, rajzoljon le egy aminosavat és nevezze meg a molekula részleteit!',
+	answer:''
+},{
+	question:'Kérem, rajzoljon le egy foszfatidot (foszfolipidet) megmutatva amfipatikus jellegét!',
+	answer:''
+},{
+	question:'Mi volt Hershey és Chase kísérletének lényege (rajz)? Milyen következtetést vontak le belőle?',
+	answer:''
+},{
+	question:'Kérem, rajzoljon le vázlatosan egy nukleotidot úgy, hogy megnevezi a bázisokat!',
+	answer:''
+},{
+	question:'Kérem, rajzoljon le vázlatosan egy trigliceridet!',
+	answer:''
+},{
+	question:'Kérem, rajzolja le Griffith 1928-ban végzett baktériumtranszformációs kísérletének menetét! Egy mondatban fogalmazza meg, hogy miért igazolja ez, hogy DNS az örökítő anyag!',
+	answer:''
+},{
+	question:'Mi a PCR reakció lényege? Mit kell a kémcsőbe tenni, hogy megvalósuljon? Mire használható?',
+	answer:''
+},{
+	question:'Melyek a Humán Genom Project legfőbb tanulságai?',
+	answer:''
+},{
+	question:'Fogalmazza meg a genetikai manipuláció lényegét, példákkal!',
+	answer:''
 }
 ]
 
-var thesisesQuestionAnswers = [
+var multiQuestionAnswers = [
 {
-	question:'thesisesQuestion',
-	answer:'thesisesAnswers'
+	question:'Hogyan változott a légkör az élet megjelenését követően?',
+	answer:'B. Oxidálóból redukálóvá vált</br><span class="lime">N. Egyre több oxigén lett benne</span></br>P. Egyre több széndioxid lett benne</br><span class="lime">E. Redukálóból oxidáló lett</span>'
+},{
+	question:'Az endoszimbiózisról a következő állítás igaz:',
+	answer:'Ű. Ez a mód volt a kompartmentek keletkezésének kizárólagos útja</br>G. Az autogén móddal együtt vezetett a prokarióták kialakulásához</br>J. Az ősi prokarióták többsége így táplálkozott a sejtfalán keresztül</br><span class="lime">S. Sejtfalát veszített ősi prokarióta így tett szert egyes sejtszervekre</span>'
+},{
+	question:'Jelölje meg a lipidek közös jellemzőit!',
+	answer:'<span class="lime">I. Szerves anyagok</span></br>H. Gyűrűs molekularészletek jellemzik</br><span class="lime">K. Szerves oldószerekben jól oldódnak</span></br>W. Észterek'
+},{
+	question:'Az alábbi molekulák közül melyek lehetnek egy triglicerid molekula részei',
+	answer:''
 }
 ];
+
+var inspectionQuestionAnswers = [
+{
+	question:'1. Mivel foglalkozik a biológia tudománya? Azon belül, az alkalmazott biológia tudományterülete a biológia mely vonatkozásait tárgyalja?',
+	answer:'Az Élettel foglalkozó tudomány.</br>A biológiai ismeretek alkalmazása az emberiség jólétének érdekében.</br>A tárgy keretében az emberi egészséget szolgáló és a gyógyításban alkalmazható ismeretekre koncentrálunk.'
+},{
+	question:'1. Sorolja fel az életjelenségeket!',
+	answer:'- Önfenntartó életjelenség (anyagcsere, mozgás, növekedés)</br>- Önszabályozó életjelenség (ingerlékenység)</br>- Önreprodukáló életjelenség (szaporodás, öröklődés)</br>- Halál'
+},{
+	question:'1. Mit jelent az abszolút életkritérium fogalma?',
+	answer:'- Egységrendszer</br>- Életprogrammal rendelkezik</br>- Termodinamikailag nyílt rendszer</br>- Stabilitás</br>- Szabályozottság</br>- Vezéreltség'
+},{
+	question:'1. Mit jelent a potenciális életkritérium fogalma?',
+	answer:'- Növekedés és szaporodás</br>- Öröklődő változásokra való képesség</br>- Halandóság'
+},{
+	question:'1. Mi az a Chemoton modell?',
+	answer:'- Ami teljesíti az abszolút életkritériumokat.</br>- 3 alrendszerrel bír, melyek hasonlítanak egy élő sejt főbb rendszereihez (autokatalitikus, membrán és szabályozó).'
+},{
+	question:'1. Az anyag fejlődésének milyen kozmikus és földi alapfolyamatait különböztetjük meg?',
+	answer:'- Fizikai evolúció</br>- Kémiai evolúció</br>- Prebiológiai evolúció</br>- Biológiai evolúció'
+},{
+	question:'1. Mi a tudomány mai álláspontja az Univerzum és a Föld eredetéről/keletkezéséről?',
+	answer:'- Ősrobbanás (15 mlrd éve)</br>- Naprendszer kialakulása (10 mlrd éve)</br>- Naprendszer bolygói és Föld (4,6mlrd éve)'
+},{
+	question:'1. Mi a Miller-féle kísérlet lényege és mit bizonyít?',
+	answer:'Ellenőrizte, hogy létre lehet valóban hozni szerves anyagokat szervetlenekből, ami sikerült neki.'
+},{
+	question:'1. Melyek az élet legrégebbi fosszilis bizonyítékai a Földön?',
+	answer:'Stromatolitok: cianobaktériumok, azaz fotoszintetizáló kékbaktériumok által létrehozott üledékszerkezet.'
+},{
+	question:'1. Milyen anyagcseréjű sejtek voltak a legelső sejtek az Ősóceánban? Miért?',
+	answer:'Sokkhatásokra (UV, villám) a gázokból szerves monomerek keletkeztek, melyek belemosódtak az ősóceánba, ahol polimerekké kapcsolódhattak.'
+},{
+	question:'1. Mi az autotróf anyagcsere lényege?',
+	answer:'Szerves anyagait szervetlen szénforrásból képes előállítani.'
+},{
+	question:'1. Mit tud a légköri oxigén eredetéről?',
+	answer:'redukáló őslégkör (oxigén mentes) volt elején, majd az autotróf fotoszintézissel megjelent az oxigén a légkörben'
+},{
+	question:'1. Sorolja fel az eukarióta és a prokarióta sejttípus közötti alapvető különbségeket!',
+	answer:'- Méret</br>- Alak</br>- Sejtfal</br>- Sejtmag</br> Sejtfelszíni felismerő és kapcsoló str.</br>- Genetikai apparátus</br>- Kompartmentek</br>- Citoszkeleton, aktin-miozin fonalrdsz.</br>- Szaporodás</br>- Többfázisú életciklus</br>- Képviselőik'
+},{
+	question:'1. Hogyan keletkezett az eukarióta sejttípus a prokariótából?',
+	answer:'Az oxigén megjelenése után, megjelentek az oxigénből élő obligát aerobok. Ezután következhetett a sejt szerkezetbeli változások, amelyek az eukarióták lettek.'
+},{
+	question:'1. Mely élőlények a ma élő prokarióták?',
+	answer:'A baktériumok, cianobaktériumok.'
+},{
+	question:'1. Ki figyelte meg először az élőlények sejtes szerveződését?',
+	answer:'Robert Hook figyelte meg először az élőlények sejtes szerveződését 1667-ben.'
+},{
+	question:'1. Mi a Sejtelmélet lényege, 3 fő állítása?',
+	answer:'1. Minden élőlény sejtekből áll</br>2. A sejt az élő anyag szerkezeti és funkcionális egysége</br>3. Egy sejt csak már létező sejtből keletkezhet, mégpedig osztódás révén.'
+},{
+	question:'1. Kik fogalmazták meg a sejtelméletet?',
+	answer:'- Theodor Schwann</br>- Matthias Schleiden</br>- Virchow'
+},{
+	question:'2. Melyek az élő anyag szerveződésének szintjei?',
+	answer:'1. kémiai szint</br>2. sejtszint</br>3. szövet szint</br>4. szerv szint</br>5. szervrendszer szint</br>6. szervezeti szint'
+},{
+	question:'2. Mi a különbség az atom és az elem fogalmak között?',
+	answer:'-Az atom egy elem azon legkisebb egysége, mely még rendelkezik az elemre jellemző kémiai tulajdonságokkal.</br>- elem az atomok és az elektronok összessége.'
+},{
+	question:'2. Melyek az elsődleges biogén elemek?',
+	answer:'- Hidrogén(H)</br>- Szén(C)</br>- N(Nitrogén)</br>-O(Oxigén)'
+},{
+	question:'2. Magyarázza meg a szén - élő anyagban betöltött - központi jelentőségének hátterét!',
+	answer:'- A szén 6 atomból és 2 elektronhéjból áll.</br>- a 2. elektronhéjban maximum 8 elektron lehet, de a szénnek 4 van, így még 4 kötés jöhet létre.'
+},{
+	question:'2. Mi a különbség a kovalens és az ionos kötés között?',
+	answer:'- a kovalens kötésnél az elektronokat megosztják egymással és egy molekula lesz</br>- az ionos kötésnél az egyik atom átveszi a másik eletront és egy negatív és egy pozitív ion lesz'
+},{
+	question:'2. Mit jelent a kovalens kötés poláros, vagy apoláros jellege?',
+	answer:'- poláros: két atom elektronegativitása különböző pl. H-O-H</br> - apoláros: két atom elektronegativitása azonos pl. O=O'
+},{
+	question:'2. Melyik molekula fordul elő a legnagyobb mennyiségben az élőkben?',
+	answer:'H2O, azaz a víz 65-75%ban'
+},{
+	question:'2. Pontokba szedve sorolja fel a víz szerepét egy élő sejtben!',
+	answer:'- oldószer</br>- reakcióközeg</br>- reakciópartner(nyersanyag és termék)</br>- "kenőanyag"(hidrátburok)</br>- "stabilizáló-anyag"(H-hidak)</br>- hőszabályozó'
+},{
+	question:'2. Sorolja fel az élőket felépítő 4 nagy molekulacsoportot!',
+	answer:'- lipidek</br>- fehérjék</br>- szénhidrátok</br>nukleinsavak'
+},{
+	question:'2. Milyen kémiai reakció jellemző valamennyi nagymolekula keletkezésére?',
+	answer:'Az alegységek vízkilépéssel kapcsolódnak makromolekulává:</br>monomerekből polimerek lesznek.'
+},{
+	question:'2. Melyik az a fizikokémiai jellemzője a vízmolekulának, ami különleges jellemzőit és képességeit lehetővé teszi?',
+	answer:'- Polaritás</b>- Hidrogén-híd</br>- Hőkapacitás</br>- Oldószer</br>- Hidrát burok</br>- Kémhatás (pH)'
+},{
+	question:'2. Mi történik egy hidrofil molekulával vizes közegben?',
+	answer:'Azokat az anyagokat, amelyek könnyen oldódnak vízben, hidrofilnek nevezzük.'
+},{
+	question:'2. Mi történik egy hidrofób molekulával vizes közegben?',
+	answer:'Azokat az abyagokat, amelyek vízben nem oldódnak , hidrofóbnak nevezzük.'
+},{
+	question:'2. Mit nevezünk savnak és mit bázisnak?',
+	answer:'- savas: alacsonyabb pH-n (1-6) az oldat; amelyek a növelik az oxodin ion koncentrációt</br>- bázisos: magasabb pH-n (8-14) az oldat; amelyek csökkentik az oxodin ion koncentrációt'
+},{
+	question:'2. Mi az a pH?',
+	answer:'- Az oldat pH-ját a hidrogénion-koncentráció negatív logaritmusaként definiáljuk</br>- 7,0 pH-n az oldat semleges.</br>- pH annál kisebb, minél savasabb egy anyag'
+},{
+	question:'3. Mi szerint csoportosítjuk a monoszacharidokat?',
+	answer:'- szén kötések száma szerint</br>- aldehidek vagy ketonok</br><img src="img/monoszacharid.png">'
+},{
+	question:'3. Miből épül fel a laktóz és mi a biológiai jelentősége?',
+	answer:'- tejcukor</br><img src="img/laktoz.png">'
+},{
+	question:'3. Miből épül fel a szacharóz és mi a biológiai jelentősége?',
+	answer:'- nádcukor, répacukor</br><img src="img/szacharoz.png">'
+},{
+	question:'3. Melyik az a poliszacharid, amely az élővilág szerves anyag produkciójának legnagyobb részét adja?',
+	answer:'- Lipopoliszacharidok (LPS) a baktériumsejt falában</br>- Kitin az exoskeletonban'
+},{
+	question:'3. Mondjon példákat poliszacharidokra!',
+	answer:'Tartalék tápanyag:</br>- Keményítő burgonyában (növényi)</br>- Glikogén májban (állati)'
+},{
+	question:'3. Nevezze meg az állati sejtek raktározott szénhidrát formáját!',
+	answer:'Glikogén.'
+},{
+	question:'3. Melyik molekulacsoportba tartozik a gyors és melyikbe a lassú elérésű tartaléktápanyag az emberi szervezetben?',
+	answer:''
+},{
+	question:'3. Mi a sokféle lipidet egyaránt jellemző tulajdonság, ami miatt egy csoportba sorolták ezeket az eltérő szerkezetű anyagokat?',
+	answer:'- Hetegorén szerkezetű</br>- vízben nem vagy rosszul oldódnak (hidrofóbok)</br>- apolárisak</br>- szerves oldószerekben jól oldódnak'
+},{
+	question:'3. Mi határozza meg, hogy egy zsírsavat omega 3, 6, 9 zsírsavnak neveznek-e?',
+	answer:'A kettős kötés helye, hanyadik szénnél kezdődik.'
+},{
+	question:'3. Hogyan épül fel egy triglicerid?',
+	answer:'<img src="img/triglicerid.png">'
+},{
+	question:'3. Miben különbözik egy foszfolipid egy trigliceridtől?',
+	answer:'- foszfolipid: hidrofil, poláris</br>- triglicerid: hidrofób, apoláris'
+},{
+	question:'3. Mit jelent az amfipatikus jelző?',
+	answer:'Alkalmasak a biológiai membránok alapszerkezetének kialakítására.'
+},{
+	question:'3. Mi a foszfolipidek legfőbb biológiai szerepe?',
+	answer:'Biológiai membránok alkotasa.'
+},{
+	question:'3. Mi az emelkedett vérzsírszint és koleszterinszint veszélye?',
+	answer:'- Szemhéjakon jelentkező, bőr felületéről kiemelkedő sárgás elváltozás</br>- inakon, ujjak közötti hajlatokban, térd, könyök elváltozás'
+},{
+	question:'3. Mitől színesek a karotinoidok?',
+	answer:'A konjugált kettőskötès rendszerük miatt színesek.'
+},{
+	question:'4. Rajzoljon le egy aminosavat és nevezze meg a részeit!',
+	answer:'Az α-helyzetű szénatomhoz kapcsolódó csoportok:</br>- amino-csoport</br>- Karboxil-csoport</br>R-oldallánc (20féle élőkben)</br>Hidrogén atom</br><img src="img/aminosav.png">'
+},{
+	question:'4. Vázolja a fehérjék biológiai jelentőségét! (példákkal)',
+	answer:'- biokémiai folyamatok katalizálásában (enzimek)</br>- szabályozásában</br>- molekulák szállításában (lipoproteinek, hemoglobin)</br> mozgásban (akto-miozin rendszer)</br>- szervezet védelmében (antitestek)</br>- receptorként'
+},{
+	question:'4. Rajzolja le a peptidkötés kialakulásának egyenletét szerkezeti képletekkel!',
+	answer:'<img src="img/pepitkotes.png">'
+},{
+	question:'4. Mit értünk a fehérjék elsődleges szerkezete alatt?',
+	answer:'A fehérjék elsődleges szerkezetét az aminosavak sorrendje adja. Ez a génekben kódolt. Gyakorlatilag végtelen variáció előfordulhat – változó hossz és ismétlődések révén.'
+},{
+	question:'4. Mit értünk a fehérjék másodlagos szerkezete alatt?',
+	answer:'A lánc monoton ismétlődő egységeiből H-hidak által stabilizált,α-hélix, illetve a β-redő szerkezet jön létre. Emellett még rendezetlen, globuláris területek is vannak a polipeptidláncban.'
+},{
+	question:'4. Mit értünk a fehérjék harmadlagos szerkezete alatt?',
+	answer:'A másodlagos szerkezeti elemek - az α-hélix, β-redő - egymáshoz viszonyított elrendeződését jelenti, beleértve az azokat egymástól esetleg elválasztó rendezetlen (ill.globuláris), szerkezeti részeket is.'
+},{
+	question:'4. Milyen nem-kovalens kötőerők működnek egy polipeptid láncban?',
+	answer:'- A nem kovalens kötések három típusa segíti a fehérjék meghajlását</br>- Ezeknek a kötéseknek az egyike meglehetősen gyenge, sok közülük gyakran együtt alakul ki, hogy erős kötési elrendezést hozzon létre.</br>- R az aminosav oldallánc általános megjelöléseként használatos.'
+},{
+	question:'4. Mit jelent egy fehérje domén-szerkezete?',
+	answer:'A harmadlagos szerkezeten belül olyan elkülönülő szerkezeti egységek, amelyek többé-kevésbé elkülönültek tekerednek fel.'
+},{
+	question:'4. Mit jelent az esszenciális aminósav kifejezés?',
+	answer:'Meg kell ennünk – nem tudja a szervezetünk előállítani.'
+},{
+	question:'4. Melyek a fő különbségek a DNS és az RNS szerkezetében?',
+	answer:'<img src="img/dns_rns.png">'
+},{
+	question:'4. Mit jelent a DNS másodlagos szerkezete?',
+	answer:'Komplementer és antiparallel szálak = kettős hélix.'
+},{
+	question:'4. Mi a különbség az eu- és a heterokromatin között?',
+	answer:''
+},{
+	question:'4. Rajzoljon le egy DNS nukleotidot!',
+	answer:'<img src="img/nukleozid.png">'
+},{
+	question:'4. Mit nevezünk kromatin állománynak?',
+	answer:'A sejtmagi DNS és az őt szervező fehérjék.'
+},{
+	question:'4. Milyen RNS típusokat ismer?',
+	answer:'- mRNS</br>- tRNS</br>- rRNS</br>- snRNA</br>- RNAi'
+}
+]
 
 
 function init() {
@@ -632,8 +867,10 @@ function init() {
 		questionAnswers = shortQuestionAnswers;
 	} else if (value == 'large') {
 		questionAnswers = largeQuestionAnswers;
+	} else if (value == 'multi') {
+		questionAnswers = multiQuestionAnswers;
 	} else {
-		questionAnswers = thesisesQuestionAnswers;
+		questionAnswers = inspectionQuestionAnswers;
 	}
 	
 	questionAnswers.forEach(item => {
@@ -652,9 +889,12 @@ function searchAnswer() {
 		questionAnswers = shortQuestionAnswers;
 	} else if (value == 'large') {
 		questionAnswers = largeQuestionAnswers;
+	} else if (value == 'multi') {
+		questionAnswers = multiQuestionAnswers;
 	} else {
-		questionAnswers = thesisesQuestionAnswers;
+		questionAnswers = inspectionQuestionAnswers;
 	}
+	
 	var question = document.getElementById('question').value;
 	questionAnswers.forEach(item => {
 		if (item.question == question) {
