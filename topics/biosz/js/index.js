@@ -606,44 +606,44 @@ var shortQuestionAnswers = [
 }
 ];
 
-var largeQuestionAnswers = [
-// Large Questions
+var imageQuestionAnswers = [
+// Image Questions
 {
 	question:'Kérem, rajzolja le a peptidkötés kialakulásának egyenletét két aminosav között!',
-	answer:''
+	answer:'<img src="img/pepitkotes.png">'
 },{
 	question:'Kérem, rajzolja le a trigliceridek keletkezését, az észterkötés kialakulását!',
-	answer:''
+	answer:'<img src="img/triglicerid.png">'
 },{
 	question:'Kérem, rajzolja le a foszfolipidek keletkezését, az észterkötés kialakulását!',
-	answer:''
+	answer:'<img src="img/foszfolipidek.png">'
 },{
 	question:'Kérem, rajzoljon le egy aminosavat és nevezze meg a molekula részleteit!',
-	answer:''
+	answer:'<img src="img/aminosav.png">'
 },{
 	question:'Kérem, rajzoljon le egy foszfatidot (foszfolipidet) megmutatva amfipatikus jellegét!',
-	answer:''
+	answer:'<img src="img/foszfolipidek.png">'
 },{
 	question:'Mi volt Hershey és Chase kísérletének lényege (rajz)? Milyen következtetést vontak le belőle?',
-	answer:''
+	answer:'Alfred Hershey és Martha Chase izotópos jelölésekkel bizonyították, hogy csak a nukleinsav jut be, tehát ez tartalmazza a genetikai információt.</br><img src="img/hershey.png">'
 },{
 	question:'Kérem, rajzoljon le vázlatosan egy nukleotidot úgy, hogy megnevezi a bázisokat!',
 	answer:''
 },{
 	question:'Kérem, rajzoljon le vázlatosan egy trigliceridet!',
-	answer:''
+	answer:'<img src="img/triglicerid.png">'
 },{
 	question:'Kérem, rajzolja le Griffith 1928-ban végzett baktériumtranszformációs kísérletének menetét! Egy mondatban fogalmazza meg, hogy miért igazolja ez, hogy DNS az örökítő anyag!',
-	answer:''
+	answer:'<img src="img/griffith.png"></br>A hőkezeléssel megölt kórokozóból kiszabaduló DNS-t felvette a másik típusú baktérium, ettől megváltoztak a tulajdonságai'
 },{
 	question:'Mi a PCR reakció lényege? Mit kell a kémcsőbe tenni, hogy megvalósuljon? Mire használható?',
-	answer:''
+	answer:'- Összemérés után a hőmérsékletet változtatva amplifikálhatjuk a primerek által kijelölt DNS szakaszt </br>- PCR hozzávalók: Célszekvencia, Primerek, DNS-polimeráz, Nukleotidok</br>- Gyors DNS repodukció'
 },{
 	question:'Melyek a Humán Genom Project legfőbb tanulságai?',
-	answer:''
+	answer:'- hány génünk van</br>- kb 20-30e fehérje kódoló gén</br>- gének a genom 1%a</br>- részletesen kereshetőek gének, betegségek, adatok, cikkek</br>- számos örökletes betegségért felelős szekvenciát sikerült beazonosítani</br>- A gyógyszeripar is új lehetőségekhez jutott. Gyógyszer-tervezés, mellékhatás felmérés in silicio – számítógépes programokkal'
 },{
 	question:'Fogalmazza meg a genetikai manipuláció lényegét, példákkal!',
-	answer:''
+	answer:'amikor nem csak vizsgáljuk, hanem meg is változtatjuk az élőlények örökítőanyagát...</br>- 3 szülős gyerek, ahol egy másik nő petesejtjét ültetik be az eredeti nőbe és úgy született meg a gyerek.'
 }
 ]
 
@@ -702,7 +702,7 @@ var inspectionQuestionAnswers = [
 	answer:'redukáló őslégkör (oxigén mentes) volt elején, majd az autotróf fotoszintézissel megjelent az oxigén a légkörben'
 },{
 	question:'1. Sorolja fel az eukarióta és a prokarióta sejttípus közötti alapvető különbségeket!',
-	answer:'- Méret</br>- Alak</br>- Sejtfal</br>- Sejtmag</br> Sejtfelszíni felismerő és kapcsoló str.</br>- Genetikai apparátus</br>- Kompartmentek</br>- Citoszkeleton, aktin-miozin fonalrdsz.</br>- Szaporodás</br>- Többfázisú életciklus</br>- Képviselőik'
+	answer:'<img src="img/eu_pro.png">'
 },{
 	question:'1. Hogyan keletkezett az eukarióta sejttípus a prokariótából?',
 	answer:'Az oxigén megjelenése után, megjelentek az oxigénből élő obligát aerobok. Ezután következhetett a sejt szerkezetbeli változások, amelyek az eukarióták lettek.'
@@ -843,7 +843,7 @@ var inspectionQuestionAnswers = [
 	answer:'Komplementer és antiparallel szálak = kettős hélix.'
 },{
 	question:'4. Mi a különbség az eu- és a heterokromatin között?',
-	answer:''
+	answer:'- Az eukromatin, kevésbé kondenzált és átírható (használatban).</br>- A heterokromatin erősen kondenzált, és általában nem íródik át (használaton kívül).'
 },{
 	question:'4. Rajzoljon le egy DNS nukleotidot!',
 	answer:'<img src="img/nukleozid.png">'
@@ -853,6 +853,108 @@ var inspectionQuestionAnswers = [
 },{
 	question:'4. Milyen RNS típusokat ismer?',
 	answer:'- mRNS</br>- tRNS</br>- rRNS</br>- snRNA</br>- RNAi'
+},{
+	question:'5. A foszfolipid molekula mely szerkezeti sajátossága okozza különleges oldódási tulajdonságait?',
+	answer: ''
+},{
+	question:'5. Mi a koleszterin szerepe a biológiai membránokban?',
+	answer: 'Csökkenti a fluiditást és az áteresztőképességet.'
+},{
+	question:'5. Sorolja fel és jellemezze a membránproteinek típusait!',
+	answer: 'Elhelyezkedés szerint:</br>- Integráns/intrinsic</br>- Lipid-kapcsolt</br>- Periferiális/extrinsic</br>Szerkezet szerint:</br>- pl.glikoproteidek</br>Funkció szerint:</br>- pl. csatorna, receptorfeh, stb'
+},{
+	question:'5. Mit értünk a Singer-Nicolson féle folyékony mozaik membrán modell alatt?',
+	answer: '<img src="img/singer_nicolson.png">'
+},{
+	question:'5. Sorolja fel és jellemezze a membránproteinek funkcióit!',
+	answer: '- szállítás: foszfolipid kettős rétegben, csatornaként vagy aktív transzportmolekulaként</br>- horgony</br>- receptor: megkötik az információt szolgáltató molekulákat, például a hormonokat, és a kapott információk alapján a megfelelő jeleket továbbítják a sejt belsejébe</br>- enzim:katalizálják a plazmamembránnal kapcsolatos különféle reakciókat.'
+},{
+	question:'5. Mi az a glycocalix?',
+	answer: 'Állati sejtekre jellemző sejtburok.'
+},{
+	question:'5. Mi a különbség a sejtfal és a sejtmembrán között?',
+	answer: '- sejtfal növények, gombák, baktériumok sejteinél</br>- sejtmembrán állati/emberi sejteknél.'
+},{
+	question:'5. Sorolja fel a sejtmembrán feladatait!',
+	answer: '- Védelem, elhatárolás</br>- A sejttartalom biztosítása: féligáteresztő határhártya– membrán transzport</br>- Felismerés és kommunikáció – saját és idegen, jelátvitel</br>- Kémiai reakciók színtere - a benne található enzimek miatt</br>- Mozgás – kapcsolat a sejtvázzal</br>- Letapadás – sejtkapcsoló struktúrák</br>- Sejtfelszíni módosulások – csilló, ostor, mikrobolyhok'
+},{
+	question:'5. Csoportosítsa és jellemezze a membrántranszport folyamatokat!',
+	answer: 'Passzív transzport (energia befektetés nélkül)</br>- Diffúzió</br>- Facilitált diffúzió/transzport</br>Aktív transzport</br>Vezikuláris transzport'
+},{
+	question:'5. Mi az az ozmózis?',
+	answer: '- A diffúzió speciális esete az ozmózis, melynek során a membrán, mint féligáteresztő hártya impermeábilis az oldott részecskék számára, az oldószer (víz) molekulái viszont átjuthatnak rajta.</br>- Az oldószer a nagyobb koncentrációjú oldal felé vándorol mindaddig, amíg a különbség ki nem egyenlítődik, illetve be nem áll az egyensúly.'
+},{
+	question:'5. Melyek a membrán lefűződéssel járó transzportfolyamatok típusai? Jellemezze őket!',
+	answer: ''
+},{
+	question:'5. Mi a transzcitózis lényege?',
+	answer: '- Anyatej felszívódása.</br>- A vezikuláris transzport irányítóközpontja a Golgi-apparátus.</br><img src="img/transcytosis.png">'
+},{
+	question:'5.Milyen funkcióit ismeri a sejtkapcsoló struktúráknak?',
+	answer: 'Lezáró</br>- zonula occludens (záróléc, TJ)</br>Lehorgonyozó</br>- zonula adherens (övdezmoszóma)</br>- macula adherens (foltdezmoszóma)</br>- hemidezmoszóma (fél-dezmoszóma)</br>- interdigitáció</br>Kommunikáló</br>- gap junction (rés-kapcsolat)</br>- szinapszis'
+},{
+	question:'5. Milyen sejtkapcsoló struktúrákat ismer?',
+	answer: '- Zonula occludens</br>- Zonula adherens</br>- Macula adherens (Desmosome)'
+},{
+	question:'5. Mi az a sejtváz?',
+	answer: 'Egy fehérjefonalakból és csövekből álló, 3D hálózatot tartalmaz.'
+},{
+	question:'6. Jellemezze a sejtanyagcsere felépítő és lebontó folyamatait!',
+	answer: '- felépítő: sejtben ATP-t használnak és nagymolekulákat eredményeznek</br>- ATP-t termelnek és kisebb építőelemek keletkeznek (monomerek, v. végképpen eloxidált anyagok esetén CO2 és víz).'
+},{
+	question:'6. Mit mondhatunk egy interfázisos sejt sejtmagjának belső szerkezetéről: a benne található kromatin strukturális és funkcionális állapotairól (hetero és eukromatin)?',
+	answer: '- sejtek magjában a leginkább szembetűnő, jól elkülöníthető struktúra a kerek vagy elliptikus magvacska (nukleolusz). A magvacska nagysága, száma fajtól, sejttípustól és a sejt aktivitásától függően változhat.</br>- sejtmag kromatinállományának információátadás szempontjából aktuálisan aktív területei az információátírást (ld. még transzkripció) végző enzimek számára hozzáférhetőek, ezért kellően fellazult szerkezetűek. Ugyanezen sejtmag más területein, inaktív és ezért erősen tömörödött kromatinrészleteket találunk. '
+},{
+	question:'6. Mi a sejtmagvacska, a nukleolusz funkciója és miért jelenti ez egy tyúk-tojás probléma megoldását?',
+	answer: '- A riboszómák folyamatos termelésének ezt a jelentős feladatát a magvacska látja el.</br>- A magvacska a sejt legnagyobb RNS tartalmú alkotórésze, mert zömében itt játszódik le a riboszómális RNS-ek (rRNS) szintézise, érése és a riboszómák alegységeinek összeszerelése</br>- mi volt előbb a magvacska vagy az RNS?'
+},{
+	question:'6. Magyarázza el a konstitutív heterokromatin fogalmát és mondjon rá példát!',
+	answer: 'Ha RNS szintézisre teljesen és végérvényesen képtelen, akkor konstitutív heterokromatinnak nevezzük.-> szuperspiralizálódik'
+},{
+	question:'6. Mit jelent a szemikonzervatív replikáció fogalma a DNS esetén? Hogyan, milyen lépésekben és enzimatikus  folyamatok által zajlik?',
+	answer: '- Az utódspirálok félig régiek</br>- 2 helix szétcsavarodása után a két egyszálas DNS irányítja saját új láncpárjának szintézisét. A régi szál ugyanis templátként (mintául) szolgál az új szál nukleotidsorrendjéhez. A régi szállal szemben szintetizálódó új szálba, a bázispárosodás szabályai szerint, mindig a megfelelő komplementerek épülnek be. Így a két utód kettős helixben az egyik szál az eredeti, mintául szolgáló templát szál, a másik pedig újonnan képződik.'
+},{
+	question:'6. Ismertesse a molekuláris biológia centrális dogmáját!',
+	answer: '- DNS-ben tárolt genetikai információ kifejezése - vagyis a gének expressziója - RNS-ek, majd fehérjék szintézise útján történik</br>- A fehérjék, úgy is, mint strukturális építőelemek (pl. a haj, bőr, izom fehérjéi), és úgy is, mint működőképes enzimek (pl. az emésztőenzimek, vagy az intermedier anyagcsere enzimjei) részt vesznek a szervezet külső, belső jegyeinek és működésbeli sajátosságainak, azaz a fenotípusának a  kialakításában.'
+},{
+	question:'6. Sorolja fel a génkifejeződés lépéseit és magyarázza el az egyes részfolyamatok lényegét!',
+	answer: 'Az mRNS két lépésben jön létre.</br>1., mint elsődleges transzkriptum, a pre-mRNS szintetizálódik meg a DNS-ről,</br>2. ennek érésével – poszttranszkripciós módosulásával (transzkripciót követő megváltozásával) – jön létre a működőképes RNS.'
+},{
+	question:'6. Mi az a riboszóma, milyen részei vannak és hogyan működik a transzláció során?',
+	answer: '<img src="img/riboszoma.png"></br>Feladata a mRNS bázishármasainak leolvasása és ezáltal a fehérjeszintézis irányítása.'
+},{
+	question:'6. Mit jelent a redundancia, vagy degeneráltság a genetikai kódban és mi az evolúciós jelentősége?',
+	answer: ''
+},{
+	question:'6. Milyen lépéseit ismeri a transzlációnak?',
+	answer: ''
+},{
+	question:'6. Mi a frissen szintetizált fehérjeláncok további sorsa? Milyen sejtalkotók vesznek részt a továbbalakításukban és mi a továbbalakítás lényege?',
+	answer: ''
+},{
+	question:'7. Mit tud a SER struktúrájáról és funkciójáról?',
+	answer:'- Simafelszínű Endoplazmatikus Retikulum</br>- inkább tubuláris rendezetlenebb</br>Funkciók:</br>- Lipidszintézis (foszfolipidek, glikolipidek, koleszterin)</br>- Ca2+ raktározás (ld. szarkoplazmatikus retikulum)</br>- Méregtelenítés </br>- Glükogenolízis'
+},{
+	question:'7. Mit tud a DER struktúrájáról és funkciójáról?',
+	answer:'- Durvafelszínű Endoplazmatikus Retikulum</b>- sejtmag külső membrán folytatása, laposabb, párhuzamos zsákok (főleg ha ergasztoplazma)</br>Funkciók:</br>- Transzláció</br>- Fehérjék poszttraszlációs módosítása (glikoziláció, kénhidak, feltekeredés)</br>- Fehérjék továbbítása'
+},{
+	question:'7. Mit tud a Golgi apparátus struktúrájáról és funkciójáról?',
+	answer:'<img src="img/golgi.png"></br>Aszimmetrikus felépítésű, alkompartmentekből áll:</br>- Retikulumok: hálózatos, tubuláris: szortíroznak.</br>- Köztük a 3 f ciszterna rdsz: átalakít - glikoziláció</br>Retrográd és anterográd trp.</br>3 útvonal:</br>- folyamatos szekr: májsejtek –albumin</br>- vércukorszint regulálta inzulin szekr.</br>- lizoszóma keletkezik'
+},{
+	question:'7. Mit tud a lizoszómák  típusairól, struktúrájáról és funkciójáról?',
+	answer:'<img src="img/lizoszoma.png"></br>A lizoszómák a sejten belüli emésztés organellumai.</br>- A primer lizoszómák a Golgi-apparátusról lefűződő gömbölyded, egyszeres membránnal határolt, erősen elektronszóró (elektronmikroszkópos felvételeken sötétnek látszó) vezikulumok (még lebontandó nyagot nem tartalmaznak), savas hidrolázoknak (savban makromolekulává 50féle enzimet tartalmaznak).</br>-- foszfatázok</br>-- lipázok: lipideket glicerinre és zsírsavakra</br>-- nukleázok: a nukleinsavakat: DNS-t, RNS-t nukleotidjaikra</br>- szekunder lizoszomák: lebontandó tartalmazó vezikulumokkal fuzionálnak</br>-- proteázok: fehérjéket aminosavvá</br>-- heterofágia: endocitózissal, főleg fagocitózissal kórokozók, törmelékek</br>-- autofágia: sejtek elöregedett, sérült, vagy feleslegessé vált belső membránjaiktól, sejtszervecskéiktől autofágiával szabadulnak meg'
+},{
+	question:'7. Mit tud a mitokondriumok eredetéről, típusairól, struktúrájáról és funkciójáról?',
+	answer:'<img src="img/kriszta.png"></br><img src="img/tubulus.png"></br><img src="img/kriszta.png"></br><img src="img/mitokondrium.png"></br>- struktúrája: kettős membrán által határolt, néha gömbölyded, gyakrabban hengeres, lekerekített végű pálcikára emlékeztető sejtszervek. A külső membránjuk sima, a belső viszont lemezek (kriszták), ritkábban csövek (tubulusok) formájában felgyűrődik, miáltal erősen megnöveli a felszínét</br>- eredete: endoszimbionta elmélet: a mitokondriumok ősei önálló, aerob prokarióta szervezetek voltak, melyek bekebelezés útján kerültek abba a gazdasejtbe, mely a későbbi eukarióta sejtek ősének tekinthető.</br>- funkció: ATP termelés, a sejt „erőműveinek” tartják, mert a különböző anyagok lebontó folyamatai itt futnak össze'
+},{
+	question:'7. Írja le röviden a sejtlégzés folyamatait!',
+	answer:''
+},{
+	question:'7. Mi a peroxiszómák működésének lényege?',
+	answer:''
+},{
+	question:'7. Mik azok az oxigén szabad gyökök és milyen forrásaikat ismeri?',
+	answer:'Nincs saját DNS-e</br>- egyetlen membránnal határolt hólyagok</br>- Endoszimbionta eredet –együttműködés a („gazda”)sejttel:</br>-- Zsírsav, purin, aminosav lebontás</br>-- Egyes lipidek szintézise</br>- Szabadgyökök semlegesítése</br>--Szuperoxid dizmutázuk hidrogénperoxidot állít elő a szuperoxidból</br>--Hidrogénperoxid segítségével kataláz nevű enzimjük toxikus anyagokat bont.'
 }
 ]
 
@@ -865,8 +967,8 @@ function init() {
 	var questionAnswers;
 	if (value == 'small') {
 		questionAnswers = shortQuestionAnswers;
-	} else if (value == 'large') {
-		questionAnswers = largeQuestionAnswers;
+	} else if (value == 'image') {
+		questionAnswers = imageQuestionAnswers;
 	} else if (value == 'multi') {
 		questionAnswers = multiQuestionAnswers;
 	} else {
@@ -887,8 +989,8 @@ function searchAnswer() {
 	var questionAnswers;
 	if (value == 'small') {
 		questionAnswers = shortQuestionAnswers;
-	} else if (value == 'large') {
-		questionAnswers = largeQuestionAnswers;
+	} else if (value == 'image') {
+		questionAnswers = imageQuestionAnswers;
 	} else if (value == 'multi') {
 		questionAnswers = multiQuestionAnswers;
 	} else {
