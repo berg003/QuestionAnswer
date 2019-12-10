@@ -628,7 +628,7 @@ var imageQuestionAnswers = [
 	answer:'Alfred Hershey és Martha Chase izotópos jelölésekkel bizonyították, hogy csak a nukleinsav jut be, tehát ez tartalmazza a genetikai információt.</br><img src="img/hershey.png">'
 },{
 	question:'Kérem, rajzoljon le vázlatosan egy nukleotidot úgy, hogy megnevezi a bázisokat!',
-	answer:''
+	answer:'<img src="img/nukleozid.png">'
 },{
 	question:'Kérem, rajzoljon le vázlatosan egy trigliceridet!',
 	answer:'<img src="img/triglicerid.png">'
@@ -649,17 +649,203 @@ var imageQuestionAnswers = [
 
 var multiQuestionAnswers = [
 {
-	question:'Hogyan változott a légkör az élet megjelenését követően?',
+	question:'I/A. Hogyan változott a légkör az élet megjelenését követően?',
 	answer:'B. Oxidálóból redukálóvá vált</br><span class="lime">N. Egyre több oxigén lett benne</span></br>P. Egyre több széndioxid lett benne</br><span class="lime">E. Redukálóból oxidáló lett</span>'
 },{
-	question:'Az endoszimbiózisról a következő állítás igaz:',
+	question:'I/A. Az endoszimbiózisról a következő állítás igaz:',
 	answer:'Ű. Ez a mód volt a kompartmentek keletkezésének kizárólagos útja</br>G. Az autogén móddal együtt vezetett a prokarióták kialakulásához</br>J. Az ősi prokarióták többsége így táplálkozott a sejtfalán keresztül</br><span class="lime">S. Sejtfalát veszített ősi prokarióta így tett szert egyes sejtszervekre</span>'
 },{
-	question:'Jelölje meg a lipidek közös jellemzőit!',
+	question:'I/A. Jelölje meg a lipidek közös jellemzőit!',
 	answer:'<span class="lime">I. Szerves anyagok</span></br>H. Gyűrűs molekularészletek jellemzik</br><span class="lime">K. Szerves oldószerekben jól oldódnak</span></br>W. Észterek'
 },{
-	question:'Az alábbi molekulák közül melyek lehetnek egy triglicerid molekula részei',
-	answer:''
+	question:'I/A. Az alábbi molekulák közül melyek lehetnek egy triglicerid molekula részei',
+	answer:'<span class="lime">E. Glicerin</span></br><span class="lime">R. Telített zsírsavak</span></br><span class="lime">E. Telítetlen zsírsavak</span></br>C. Likopin'
+},{
+	question: 'I/A. Melyik állítás nem igaz a glicerinre?',
+	answer: 'K. hidroxil-csoportokat tartalmaz</br>B. 3 szénatom van benne</br><span class="lime">S. kettős kötést tartalmaz</span></br>J. Észterkötés kialakítására képes'
+},{
+	question: 'I/A. Válassza ki a helyes megállapításokat!(zsírsavak)',
+	answer: '<span class="lime">E. A zsírsavak és a glicerin közötti észterkötések egymás után jönnek létre</span></br>T. A zsírsavak szintézise a mitokondrium mátrixban folyik</br><span class="lime">M. A zsírsavakat a CoA molekula szállítja oda a glicerinhez</span></br>Y. A telítetlen zsírsavakból jönnek létre a telítettek a deszaturáz segítségével'
+},{
+	question: 'I/A. Válassza ki a helyes megállapításokat! (glicerin)',
+	answer: 'Ú. Az esszenciális zsírsavak mindig rendelkezésre állnak a szervezetünkben</br><span class="lime">B. A trigliceridek mindhárom hidroxilcsoportját zsírsavlánc észteresíti</span></br>Á. A zsírsavak és a glicerin közötti észterkötések egyszerre jönnek létre</br><span class="lime">E. A foszfatidokban a glicerin egyik hidroxi4lcsoportjához egy foszforsav kapcsolódik</span>'
+},{
+	question: 'I/A. P) Szteroidok; Ó) Karotinoidok; R) Mindkettő; B) Egyik sem',
+	answer: '<span class="lime">R)</span> A lipidek közé tartozik</br><span class="lime">P)</span> Három 6-tagú és egy 5-tagú gyűrű építi fel</br><span class="lime">R)</span> Zsíroldékonyak</br><span class="lime">Ó)</span> Izoprén váz az alapszerkezete</br><span class="lime">B)</span>Előfordulásuk csak a növényvilágra jellemző'
+},{
+	question: 'I/A. Válassza ki az alábbi poliszacharidok közül a nitrogént is tartalmazókat!',
+	answer: 'C. Keményítő</br>J. Cellulóz</br>A. Glikogén</br><span class="lime">Á. Kitin</span>'
+},{
+	question: 'I/A. Az alábbi folyamatok közül válassza ki az energiaigényeseket!',
+	answer: '<span class="lime">L. Fotoszintézis</span></br><span class="lime">J. Poliszacharidok előállítása</span></br><span class="lime">L. Glükoneogenezis</span></br>K. Biológiai oxidáció'
+},{
+	question: 'I/A. I) Keményítő; E) Glikogén; N) Mindkettő; H) Egyik sem',
+	answer: '<span class="lime">E)</span> Állati sejtekben találkozunk vele</br><span class="lime">N)</span>Több ezer monoszacharidból épül fel</br><span class="lime">N)</span> Glükóz egységekből 1-4 glikozidos kötéssel épül fel</br><span class="lime">I)</span> Amilózt és amilopektint tartalmaz</br><span class="lime">H)</span> Vázképzésben vesz részt'
+},{
+	question: 'I/A. A) Keményítő; E) Cellulóz; N) Mindkettő; M) Egyik sem',
+	answer: '<span class="lime">A)</span> A burgonya gumója nagyobbrészt ebből áll</br><span class="lime">N)</span>Több ezer monoszacharidból épül fel</br><span class="lime">E)</span>Láncai párhuzamos kötegekbe rendeződnek</br><span class="lime">M)</span>Állati sejtekben találkozunk vele'
+},{
+	question: 'I/A. Mely állítások igazak az aminosavak R oldalláncára?',
+	answer: '<span class="lime">É. 20 féle fordul elő a természetben</span></br><span class="lime">R. egy adott aminosav méretének meghatározója</span></br><span class="lime">T. lehet poláris vagy apoláris</br></span>V. purin vagy pirimidin'
+},{
+	question: 'I/A. Mely atomok vesznek részt a peptidkötés kialakításában?',
+	answer: 'M. C, S, N, H</br>K. C, O, N, He</br>Í. C, O, Na, H</br><span class="lime">É. C, O, N, H</span>'
+},{
+	question: 'I/A. Mit tudunk a polipeptidlánc 2 végéről?',
+	answer: 'D. Egyik vége biztos, hogy N-vég, a másik azonban néha lehet S-vég</br>M. Egyik vége biztos, hogy N-vég, a másik azonban néha lehet C-vég is</br>L. Mindkét vége lehet N-vég, vagy C-vég, de sohasem különböző</br><span class="lime">K. Egyik vége biztos, hogy N-vég, a másik vége biztos, hogy C-vég</span>'
+},{
+	question: 'I/A. Válassza ki, melyik molekulacsoport tekinthető a nukleinsavak monomerjének!',
+	answer: 'K. Purinok</br>N. Pirimidinek</br>D. Ribóz vagy dezoxiribóz</br><span class="lime">E. Nukleotid</span>'
+},{
+	question: 'I/A. Miből áll egy nukleotid?',
+	answer: 'L. Szulfát, pentóz, N-tartalmú szerves bázis</br>B. Hexóz, purin, pirimidin</br><span class="lime">S. Foszfát, pentóz, N-tartalmú szerves bázis</span></br>Y. Szulfát, pirimidin, aminócsoport'
+},{
+	question: 'I/B. Mikor keletkezett bolygónk, a Föld?',
+	answer: 'D. 15 milliárd évvel ezelőtt</br><span class="lime">C. 4.6 milliárd évvel ezelőtt</span></br>K. 10 millió évvel ezelőtt</br>A. 3.8 milliárd évvel ezelőtt'
+},{
+	question: 'I/B. Az endoszimbiózisról a következő állítás igaz:',
+	answer: 'V. Ez a mód volt a kompartmentek keletkezésének kizárólagos útja</br>Z. Az autogén móddal együtt vezetett a prokarióták kialakulásához</br>C. Az ősi prokarióták többsége így táplálkozott a sejtfalán keresztül</br><span class="lime">O. Sejtfalát veszített ősi prokarióta így tett szert egyes sejtszervekre</span>'
+},{
+	question: 'I/B. Mit modellezett Miller 1953-as kísérlete?',
+	answer: 'L. Az első sejtek keletkezését</br>H. Koacervátumok létrejöttét</br><span class="lime">C. A kémiai evolúció bizonyos folyamatait</span></br>A. Az élet keletkezését'
+},{
+	question: 'I/B. Hogyan változott a légkör az élet megjelenését követően?',
+	answer: 'P. Oxidálóból redukálóvá vált</br>F. Egyre több nitrogén lett benne</br>D. Egyre több széndioxid lett benne</br><span class="lime">C. Redukálóból oxidáló lett</span>'
+},{
+	question: 'I/B. N) Másodlagos biogén elemek; E) Elsődleges biogén elemek; I) Mindkettő; L) Egyik sem',
+	answer: '<span class="lime">I)</span> Az élőlényeket felépítő elemek</br><span class="lime">N)</span> Minden élőlényben, de csak kis mennyiségben találhatók meg</br><span class="lime">E)</span> Minden élőlényben, nagy mennyiségben megtalálhatók</br><span class="lime">L)</span> Csak bizonyos élőlények számára elengedhetetlen</br><span class="lime">L)</span> víz, föld, tűz, levegő'
+},{
+	question: 'I/B. A vízmolekulára igaz, hogy',
+	answer: 'Z. Ugyan szerves vegyület, de az élőlényekben csak közegként funkcionál.</br>É. A biokémiai folyamatokban csak közvetett szerepet játszik.</br>Ő. Hidrátburok kialakítási képessége apoláris jellegének köszönhető.</br><span class="lime">A. Szervetlen poláris jellegű molekula, mely hidrogén-hidak kialakítására képes.</span>'
+},{
+	question: 'I/B. Jelölje meg a lipidek közös jellemzőit!',
+	answer: '<span class="lime">S. Szerves anyagok</span></br>B. Gyűrűs molekularészletek jellemzik</br><span class="lime">E. Szerves oldószerekben jól oldódnak</span></br>D. Észterek'
+},{
+	question: 'I/B. Válassza ki a helyes megállapításokat!',
+	answer: 'R. Az esszenciális zsírsavak mindig rendelkezésre állnak a szervezetünkben</br><span class="lime">P. A trigliceridek mindhárom hidroxilcsoportját zsírsavlánc észteresíti</span></br>L. A zsírsavak és a glicerin közötti észterkötések egyszerre jönnek létre</br><span class="lime">T. A foszfatidokban a glicerin egyik hidroxilcsoportjához egy foszforsav kapcsolódik</span>'
+},{
+	question: 'I/B. Válassza ki a foszfatidokra igaz megállapításokat!',
+	answer: 'F. A glicerin harmadik hidroxilgyökéhez egy telítetlen zsírsavlánc kapcsolódik</br><span class="lime">E. A biológiai membránok fontos építőelemei</span></br>G. A prosztaglandinok is ilyenek</br><span class="lime">M. Kettős oldódási tulajdonsággal bírnak</span>'
+},{
+	question: 'I/B. U) Szteroidok; N) Karotinoidok; P) Mindkettő; C) Egyik sem',
+	answer: 'I/B. <span class="lime">P)</span> A lipidek közé tartozik</br><span class="lime">U)</span> Három 6-tagú és egy 5-tagú gyűrű építi fel</br><span class="lime">N)</span> Izoprén váz az alapszerkezete</br><span class="lime">C)</span> Előfordulásuk csak a növényvilágra jellemző'
+},{
+	question:'I/B. Válassza ki a szénhidrátokra mint vegyületcsoportra igaz megállapításokat!',
+	answer: '<span class="lime">T. A Föld szervesanyagkészletének legnagyobb részét képezik</span></br>H. Információhordozó molekulák</br><span class="lime">A. Szénből, oxigénből és hidrogénből állnak</span></br>D. Valamennyi édes ízű, jól emészthető'
+},{
+	question: 'I/B. Az alábbiak közül mely monoszacharid csoportokban találunk biológiailag jelentős molekulákat?',
+	answer: '<span class="lime">T. Triózok</span></br>G. Tetrózok</br><span class="lime">A. Pentózok</span></br>B. Októzok'
+},{
+	question: 'I/B. Válassza ki az alábbi poliszacharidok közül a nitrogént is tartalmazókat!',
+	answer: 'J. Keményítő</br>B. Cellulóz</br>H. Glikogén</br><span class="lime">F. Kitin</span>'
+},{
+	question: 'I/B. Az alábbi folyamatok közül válassza ki az energiaigényeseket!',
+	answer: '<span class="lime">O. Fotoszintézis</span></br><span class="lime">T. Poliszacharidok előállítása</span></br><span class="lime">Ó. Glükoneogenezis</span></br>D. Biológiai oxidáció'
+},{
+	question: 'I/B. Válassza ki azokat a funkciós csoportokat, amelyek megtalálhatóak valamennyi aminosavban!',
+	answer: '<span class="lime">J. Karboxilcsoport</span></br>E. Ketocsoport</br><span class="lime">Á. Aminocsoport</span></br>S. Étercsoport'
+},{
+	question: 'I/B. Hány féle csoport kapcsolódhat a központi szénatomhoz az élőlények fehérjéit felépítő aminosavakban?',
+	answer: 'A. 4</br>B. 20</br>C. 24</br><span class="lime">T. 23</span>'
+},{
+	question: 'I/B. Mit tudunk a polipeptidlánc 2 végéről?',
+	answer: 'O. Egyik vége biztos, hogy N-vég, a másik azonban néha lehet S-vég</br>D. Egyik vége biztos, hogy N-vég, a másik azonban néha lehet C-vég is</br>C. Mindkét vége lehet N-vég, vagy C-vég, de sohasem különböző</br><span class="lime">K. Egyik vége biztos, hogy N-vég, a másik vége biztos, hogy C-vég</span>'
+},{
+	question: 'I/B. Válassza ki, melyik molekulacsoport tekinthető a nukleinsavak monomerjének!',
+	answer: 'S. Purinok</br>B. Pirimidinek</br>R. Ribóz vagy dezoxiribóz</br><span class="lime">É. Nukleotid</span>'
+},{
+	question: 'I/B. Az alábbi molekulák közül válassza ki a koenzimeket!',
+	answer: 'F. ATP</br><span class="lime">R. NAD</span></br>G. AMP</br><span class="lime">E. FAD</span>'
+},{
+	question: 'I/B. A pirimidinvázas N-tartalmú szerves bázisokra igaz, hogy',
+	answer: '<span class="lime">M. Velük szemben mindig purinvázas bázis helyezkedik el a kettős hélixben</span></br>Ő. Egy 6 és egy 5 tagú gyűrűből áll</br>J. A nukleotidok felépítésében nem vesz részt</br>S. Ribóz vagy dezoxiribóz vesz részt a felépítésében'
+},{
+	question: 'II/A. Jelölje meg a sejtekre igaz állításokat!',
+	answer: '<span class="lime">A. Létezésüket Robert Hook figyelte meg először</span></br>S. Mindig sejtfal határolja el őket a környezetüktől</br><span class="lime">L. Valamennyi életjelenség végzésére képesek</span></br>Z. Nagyobb állatok sejtjei nagyobbak'
+},{
+	question: 'II/A. Az intermedier anyagcsere folyamatai közé tartozik:',
+	answer: '<span class="lime">E. Sejten belüli szintetikus folyamatok</span></br>M. Tápanyagok megemésztése a tápcstornában</br><span class="lime">G. Sejten belüli disszimilációs folyamatok</span></br>Ú. A monomerek eljuttatása a sejtekig'
+},{
+	question: 'II/A. Az alábbi állítások közül az adenozin-trifoszfát (ATP) molekulákra igaz, hogy',
+	answer: 'Ő. Főleg a felépítő folyamatokban keletkeznek</br><span class="lime">S. A felépítő folyamatok általános „fizetőeszközei”</span></br>Q. A lebontó folyamatok sohasem használnak el belőle</br><span class="lime">Z. A lebontó folyamatok során felszabaduló energia tárolói</span>'
+},{
+	question: 'II/A. Mit nevezünk plazmamembránnak?',
+	answer: 'H. Az intracelluláris membránok összességét</br>J. Az intercelluláris membránok összességét</br>X. A sejtek különféle membránjait összefoglaló néven</br><span class="lime">E. A sejtek külső, elhatároló membránját</span>'
+},{
+	question: 'II/A. A biológiai membránok felépítésére jellemző, hogy',
+	answer: 'Á. Kettős fehérjeréteg között egy lipidréteg húzódik</br>Ü. Két lipidréteg között egy fehérjeréteget találunk</br>V. A különféle lipidekből álló területek mozaikszerűen váltják egymást</br><span class="lime">B. A lipid kettősrétegbe  mozaikszerűen fehérjék ágyazódnak be</span>'
+},{
+	question: 'II/A. Melyik a legegyszerűbb foszfolipid neve?',
+	answer: 'F. Kolin</br><span class="lime">B. Foszfatidsav</span></br>L. Szerin</br>K. Etanolamin'
+},{
+	question: 'II/A. Válassza ki a transzmembrán fehérjékre igaz állításokat!',
+	answer: 'P. Perifériás membránproteinek</br><span class="lime">A. Átérik a lipid kettősréteget</span></br>C. Csak átmenetileg tartózkodnak a membránban</br><span class="lime">M. Közéjük tartoznak a csatornafehérjék</span>'
+},{
+	question: 'II/A. Hol található a glikokálix?',
+	answer: 'É. Májsejtek raktározó granulumaiban</br>S. A növényi sejtfalban</br>Z. Az agykéreg bizonyos területein</br><span class="lime">I. A sejtfelszínen</span>'
+},{
+	question: 'II/A. Mi az adhéziós fehérje szerepe egy sejtkapcsoló struktúrában?',
+	answer: 'É. Összeköti a plazmamembránt a sejtfallal</br>U. Elhatárolja a sejtet a tapadási felszíntől</br>K. Megköti a később felszívásra kerülő anyagokat</br><span class="lime">T. Összeköti a sejten belüli és a sejten kívüli struktúrákat</span>'
+},{
+	question: 'II/A. Jelölje meg a kommunikáló sejtkapcsolódást!',
+	answer: 'H. Záróléc</br>D. Foltdezmoszóma</br>S. Övdezmoszóma</br><span class="lime">Á. Réskapcsolat</span>'
+},{
+	question: 'II/A. A passzív transzport során az anyagáramlás iránya mindig a',
+	answer: '<span class="lime">T. Nagyobb koncentrációjú helyről a kisebb koncentrációjú felé történik</span></br>V. Kisebb koncentrációjú helyről a nagyobb koncentrációjú felé történik</br><span class="lime">É. Koncentrációkülönbségek megszüntetését célozza</span></br>J. Mindenkori ozmózisnyomásnak megfelelő'
+},{
+	question: 'II/A. H. Egyszerű diffúzió; E. Facilitált diffúzió; L. Mindkettő; T. Egyik se',
+	answer: '<span class="lime">L.</span> Passzív transzport</br><span class="lime">H.</span> A kettős lipidrétegen keresztül történik</br><span class="lime">E.</span> Szállítófehérjék segítségével történik</br><span class="lime">T.</span> A koncentrációgrádienssel szemben folyik '
+},{
+	question: 'II/A. Milyen funkció ellátására alakultak ki a mikrobolyhok?',
+	answer: 'A. Vízvisszaszívás</br><span class="lime">Ü. Tápanyagfelszívás</span></br>C. Anyagkeverés</br>D. Kiválasztás'
+},{
+	question: 'II/A. A sejtek melyik részén találjuk általában a mikrobolyhokat?',
+	answer: 'A. A laterális felszíneken</br><span class="lime">N. Az apikális felszínen</span></br>C. A bazális felszíne</br>D. A sejt teljes felületén'
+},{
+	question: 'II/A. Milyen funkció ellátására alakult ki a bazális csíkolat?',
+	answer: 'L. Tápanyagfelszívás</br>F. Anyagkeverés</br>C. Kiválasztás</br><span class="lime">K. Folyadékvisszaszívás</span>'
+},{
+	question: 'II/A. A. Mikrofilamentumok; O. Mikrotubulusok; L. Mindkettő; D. Egyik sem',
+	answer: '<span class="lime">A.</span> Aktin monomerekből épülnek fel</br><span class="lime">D.</span> A mozgatásban nem vesznek részt</br><span class="lime">O.</span> Globuláris heterodimerekből épülnek fel</br><span class="lime">L.</span> Folyamatos átépülés jellemzi '
+},{
+	question: 'II/A. Mit találunk a maghártya citoplazma felöli oldalán?',
+	answer: '<span class="lime">G. Riboszómákat</span></br>L. Lamina fibrosát</br>D. Kariolimfát</br>B. Heterokromatint'
+},{
+	question: 'II/A. Hol található a perinukleáris tér?',
+	answer: 'Ú. A sejtmag körül</br>K. A sejtmagvacska körül</br><span class="lime">O. A külső és a belső maghártya között</span></br>M. Radioaktív izotópok környezetében'
+},{
+	question: 'II/A. Mit értünk humán genom alatt?',
+	answer: '<span class="lime">K. Az emberi sejtek sejtmagjában megtalálható teljes DNS-állományt</span></br>Ó. Az emberi sejtek teljes DNS tartalmát</br>Ű. Az emberi 26 pár kromoszóma DNS tartalmát</br>Ö. Az emberi ivarsejtek összességét'
+},{
+	question: 'II/A. I. Eukromatin; O. Heterokromatin; T. Mindkettő; K. Egyik sem',
+	answer: '<span class="lime">T.</span> Az interfázisos sejtmag kromatinállományában megtalálható</br><span class="lime">I.</span> Róla intenzív információátíródás folyik</br><span class="lime">T.</span> Fehérjékből és DNS-ből áll</br><span class="lime">O.</span> Szuperspiralizált DNS-t tartalmaz</br><span class="lime">K.</span> Nukleoporin komplexek'
+},{
+	question: 'II/A. Mit értünk az alatt, hogy a DNS replikáció mechanizmusa szemikonzervatív?',
+	answer: 'S. Watson és Crick elmélete a replikációról csak félig igazolódott be</br>D. Félig a kiindulási sejtben játszódik le, félig az utódsejtben</br>J. A másolás csak félig-meddig pontos</br><span class="lime">Z. Az utód kettős hélixekben az egyik szál mindig az eredeti</span>'
+},{
+	question: 'II/A. Válassza ki a replikáció mechanizmusának alapjául szolgáló DNS jellemzőt!',
+	answer: '<span class="lime">A. A szemben lévő bázisok szigorú komplementaritása</span></br>Ő. A cukor-foszfát lánc antiparallel lefutása</br>E. A templát lánc mindig helikális lefutású</br>X. A szintézis mindkét oldalon folyamatos'
+},{
+	question: 'II/A. A sejt életének mely szakaszában zajlik a DNS replikációja?',
+	answer: 'Ő. A sejtosztódás metafázisában</br>B. Amikor a kromatidák szétosztódnak az utódsejtekbe</br><span class="lime">T. Az interfázis S szakaszában</span></br>D. Amikor a DNS-ben tárolt információ RNS-be íródik'
+},{
+	question: 'II/A. Mi akadályozza meg a replikáció során azt, hogy az eredeti DNS láncok visszazáródjanak?',
+	answer: 'J. Helikáz</br><span class="lime">O. ssb fehérjék</span></br>L. Okazaki-fragmentumok</br>S. Primer'
+},{
+	question: 'II/A. Melyik enzim végzi az Okazaki-fragmentumok összekapcsolását?',
+	answer: 'A. Helikáz</br>K. Primáz</br><span class="lime">S. Ligáz</span></br>C. Polimeráz'
+},{
+	question: 'II/A. Mi a polimeráz enzimek szerepe a DNS-replikációja során?',
+	answer: 'Ú. Az RNS nukleotidok beépítése a mRNS-be a DNS templát alapján</br><span class="lime">S. Az új láncok templáttal komplementer nukleotidjait építik be</span></br>J. A primer megszintetizálása a DNS templáton</br>B. Az Okazaki-fragmentumok folyamatos lánccá alakítása'
+},{
+	question: 'II/A. A kromatin állomány mely részén történik a DNS replikáció?',
+	answer: 'A. Az eukrometinban</br>É. A konstitutív heterokromatinban</br>C. A fakultatív heterokromatinban</br><span class="lime">Á. A teljes területén végbemegy</span>'
+},{
+	question: 'II/A. Mi a primáz enzim szerepe?',
+	answer: '<span class="lime">G. Egy rövid komplementer RNS szakaszt szintetizál</span></br>B. Egy rövid komplementer DNS szakaszt szintetizál</br>Y. Összekapcsolja az Okazaki-fragmentumokat</br>V. Nyitva tartja a replikációs villát'
+},{
+	question: 'II/A. Mit nevezünk transzkripciónak?',
+	answer: 'C. DNS templáton végrehajtott DNS-szintézist</br>Ú. RNS templáton végrehajtott RNS-szintézist</br>B. RNS templáton végrehajtott DNS-szintézist</br><span class="lime">A. DNS templáton végrehajtott RNS-szintézist</span>'
 }
 ];
 
@@ -798,7 +984,7 @@ var inspectionQuestionAnswers = [
 	answer:'- foszfolipid: hidrofil, poláris</br>- triglicerid: hidrofób, apoláris'
 },{
 	question:'3. Mit jelent az amfipatikus jelző?',
-	answer:'Alkalmasak a biológiai membránok alapszerkezetének kialakítására.'
+	answer:'- Alkalmasak a biológiai membránok alapszerkezetének kialakítására.</br>- apoláris és poláris (vagy ionos) részt egyaránt tartalmazó molekulákat (ionokat)'
 },{
 	question:'3. Mi a foszfolipidek legfőbb biológiai szerepe?',
 	answer:'Biológiai membránok alkotasa.'
@@ -955,6 +1141,51 @@ var inspectionQuestionAnswers = [
 },{
 	question:'7. Mik azok az oxigén szabad gyökök és milyen forrásaikat ismeri?',
 	answer:'Nincs saját DNS-e</br>- egyetlen membránnal határolt hólyagok</br>- Endoszimbionta eredet –együttműködés a („gazda”)sejttel:</br>-- Zsírsav, purin, aminosav lebontás</br>-- Egyes lipidek szintézise</br>- Szabadgyökök semlegesítése</br>--Szuperoxid dizmutázuk hidrogénperoxidot állít elő a szuperoxidból</br>--Hidrogénperoxid segítségével kataláz nevű enzimjük toxikus anyagokat bont.'
+},{
+	question: '8. Mit tud a soksejtű szervezet sejtjei között lejátszódó kémiai jelátvitel (szignáltranszdukció) általános jellemzőiről, szabályszerűségeiről és szereplőiről?',
+	answer: '<img src="img/szignaltr_szerep.png"></br>'
+},{
+	question: '8. Sorolja fel és jellemezze az egyes jelátviteli mechanizmusokat (5 féle)!',
+	answer: '<img src="img/autokrin.png"></br><img src="img/juxtakrin.png"></br><img src="img/parakrin.png"></br><img src="img/szinpatikus.png"></br><img src="img/endokrin.png">'
+},{
+	question: '8. Mit jelent a kémiai jelátvitelben szereplő receptorok specificitása és milyen két fő típusukat (lokalizáció szerint) tanultunk?',
+	answer: '<img src="img/receptor_tipus.png">'
+},{
+	question: '8. Hogyan képesek kiváltani a biológiai választ a sejtfelszíni receptorok?',
+	answer: '<img src="img/biologiai_valasz.png">'
+},{
+	question: '<img src="img/sejtciklus.png"></br>8. Mi a sejtciklus definíciója és milyen fázisai vannak?',
+	answer: 'Interfázis</br>- G1(prereplikációs fázis):  kromoszóma egy DNS molekulából áll, egy kromatidás (46db kromatida - 2n) (Elnev. oka: Gap: rés, az M és S fázisokat „résként” választja el egymástól)</br>- S (szintetikus fázis): DNS replikáció – 4n lesz, mert kópia lesz mindenből – ami 46db 2kromatidás kromoszóma kialakítására lesz elég)</br>- G2: Felkészülés az osztódásra. G2 ell.pont: ha van elég MPF (M promóciós faktor), akkor átléphet M-fázisba. (MPF= ciklin+CDK komplex) Ha jó a szabályozás, akkor ez csak a szervezet homeosztázisát szolgáló esetben következik be.</br>Sejtosztódás</br>- M-fázis: Maga a sejtosztódás. M ellenőrzési pont: akkor tudja befejezni az osztódást a sejt, ha ebben az időpontban az MPF már elbomlott, tehát, ha van elég ezt bontó komplex (APK=anafázis promóciós komplex= cikloszóma)</br>Sejthalál</br>- G0: sejtciklusból kilépett sejtek (osztódás után, nem lép G1-be), pl. idegsejtek többsége.'
+},{
+	question: '8. Sorolja fel a mitózis fázisait és vázolja a legfőbb történéseket!',
+	answer: '<img src="img/mitozis.png"></br>- Profázis: MPF aktiválja (foszforilálja) a kondenzint, ez kondenzálja a kromatint, létrehozva a kromoszómákat. Ettől eltűnik a magvacska, változások kezdődnek a maghártyában (poluskomplexek szétesnek). A sejtközpontok elkezdik a mitotikus orsó kialakítását.</br>- Prometafázis: hólyagocskákra esik szét a maghártya. A magorsófonalak a kromoszómák elsődleges befűződéseihez (centroméráihoz) kapcsolódnak a kinetokór fehérjekomplexek segítségével.</br>- Metafázis: A mikrotubulusok ekvatoriális síkba (a metafázislemez síkja) rendezik a kr.kat. (A kohezinkomplex még összatartja a kromatidákat)</br>- Anafázis: A szeparáz enzim elhasítja a kohezinkomplexet és így elválasztja a kromatidákat. A sejt megnyúlik: a kromatidák és a sejtközpontok is távolodnak.</br>Telofázis: 2 smag keletkezik magmembránnal, letekeredett kr.-kkal, magvacskákkal. Kariokinezist citokinezis is követi: kontraktilis gyűrűvel kettéfűződik.'
+},{
+	question: '8. Sorolja fel a meiózis fázisait és vázolja a legfőbb történéseket!',
+	answer: '<img src="img/meiozis.png"></br>- Leptotén – vékonyfonalas állapot</br>- Zygotén – homológ párok, gének egymás mellé kerülnek</br>- Pachitén – vastagfonalas állapot: rövidülés párban is folytatódik – crossing over – törések kicserélődések</br>- Diplotén – még együtt, de már nagyon kondenzált</br>- Diakinézis – elválás megkezdődik</br>- Meta-, ana-, telofázisI. : hasonlóan, mint mitózisnál, de egész kr.-ák vándorolnak.</br>Számfelezés itt történik meg: 46 kr-ból csak 23 jut egy utódsejtbe.'
+},{
+	question: '8. Mikor játszódik le és mi a lényege a „crossing over”-nek, vagyis a kromoszómák közötti átkereszteződésnek?',
+	answer: '<img src="img/crossing_over.png">'
+},{
+	question: '8. Mi annak a három géncsoportnak a neve, amelyek megváltozása (mutációja) a daganatok kialakulásához vezethet?',
+	answer: '<img src="img/daganat_biosz.png"></br>Daganat kialakulása többlépéses folyamat – számos génhiba eredője.'
+},{
+	question: '8. Sorolja fel a rosszindulatú daganatok jellemzőit! Magyaráza meg a jellemzők jelentőségét a jóindulatú daganatok jellemzőinek tükrében!',
+	answer: '<img src="img/daganat_biosz.png"></br>- Sejtmotilitás megnövekedése (kontakt gátlás megszűnése, letapadásfüggetlenség) kell ahhoz h invazív legyen, metasztatizáljon.</br>- Gyógyszer rezisztenciát tud még + szerezni a számos mutációja révén (sok osztódás, sok mutáció-szelekció-mikroevolúció)</br>- Nem reagál a normálisan apoptózist kiváltó külső-belső jelzésekre'
+},{
+	question: '8. Mit tud az apoptózisról? (definíciója, kiváltó tényezői, mechanizmusa, példák)',
+	answer: '<img src="img/apoptozis1.png"></br><img src="img/apoptozis2.png">'
+},{
+	question: '9. Ismertesse a nem-determináció szintjeit és ezek tényezőit!',
+	answer: ''
+},{
+	question: '9. Ismertesse a megtermékenyítés sejtszintű folyamatait!',
+	answer: ''
+},{
+	question: '9. Ismertesse a pre-embrionális fejlődés történéseit a megtermékenyítés utántól a csíralemezek kialakulásáig bezárólag!',
+	answer: ''
+},{
+	question: '9. Ismertesse az embrionális fejlődés főbb mozzanatait a három csíralemez megjelenése utántól az organogenezis lezárulásáig! Mely terhességi hetek ezek?',
+	answer: ''
 }
 ]
 
