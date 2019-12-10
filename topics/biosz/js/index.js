@@ -846,6 +846,75 @@ var multiQuestionAnswers = [
 },{
 	question: 'II/A. Mit nevezünk transzkripciónak?',
 	answer: 'C. DNS templáton végrehajtott DNS-szintézist</br>Ú. RNS templáton végrehajtott RNS-szintézist</br>B. RNS templáton végrehajtott DNS-szintézist</br><span class="lime">A. DNS templáton végrehajtott RNS-szintézist</span>'
+},{
+	question:'II/B. Jelölje meg a sejtekre igaz állításokat!',
+	answer:'<span class="lime">N. Létezésüket Robert Hook figyelte meg először</span></br>K. Mindig sejtfal határolja el őket a környezetüktől</br><span class="lime">E. Valamennyi életjelenség végzésére képesek</span></br>B. Nagyobb állatok sejtjei nagyobbak'
+},{
+	question:'II/B. Mit nevezünk plazmamembránnak?',
+	answer:'P. Az intracelluláris membránok összességét</br>G. Az intercelluláris membránok összességét</br>U. A sejtek különféle membránjait összefoglaló néven</br><span class="lime">M. A sejtek külső, alhatároló membránját</span>'
+},{
+	question:'II/B. A biológiai membránok felépítésére jellemző, hogy',
+	answer:'É. Kettős fehérjeréteg között egy lipidréteg húzódik</br>T. Két lipidréteg között egy fehérjeréteget találunk</br>L. A különféle lipidekből álló területek mozaikszerűen váltják egymást</br><span class="lime">K. A lipid kettősrétegbe  mozaikszerűen fehérjék ágyazódnak be</span>'
+},{
+	question:'II/B. A foszfolipidek amfipatikus jellege abból adódik, hogy',
+	answer:'<span class="lime">E. A glicerin harmadik hidroxilcsoportját egy poláros jellegű csoport észteresíti</span></br>Ű. A glicerin mindhárom hidroxilcsoportját egy zsírsavlánc észteresíti</br><span class="lime">L. Hidrofób és hidrofil molekularészleteket is találunk bennük</span></br>D. Poláros csoportjaik körül a vízmolekulák hidrátburkot alakítanak ki'
+},{
+	question:'II/B. Milyen kötőerők működnek a biológiai membránokat felépítő foszfolipidek között?',
+	answer:'B. Kovalens kötések</br>X. Ionos kötőerők</br><span class="lime">L. Van der Waals kölcsönhatások</span></br>D. Hidrogén-hidak'
+},{
+	question:'II/B. Válassza ki a glikoproteinekre igaz állításokat!',
+	answer:'<span class="lime">M. Sejtfelszíni receptorként működhetnek</span></br><span class="lime">E. A membrán extracelluláris rétegében több van belőlük</span></br><span class="lime">G. Sejtfelszíni markerként működhetnek</span></br>O. A májsejtekben tárolt tartaléktápanyag'
+},{
+	question:'II/B. Hol található a glikokálix?',
+	answer:'L. Májsejtek raktározó granulumaiban</br>D. A növényi sejtfalban</br>A. Az agykéreg bizonyos területein</br><span class="lime">É. A sejtfelszínen</span>'
+},{
+	question:'II/B. Jelölje meg azt a sejtkapcsolódást, melyben direkt módon nem vesznek részt adhéziós fehérjék!',
+	answer:'<span class="lime">R. Interdigitáció</span></br>N. Övdezmoszóma</br>U. Réskapcsolat</br>Á. Záróléc'
+},{
+	question:'II/B. Jelölje meg azokat a forrásokat, melyek a membrántranszportfolyamatok hajtóerejéül szolgálhatnak, energiaigényét fedezhetik!',
+	answer:'<span class="lime">T. Koncentrációkülönbség a membrán két oldala között</span></br>N. Szintetikus folyamatokban keletkező energia</br><span class="lime">E. Potenciálkülönbség a membrán két oldala között</span></br>K. Anabolikus folyamatok során felszabaduló energia'
+},{
+	question:'II/B. Ü. Passzív transzport; N. Aktív transzport; K. Mindkettő; A. Egyik se',
+	answer:'<span class="lime">N.</span> A koncentrációgrádienssel szemben folyik</br><span class="lime">Ü.</span> A koncentrációkülönbég a hajtóereje</br><span class="lime">N.</span> Hozzájárul a koncentrációkülönbség fenntartásához</br><span class="lime">K.</span> Fehérjék is részt vehetnek benne</br><span class="lime">A.</span> Anabolikus folyamat'
+},{
+	question:'II/B. L. Endocitotikus út; I. Exocitotikus út; V. Mindkettő; Á. Egyik se',
+	answer:'V. A vezikuláris transzport folyamata</br>I. Másik neve: szekréciós út</br>L. Lizoszómák is szerepelnek benne</br>Á. Fenntartja az ionaszimetriát'
+},{
+	question:'II/B. Milyen funkció ellátására alakultak ki a mikrobolyhok?',
+	answer:'F. Vízvisszaszívás</br><span class="lime">G. Tápanyagfelszívás</span></br>E. Anyagkeverés</br>L. Kiválasztás'
+},{
+	question:'II/B. A sejtek melyik részén találjuk általában a mikrobolyhokat?',
+	answer:'Ű. A laterális felszíneken</br><span class="lime">O. Az apikális felszínen</span></br>A. A bazális felszínen</br>T. A sejt teljes felületén'
+},{
+	question:'II/B. A sejtek melyik részén találjuk általában a bazális csíkolatot?',
+	answer:'H. Az oldalsó felszínen</br><span class="lime">T. Az alapi felszínen</span></br>Á. A csúcsi felszínen</br>B. A sejt teljes felületén'
+},{
+	question:'II/B. Milyen funkció ellátására alakult ki a bazális csíkolat?',
+	answer:'O. Tápanyagfelszívás</br>R. Anyagkeverés</br>Z. Kiválasztás</br><span class="lime">E. Folyadékvisszaszívás</span>'
+},{
+	question:'II/B. Jelölje meg a sejtváz feladatait!',
+	answer:'<span class="lime">L. Sejten belüli mozgások bonyolítása</span></br><span class="lime">É. Sejt egészének mozgatása</span></br><span class="lime">G. Sejt alakjának biztosítása</span></br>Z. Tápanyagok raktározása'
+},{
+	question:'II/B. Az alábbi állítások közül válassza ki azt, amelyik a sejtmaghártyára igaz!',
+	answer:'O. Egy foszfolipid kettősrétegből áll</br><span class="lime">E. Két foszfolipid kettősrétegből áll</span></br>N. A Golgi-apparátussal összefügg</br><span class="lime">L. A durva felszínű endoplazmatikus retikulummal összefügg</span>'
+},{
+	question:'II/B. Hol található a perinukleáris tér?',
+	answer:'G. A sejtmag körül</br>Á. A sejtmagvacska körül</br><span class="lime">I. A külső és a belső maghártya között</span></br>S. Radioaktív izotópok környezetében'
+},{
+	question:'II/B. Milyen két területeket kötnek össze a magpórusok?',
+	answer:'<span class="lime">G. A citoplazma és a sejtmag területét</span></br>T. A perinukleáris teret a citoplazmával</br>S. A perinukleáris teret a kromatinállománnyal</br>Í. A magvacskát a kromatin állomány más területeivel'
+},{
+	question:'II/B. Mit értünk humán genom alatt?',
+	answer:'<span class="lime">A. Az emberi sejtek sejtmagjában megtalálható teljes DNS-állományt</span></br>N. Az emberi sejtek teljes DNS tartalmát</br><span class="lime">Z. Az emberi 23 pár kromoszóma DNS tartalmát</span></br>L. Az emberi ivarsejtek összességét'
+},{
+	question:'II/B. D. Eukromatin; U. Heterokromatin; O. Mindkettő; N. Egyik sem',
+	answer:'<span class="lime">O.</span> Az interfázisos sejtmag kromatinállományában megtalálható</br><span class="lime">D.</span> Róla intenzív információátíródás folyik</br><span class="lime">N.</span> Ribonukleinsav építi fel</br><span class="lime">U.</span> Szuperspiralizált DNS-t tartalmaz</br><span class="lime">N.</span> A kariolimfa elemei'
+},{
+	question:'II/B. K. Replikáció; B. Transzkripció; E. Mindkettő; N. Egyik sem',
+	answer:'<span class="lime">K.</span> DNS szintézis</br><span class="lime">B.</span> RNS szintézis</br><span class="lime">E.</span> 5’→ 3’irányba halad</br><span class="lime">N.</span> 3’→ 5’ irányba halad</br><span class="lime">N.</span> A riboszómákon történik</br><span class="lime">E.</span> A bázipárosodás szabályai szerint halad'
+},{
+	question:'III/A. ',
+	answer: ''
 }
 ];
 
@@ -969,7 +1038,7 @@ var inspectionQuestionAnswers = [
 	answer:'Glikogén.'
 },{
 	question:'3. Melyik molekulacsoportba tartozik a gyors és melyikbe a lassú elérésű tartaléktápanyag az emberi szervezetben?',
-	answer:''
+	answer:'- Glikogen a lassu ami majban van ugye alapvetoen osszetett szenhidrat glikoz meg az egyszeru szenhidrat a verben</br>- Ezek aranyat szabalyozza a glukagon es az inzulin</br>- Ha glikogen se hasznalodik akkor onnan megy zsirba'
 },{
 	question:'3. Mi a sokféle lipidet egyaránt jellemző tulajdonság, ami miatt egy csoportba sorolták ezeket az eltérő szerkezetű anyagokat?',
 	answer:'- Hetegorén szerkezetű</br>- vízben nem vagy rosszul oldódnak (hidrofóbok)</br>- apolárisak</br>- szerves oldószerekben jól oldódnak'
@@ -1110,13 +1179,13 @@ var inspectionQuestionAnswers = [
 	answer: '<img src="img/riboszoma.png"></br>Feladata a mRNS bázishármasainak leolvasása és ezáltal a fehérjeszintézis irányítása.'
 },{
 	question:'6. Mit jelent a redundancia, vagy degeneráltság a genetikai kódban és mi az evolúciós jelentősége?',
-	answer: ''
+	answer: 'A genetikai kód:</br>- Kihagyásmentes: tripletek folyamatosan követik egymást</br>- Átfedésmentes: 1ik triplet uccsója != kövi elsőjével</br>- Degenerált: túlbiztosított, 20féle aminósavra 64 triplet, mutáció elleni védelem.</br>- Egyértelmű: egyféle kodon uazt az aminosavat határozza meg</br>- Univerzális: élővilágban uazt jelenti'
 },{
 	question:'6. Milyen lépéseit ismeri a transzlációnak?',
-	answer: ''
+	answer: '<img src="img/transzlacio.png"></br>- iniciációs szakasz: lánckezdés</br>- elongációs fázis: – bekötődés, peptidkötés kialakítás, továbbgördülés – ismétlődik, miközben a peptidlánc minden alkalommal egy aminósavval hosszabbodik</br>- terminációs fázis: lánc befejezés: stop kodonhoz ér. Az ide kapcsolódó fehérje hatására a fehérjelánc leválik, a riboszóma elengedi a mRNS-t és a két alegység szétesik.'
 },{
 	question:'6. Mi a frissen szintetizált fehérjeláncok további sorsa? Milyen sejtalkotók vesznek részt a továbbalakításukban és mi a továbbalakítás lényege?',
-	answer: ''
+	answer: 'Feherjek meg szintetizalodas utan szerkezetileg modosulnak endoplazmatikus reticulum es golgi keszulek vesz reszt alakitasban es a lenyege hogy a feherjet a celhelyre juttasa megfelelo formaban'
 },{
 	question:'7. Mit tud a SER struktúrájáról és funkciójáról?',
 	answer:'- Simafelszínű Endoplazmatikus Retikulum</br>- inkább tubuláris rendezetlenebb</br>Funkciók:</br>- Lipidszintézis (foszfolipidek, glikolipidek, koleszterin)</br>- Ca2+ raktározás (ld. szarkoplazmatikus retikulum)</br>- Méregtelenítés </br>- Glükogenolízis'
@@ -1176,7 +1245,7 @@ var inspectionQuestionAnswers = [
 	answer: '<img src="img/apoptozis1.png"></br><img src="img/apoptozis2.png">'
 },{
 	question: '9. Ismertesse a nem-determináció szintjeit és ezek tényezőit!',
-	answer: ''
+	answer: '<b>- Genetikai</b>: az ivari kr. összetételtől függ: XX, XY. A szexuális dimorfizmus fő irányítója egyértelműen az Y ivari kromoszóma. Ui. a nemi differenciálódás kulcsa az Y kromoszóma speciális területén, a rövid karon elhelyezkedő SRY (sex region of Y) gén. Az SRY gén egy transzkripciós faktort kódol (korábbi elnevezése TDF, testis determináló faktor), amely a DNS molekulához való kötődése révén további géneket tud aktiválni. Meghatározza a köv. 2 szintet is.</br><b>- Gonadális</b>:A TDF fokozza azon gének expresszióját, melyek a testis (ffi gonád) kialakulását teszik lehetővé. A kialakuló fötális here olyan vegyületeket termel, amelyek a hím nemi fejlődést segítik elő. Ezek közül különös jelentősége van a Müller cső kifejlődését gátló hormonnak /AMH Anti-Mullerian –Hormone/. Ugyancsak a fötális here által termelt tesztoszteron elősegíti, hogy a Wolff csőből kialakuljanak a hím belső nemi szervek /prosztata, ondóhólyag, ondóvezeték/.</br><b>- Genitális</b>:  tesztoszteron átalakulási terméke a dihidrotesztoszteron pedig a külső nemi szervek kifejlődését teszi lehetővé.</br><b>- Pszichoszexuális</b>: A negyedik – tanult, ill. tsd.-i elemekből is áll.'
 },{
 	question: '9. Ismertesse a megtermékenyítés sejtszintű folyamatait!',
 	answer: ''
@@ -1239,4 +1308,16 @@ function searchAnswer() {
 function reset() {
 	document.getElementById('question').value = '';
 	document.getElementById('answer').innerHTML = '';
+}
+
+function showDocument(fileId, type) {
+	var documentFrame = document.getElementById(type + 'Frame');
+	documentFrame.src = "https://docs.google.com/viewer?srcid=" + fileId + "&pid=explorer&efh=false&a=v&chrome=false&embedded=true";
+	documentFrame.style.height='100%';
+	documentFrame.style.visibility = null;
+}
+function hideDocument(type) {
+	var documentFrame = document.getElementById(type + 'Frame');
+	documentFrame.style.height=0;
+	documentFrame.style.visibility = 'hidden';
 }
