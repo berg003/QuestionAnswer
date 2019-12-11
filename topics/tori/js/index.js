@@ -41,7 +41,7 @@ var questionAnswers = [
 	answer:'anatómia tankönyv'
 },{
 	question:'Ki alapította meg a középkorban kolostori orvoslást?',
-	answer:'Szent Pál apostol'
+	answer:'Nursiai Benedek'
 },{
 	question:'Hol és mikor született Florence Nightingale?',
 	answer:'Firenze, 1820. május 12.'
@@ -167,4 +167,16 @@ function searchAnswer() {
 function reset() {
 	document.getElementById('question').value = '';
 	document.getElementById('answer').innerHTML = '';
+}
+
+function showPdf(fileId) {
+	var pdfFrame = document.getElementById('pdfFrame');
+	pdfFrame.src = "https://docs.google.com/viewer?srcid=" + fileId + "&pid=explorer&efh=false&a=v&chrome=false&embedded=true";
+	pdfFrame.style.height='100%';
+	pdfFrame.style.visibility = null;
+}
+function hidePdf() {
+	var pdfFrame = document.getElementById('pdfFrame');
+	pdfFrame.style.height=0;
+	pdfFrame.style.visibility = 'hidden';
 }

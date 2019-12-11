@@ -127,9 +127,6 @@ var questionAnswers = [
 	question:'A mitokodriális Éva és az Y-kromoszóma Ádám',
 	answer:'nem alkotott egy párt, mert Ádám később élt, mint Éva.'
 },{
-	question:'Az ember kommunikációjára',
-	answer:'jellemző mind a szintaxis, mind a konzisztencia.'
-},{
 	question:'Ikon, index vagy szimbólum? (szines peace jel)',
 	answer:'Szimbólum'
 },{
@@ -137,7 +134,7 @@ var questionAnswers = [
 	answer:'mint az őselvek/őselemek és okok megismerése.'
 },{
 	question:'A "kettős igazság" elve szerint',
-	answer:'megvan külön az ész a kinyilatkozás területe.'
+	answer:'megvan külön az ész és a kinyilatkozás területe.'
 },{
 	question:'Ernst Cassirer szerint az ember szimbólumteremtő állat helyett inkább gondolkodó állat.',
 	answer:'hamis'
@@ -166,11 +163,11 @@ var questionAnswers = [
 	question:'Az emberi nyelv',
 	answer:'humánspecifikus.'
 },{
-	question:'Az emberi kommunikáció',
-	answer:'nem szituációfüggő.'
-},{
 	question:'Az állatok cselekvésének',
 	answer:'csak oka van.'
+},{
+	question:'A holisztikus felfogás szerint',
+	answer:'az egész több, mint a részek összege.'
 }
 ];
 
