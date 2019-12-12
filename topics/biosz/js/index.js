@@ -913,6 +913,156 @@ var multiQuestionAnswers = [
 	question:'II/B. K. Replikáció; B. Transzkripció; E. Mindkettő; N. Egyik sem',
 	answer:'<span class="lime">K.</span> DNS szintézis</br><span class="lime">B.</span> RNS szintézis</br><span class="lime">E.</span> 5’→ 3’irányba halad</br><span class="lime">N.</span> 3’→ 5’ irányba halad</br><span class="lime">N.</span> A riboszómákon történik</br><span class="lime">E.</span> A bázipárosodás szabályai szerint halad'
 },{
+	question:'III/A. Az alábbi kijelentések közül melyik igaz az endoplazmatikus retikulum ciszternájára?',
+	answer:'<span class="lime">N. Egyetlen összefüggő üreg</span></br>K. Lapos membránzsákok elhatárolódó üregei</br><span class="lime">E. A citoplazma üregétől membrán választja el</span></br>L. Sok kis zsírcsepp tölti ki'
+},{
+	question:'III/A. A. Durva felszínű endoplazmatikus retikulum; M. Sima felszínű; endoplazmatikus retikulum; G. Mindkettő; T. Egyik se',
+	answer:'<span class="lime">M</span>A glükogénből glükózt mobilizál</br><span class="lime">M</span>Felépítésében a tubuláris elemek dominálnak</br><span class="lime">A</span>Citoszol felöli membránfelszínén riboszómák ülnek</br><span class="lime">G</span>Szabálytalan alakú háromdimenziós membránszerkezet a citoplazmában</br><span class="lime">A</span>Zsákszerű elemeivel rendezettebbnek tűnik</br><span class="lime">A</span>A sejtmag külső membránjának folytatása</br><span class="lime">T</span>Saját, prokarióta típusú DNS-el bír'
+},{
+	question:'III/A. Milyen kötőhelyeket találunk a riboszómán?',
+	answer:'L. Antikodon</br>E. Aktivált aminosav kötőhelye</br>M. Aminosavaktiváló enzim kötőhelye</br><span class="lime">U. A- és P-lókusz</span>'
+},{
+	question:'III/A. Milyen kötőhelyeket találunk a t-RNS-en?',
+	answer:'<span class="lime">D. Antikodon</span></br><span class="lime">Á. Aktivált aminosav kötőhelye</span></br><span class="lime">S. Aminosavaktiváló enzim kötőhelye</span></br>E. A- és P-lókusz'
+},{
+	question:'III/A. A kodon és az antikodon milyen kötéstípussal kapcsolódik össze?',
+	answer:'K. Ionos kötés</br><span class="lime">A. H-híd</span></br>R. Kovalens</br>C. Van der Waals'
+},{
+	question:'III/A. Mit jelent a „lötyögés” a kodon és az antikodon kapcsolódásánál?',
+	answer:'<span class="lime">B. Harmadik helyen lévő bázisok kapcsolódása nem mindig komplementer</span></br>S. Az antikodonban néha uracil helyett timint találunk</br>O. Második helyen lévő bázisok kapcsolódása nem mindig komplementer</br>N. Az aminosavhoz való kötődés nem mindig kovalens kötés'
+},{
+	question:'III/A. Hol található az A(akceptor)-lókusz?',
+	answer:'<span class="lime">O. A riboszóma kis alegységén</span></br>Y. A riboszóma nagy alegységén</br>I. Az ivari kromoszómákon</br>M. Az mRNS-en'
+},{
+	question:'III/A. Mitől függ az, hogy az  A(akceptor)-lókusz milyen tRNS-t köt meg?',
+	answer:'<span class="lime">L. Az A-lókusz területére eső kodontól</span></br>I. A riboszóma nagy alegységétől</br>K. A rendelkezésre álló aminosavtól</br>U. A peptidil transzferáz működésétől'
+},{
+	question:'III/A. Mi a peptidil transzferáz feladata?',
+	answer:'L. A tRNS kötése az A-lókuszhoz</br>Á. Az mRNS kötése a kis alegyéghez</br><span class="lime">D. A peptidkötés kialakítása</span></br>É. Az üres tRNS eltávolítása'
+},{
+	question:'III/A. Az fehérjeszintézis során az újabb és újabb peptidkötések kialakulására mely funkciós csoportok között kerül sor?',
+	answer:'H. A P-lókuszon lévő aminosav aminocsoportja és az A-lókuszon lévő karboxil csoportja között</br><span class="lime">O. A P-lókuszon lévő aminosav karboxil csoportja és az A-lókuszon lévő aminocsoportja között</span></br>Ú. A P-lókuszon és az A-lókuszon lévő aminosav aminocsoportjai között</br>S. A P-lókuszon és az A-lókuszon lévő aminosav karboxil csoportjai között'
+},{
+	question:'III/A. Mikor következik be a fehérjeszintézis terminációs szakasza?',
+	answer:'V. Amikor elfogytak az aminosavak</br><span class="lime">G. Amikor a riboszóma a stopkodonhoz ért</span></br>É. Amikor a riboszóma az antikodonhoz ért</br>T. Amikor elfogytak a tRNS-ek'
+},{
+	question:'III/A. Mit nevezünk poliriboszómának?',
+	answer:'I. Az egy tRNS-re felfűzött riboszómákat</br>N. Az egy polipeptidláncra felfűzött riboszómákat</br><span class="lime">S. Az egy mRNS-re felfűzött riboszómákat</span></br>Y. Az egy ER membránfelszínen ülő riboszómákat'
+},{
+	question:'III/A. Milyen poszttranszlációs módosulások érinthetik a fehérjéket?',
+	answer:'U. Splicing</br><span class="lime">Á. Glikoziláció</span></br>S. Dezamináció</br><span class="lime">G. Kénhidak kialakulása</span>'
+},{
+	question:'III/A. A: +++; E: ++-; H:+-; N:-+; M:--',
+	answer:'<span class="lime">H.</span> A genetikai kód/kodon degenerált, mert egy adott triplet többféle aminosavat is meghatározhat.</br><span class="lime">A.</span> A genetikai kódrendszer degenerált, mert egy adott aminosavat többféle kód/kodon is jelenthet.</br><span class="lime">N.</span> A pontmutáció azt jelenti, hogy pont az a triplet változik meg, amelyik egy fontos aminosavat kódol, mert nem minden kód szintű változás jelent a kódolt aminosavat is érintő változást.</br><span class="lime">E.</span> Egy adott antikodonnal bíró tRNS csak egy adott aminosavat szállíthat, mert a genetikai kód átfedésmentes.</br><span class="lime">M.</span> Pontosan annyi antikodon van, mint ahány féle kodon, mert a kodon és az antikodon mindhárom nukleotidjánál szigorúan a bázispárosodás szabályai szerint kapcsolódik össze.</br><span class="lime">A.</span> A genetikai kód degeneráltsága véd a pontmutációk ellen, mert a triplet bázissorrendjének megváltozása így nem feltétlenül vezet az aminosav megváltozásához is.'
+},{
+	question:'III/A. Az alábbi folyamatok közül melyek tartoznak a Golgi-apparátus feladatai közé?',
+	answer:'<span class="lime">T. Fehérjék átalakítása, továbbítása</span></br>H. A sejt energiatermelő folyamatai</br><span class="lime">U. Lipidek átalakítása, továbbítása</span></br>Í. Reaktív oxigén származékok eliminálása'
+},{
+	question:'III/A. Mit nevezünk diktioszómának?',
+	answer:'M. A Golgiról lefűződő vezikulumot</br><span class="lime">D. A Golgi-apparátus egy szerkezeti elemét</span></br>E. Az ER Golgi felé eső részét</br>S. A reziduális testeket'
+},{
+	question:'III/A. Mi történik a Golgi-apparátus ciszternáiban a fehérjékkel?',
+	answer:'K. Szintetizálódnak</br><span class="lime">Á. Érnek</span></br>P. Denaturálódnak</br>I. Lebontódnak'
+},{
+	question:'III/A. Mik azok a szignálfoltok?',
+	answer:'P. A Golgi-apparátus cisz ill. transz oldalát jelző foltok</br><span class="lime">S. Címzésként működő aminósav kombinációk</span></br>I. A transzláció kezdőhelyét jelző szekvenciák</br>T. A fehérje származására utaló lipidkomponens'
+},{
+	question:'III/A. Hogyan jönnek létre a szekunder lizoszómák?',
+	answer:'A. A tercier lizoszómák átalakulásával</br><span class="lime">M. Fúzió útján</span></br>Ő. Exocitózissal</br><span class="lime">E. A primer lizoszómákból</span>'
+},{
+	question:'III/A. Mik azok a reziduália testek?',
+	answer:'<span class="lime">G. Az emészthetetlen anyagokból keletkezett zárványok</span></br>K. Az endocitózissal bekerült tartaléktápanyagok</br>C. Exocitócissal az intercelluláris térbe került anyagok</br>D. Kiválasztott fehérjék'
+},{
+	question:'III/A. Mit tudunk a mitokondrium eredetéről?',
+	answer:'C. A Golgiból fűződött le</br><span class="lime">S. Az endoszimbionta elmélettel magyarázható</span></br>E. Autogén úton jött létre</br>M. A maghártyáról fűződött le'
+},{
+	question:'III/A. Mi jellemzi a mitokondrium külső memránját?',
+	answer:'<span class="lime">Z. Porinok ülnek benne</span></br>M. A citrátkör enzimjei süllyednek bele</br>E. Felszíne sima</br>I. Lemezek vagy csövek formájában felgyűrődik'
+},{
+	question:'III/A. Mi a mitokondrium legfontosabb funkciója?',
+	answer:'T. Glikogén bontás</br>S. Szabad gyökök eliminálása</br><span class="lime">E. Fehérjeszintézis</span></br><span class="lime">R. ATP szintézis</span>'
+},{
+	question:'III/A. Mitől függ, hogy hány mitokondrium van a sejtben?',
+	answer:'<span class="lime">Z. A sejt energiaigényétől</span></br>T. A megvilágított órák számától</br>I. A sejtciklustól</br>L. A differenciáltsági állapottól'
+},{
+	question:'III/A. Mi tölti ki a mitokondrium intermembrán terét?',
+	answer:'T. Citoplazma</br>H. Víz</br>A. Kocsonyás anyag</br><span class="lime">É. Citoszol</span>'
+},{
+	question:'III/A. Hol találjuk a citrátciklus enzimjeit?',
+	answer:'M. Citoszólban</br>B. Citoplazmában</br>Ö. Intermembrán térben</br><span class="lime">S. Mitokondrium mátrixban</span>'
+},{
+	question:'III/A. Hol találjuk az ATP-szintázt?',
+	answer:'<span class="lime">E. Mitokondrium belső membránjában</span></br>Á. Intermembrán térben</br>C. Mitokondrium mátrixban</br>K. A mitokondrium külső membránjában'
+},{
+	question:'III/B. A. Durva felszínű endoplazmatikus retikulum; J. Sima felszínű endoplazmatikus retikulum; L. Mindkettő; Ó. Egyik se',
+	answer:'<span class="lime">A</span> Citoszol felöli membránfelszínén riboszómák ülnek</br><span class="lime">J</span> Felépítésében a tubuláris elemek dominálnak</br><span class="lime">Ó</span> A transzkripció színtere</br><span class="lime">L</span> Szabálytalan alakú háromdimenziós membránszerkezet a citoplazmában'
+},{
+	question:'III/B. Milyen kötőhelyeket találunk a t-RNS-en?',
+	answer:'<span class="lime">V. Antikodon</span></br><span class="lime">É. Aktivált aminosav kötőhelye</span></br><span class="lime">G. Aminosavaktiváló enzim kötőhelye</span></br>U. A- és P-lókusz'
+},{
+	question:'III/B. Mivel kapcsolódik az aktivált aminosav a tRNS-hez?',
+	answer:'<span class="lime">Z. Karboxil csoportjával</span></br>T. Aminocsoportjával</br>Ó. Oldalláncával</br>D. Foszfátcsoportjával'
+},{
+	question:'III/B. Mikor következik be a fehérjeszintézis terminációs szakasza?',
+	answer:'L. Amikor elfogytak az aminosavak</br>E. Amikor a riboszóma a stopkodonhoz ért</br>A. Amikor a riboszóma az antikodonhoz ért</br>K. Amikor elfogytak a tRNS-ek'
+},{
+	question:'III/B. U. Kód; M. Kodon; T. Mindkettő; N. Egyik se',
+	answer:''
+},{
+	question:'III/B. ',
+	answer:'<span class="lime">T</span> Kihagyás- és átfedésmentes</br><span class="lime">T</span> Egyértelmű, degenerált, univerzális</br><span class="lime">M</span> RNS szekvencia</br><span class="lime">U</span> DNS szekvencia</br><span class="lime">N</span> A transzláció során jön létre'
+},{
+	question:'III/B. U:+++; J++-; K:+-; A:-+; T:--',
+	answer:'<span class="lime">K</span> A genetikai kód/kodon degenerált, mert egy adott triplet többféle aminosavat is meghatározhat.</br><span class="lime">A</span> A pontmutáció azt jelenti, hogy pont az a triplet változik meg, amelyik egy fontos aminosavat kódol, mert nem minden kód szintű változás jelent a kódolt aminosavat is érintő változást</br><span class="lime">J</span> Egy adott antikodonnal bíró tRNS csak egy adott aminosavat szállíthat, mert a genetikai kód átfedésmentes.</br><span class="lime">U</span> A genetikai kód kihagyás és átfedésmentes, mert a fehérjeszintetizáló apparátus csak egyféleképpen tudja értelmezni a bázisok egymásutániságát, nem hagy figyelmen kívül egyet sem, de nem is olvassa le kétszer ugyanazt.</br><span class="lime">T</span> Az elongáció során az elengedő (release) faktor kapcsolódik a start kodonhoz, mert enélkül nem tud a riboszóma továbblépni a mRNS-en.</br><span class="lime">A</span> A startkodon nem kódol aminosavat, mert a startkodon jelzi a fehérjeszintézis folyamatának kezdetét.'
+},{
+	question:'III/B. Az alábbi folyamatok közül melyek tartoznak a Golgi-apparátus feladatai közé?',
+	answer:'<span class="lime">L. Fehérjék átalakítása, továbbítása</span></br>K. A sejt energiatermelő folyamatai</br><span class="lime">M. Lipidek átalakítása, továbbítása</span></br>Ö. Reaktív oxigén származékok eliminálása'
+},{
+	question:'III/B. Mit nevezünk diktioszómának?',
+	answer:'M. A Golgiról lefűződő vezikulumot</br><span class="lime">A. A Golgi-apparátus egy szerkezeti elemét</span></br>I. Az ER Golgi felé eső részét</br>C. A reziduális testeket'
+},{
+	question:'III/B. Mi történik a Golgi-apparátus ciszternáiban a fehérjékkel?',
+	answer:'K. Szintetizálódnak</br><span class="lime">H. Érnek</span></br>Ó. Denaturálódnak</br>F. Lebontódnak'
+},{
+	question:'III/B. Mik azok a szignálfoltok?',
+	answer:'Ü. A Golgi-apparátus cisz ill. transz oldalát jelző foltok</br><span class="lime">O. Címzésként működő aminósav kombinációk</span></br>L. A transzláció kezdőhelyét jelző szekvenciák</br>E. A fehérje származására utaló lipidkomponens'
+},{
+	question:'III/B. Milyen lehet egy szekréciós út?',
+	answer:'<span class="lime">G. Folyamatos</span></br>M. Random</br><span class="lime">Y. Regulált</span></br>Ü. Lizoszómális'
+},{
+	question:'III/B. Hogyan keletkeznek a lizoszómák?',
+	answer:'L. Endoszimbiózis útján</br>E. Endocitózis útján</br>R. Az endoplazmatikus retikulumról fűződnek le</br><span class="lime">E. A Golgi-apparátusról fűződnek le</span>'
+},{
+	question:'III/B. Hogyan jönnek létre a szekunder lizoszómák?',
+	answer:'P. A tercier lizoszómák átalakulásával</br><span class="lime">L. Fúzió útján</span></br>É. Exocitózissal</br>V. A primer lizoszómákból'
+},{
+	question:'III/B. Mi jellemzi a mitokondrium belső memránját?',
+	answer:'P. Porinok ülnek benne</br><span class="lime">É. Az ATP-szintáz ebben ül</span></br>T. Felszíne sima</br><span class="lime">G. Lemezek vagy csövek formájában felgyűrődik</span>'
+},{
+	question:'III/B. Mi a mitokondrium legfontosabb funkciója?',
+	answer:'I. Glikogén bontás</br>S. Szabad gyökök eliminálása</br>Ó. Fehérjeszintézis</br><span class="lime">E. ATP szintézis</span>'
+},{
+	question:'III/B. Mi tölti ki a mitokondrium intermembrán terét?',
+	answer:'L. Citoplazma</br>Á. Víz</br>S. Kocsonyás anyag</br><span class="lime">Z. Citoszol</span>'
+},{
+	question:'III/B. Hol találjuk a piruvátoxidáció enzimjeit?',
+	answer:'S. Citoszólban</br>Z. Citoplazmában</br>C. Intermembrán térben</br><span class="lime">H. Mitokondrium mátrixban</span>'
+},{
+	question:'III/B. Hol találjuk az ATP-szintázt?',
+	answer:'<span class="lime">E. Mitokondrium belső membránjában</span></br>A. Intermembrán térben</br>B. Mitokondrium mátrixban</br>D. A mitokondrium külső membránjában'
+},{
+	question:'III/B. Mi történik a sejtbe bekerült glükózzal?',
+	answer:'S. A mitokondriumba transzportálódik</br>Á. A lizoszómákban kerül lebontásra</br><span class="lime">T. Glükóz-6-foszfáttá foszforilálódik</span></br>G. Reziduális testekben raktározódik'
+},{
+	question:'III/B. Mi történik a mitokondrium mátrixába jutott piroszőlősavval?',
+	answer:'O. Glicerinaldehidfoszfáttá alakul</br><span class="lime">T. Ecetsavvá oxidálódik</span></br>S. Glicerinné redukálódik</br>K. Becsatlakozik a zsírsavszintézisbe'
+},{
+	question:'III/B. Mi az az a koenzim-A?',
+	answer:'<span class="lime">Ü. Acetilcsoport megkötésére alkalmas hordozómolekula</span></br>I. Az első enzim koenzimje a glikolízisben</br>S. Oxálecetsav megkötésére alkalmas hordozómolekula'
+},{
+	question:'III/B. Mi a peroxiszómák legfontosabb funkciója?',
+	answer:'<span class="lime">K. Oxigén szabadgyökök semlegesítése</span></br>A. Oxigén szabadgyökök előállítása</br>T. ATP termelés</br>O. Glikogén szintézis'
+},{
 	question:'IV/A. Mettől meddig tart egy sejtciklus?',
 	answer: 'M. Az egyik sejtosztódás végétől a következő elejéig</br>A. A sejt keletkezésétől az apoptózisáig</br>Y. Az interfázis végétől az M-fázis elejéig</br><span class="lime">C. Az egyik sejtosztódás végétől a következő végéig</span>'
 },{
@@ -981,7 +1131,7 @@ var multiQuestionAnswers = [
 },{
 	question:'IV/A. M. Ovogenezis; E. Spermiogenezis; S. Mindkettő; R. Egyik sem',
 	answer: '<span class="lime">K</span>Van benne szaporodási és érési szakasz</br><span class="lime">A</span>Átalakulási szakasza is van</br><span class="lime">T</span>Szaporodási szakaszában meiózisok követik egymást</br><span class="lime">N</span>A meiózis végeredménye 1 ivarsejt'
-,{
+},{
 	question:'IV/A. M. Ovogenezis; E. Spermiogenezis; S. Mindkettő; R. Egyik sem',
 	answer: '<span class="lime">E</span>A meiózis végeredménye 4 ivarsejt</br><span class="lime">M</span>A meiózis a megtermékenyüléskor fejeződik be</br><span class="lime">I</span>A gonádokban játszódik le</br><span class="lime">S</span>Nemi hormonok hatására játszódik le</br><span class="lime">M</span>Az ivarsejtet tüszőhámsejtek veszik körbe</br><span class="lime">E</span>A Sertoli-féle sejtek segítik</br><span class="lime">R</span>Végeredményeként diploid sejtek keletkeznek'
 },{
@@ -1059,6 +1209,162 @@ var multiQuestionAnswers = [
 },{
 	question:'IV/B. Z: +++; Ő: ++; D: +-; I: -+; M: ---',
 	answer: '<span class="lime">Z</span>Az előbélből fejlődik a hasnyálmirigy és a máj is, mert annak hámmegvastagodásaiként indulnak fejlődésnek.</br><span class="lime">I</span>A gerinchúr a velőlemez indukciós hatására alakul ki, mert a sejtek pozíciófüggő determinációjában a morfogéngrádiensek alapvető fontossággal bírnak.</br><span class="lime">D</span>Az előagyhólyagot nyílirányú barázda osztja ketté kialakítva a két agyfélteke előtelepét, mert a velőcső a mezodermából kialakuló cső alakú képlet, mely kezdetben két teleppel fejlődik.</br><span class="lime">Ő</span>Az erek és a vérsejtek legelőször az extraembrionális mezodermában jelennek meg, mert a máj az embrió fő vérképző szerve.'
+},{
+	question:'GEN. Mely állítások igazak az embriópajzsra?',
+	answer:'<span class="lime">M. Egyik felszínét az amnionüreg, a másikat a szikhólyag határolja</span></br>B. Egyik felszíne az anyai szövetekkel, másik a magzati szövetekkel érintkezik</br><span class="lime">I. Az embrioblasztok differenciálódásából jön létre</span></br>A. A trofoblasztok differenciálódása során keletkezik'
+},{
+	question:'GEN. Mit nevezünk blasztocölnek?',
+	answer:'L. Az amnion üregét</br>F. A szikhólyag üregét</br>Á. A méh üregét</br><span class="lime">N. A hólyagcsíra üregét</span>'
+},{
+	question:'GEN. Az alábbi állítások közül melyek igazak a fejnyúlványra (chorda dorsalis)?',
+	answer:'<span class="lime">D. A mezodermából jön létre</span></br>C. Az endoderma alakítja ki</br><span class="lime">E. Indukálja a velőlemez differenciálódását</span></br>Á. Az embrió idegrendszerének előtelepe'
+},{
+	question:'GEN. Mit jelent a sejtek poziciófüggő determinációja az egyedfejlődés során?',
+	answer:'N. A sejt sorsát a környezete határozza meg</br>K. Mintázatkialakulás alapjául szolgál</br>I. A morfogéngrádiens alapvető fontossággal bír ennek során</br>L. A sejtek elvándorlását jelenti'
+},{
+	question:'GEN. Jelölje be a polispermiózisra igaz állításokat!',
+	answer:'<span class="lime">Ö. Következményeként poliploidia áll elő</span></br>F. Következményeként ikerképződés áll elő</br><span class="lime">N. Ember esetében életképtelen zigóta jön létre</span></br>O. A sikeres megtermékenyítőképesség előfeltétele'
+},{
+	question:'GEN. Jelölje meg a homeotikus fehérjékre igaz állításokat!',
+	answer:'<span class="lime">M. Homeotikus gének kódolják</span></br><span class="lime">A. Transzkripciós faktorok</span></br><span class="lime">G. Homeodomént tartalmaznak</span></br><span class="lime">Á. Szerepük a szelvényeződés során elengedhetetlen</span>'
+},{
+	question:'GEN. Az idegrendszer kialakulása melyik képletből történik?',
+	answer:'L. Gerinchúr</br>A. Szomita</br>T. Endoderma</br><span class="lime">N. Velőlemez</span>'
+},{
+	question:'GEN. Válassza ki, melyik <b>nem</b> tartozik a placenta funkciói közé!',
+	answer:'S. Vitaminokat alakít át</br><span class="lime">A. Exokrin funkciói vannak</span></br>Z. Kétirányú transzportfolyamatokat bonyolít</br>E. Glikogén raktár'
+},{
+	question:'GEN. Mely hormonok előállítására képes a placenta?',
+	answer:'S. Koleszterin</br><span class="lime">K. Progeszteron</span></br>Ö. Pregnenolon</br>T. Koriongonadotropin'
+},{
+	question:'GEN. A teratogénekre való érzékenység legnagyobb',
+	answer:'É. A „minden vagy semmi” időszakban</br>U. A 18.- 60.nap között</br><span class="lime">T. A 60. nap után</span></br>V. Közvetlenül a születés előtti napokban'
+},{
+	question:'GEN. A terhesség alatt folsav szedésével csökkenthető a magzatnál a(z) …….. kialakulásának esélye',
+	answer:'L. Spina bifida</br>H. Végtaghiány</br><span class="lime">U. Microphtalmia</span></br><span class="lime">L. Down szindróma</span>'
+},{
+	question:'GEN. Melyik esetben károsíthatja az anya immunrendszere a magzatot?',
+	answer:'<span class="lime">L. Ha az anya Rh+ a magzat Rh-</span></br><span class="lime">A. Ha az anya Rh- a magzat Rh+</span></br>I. Ha az anya vércsoportja 0, a gyereké AB</br>D. Ha az anya vércsoportja AB, a gyereké 0'
+},{
+	question:'GEN. A thalidomid hatására kialakulhat:',
+	answer:'E. Nyitott gerinc</br><span class="lime">J. Fókakezűség</span></br><span class="lime">D. Végtagnélküliség</span></br><span class="lime">O. Kisszeműség</span>'
+},{
+	question:'GEN. Egyetlen fehérjemolekula előállításáért felelős DNS szakasz',
+	answer:'<span class="lime">N. gén</span></br>Á. kromoszóma</br>H. kromatin</br>D. kodon'
+},{
+	question:'GEN. A homozigóta, heterozigóta, hemizigóta kifejezések a(z) ……..ra vonatkoznak',
+	answer:'<span class="lime">Í. Genotípus</span></br>E. Fenotípus</br>B. Allél</br>R. Kromoszómák'
+},{
+	question:'GEN. A hemizigóta kifejezés ..……… nézve értelmezhető',
+	answer:'E. A nők X kromoszómáján lévő génekre</br><span class="lime">T. A férfiak X kromoszómáján lévő génekre</span></br>C. Egy lókuszon lévő két különböző allélra</br>E. Egy lókuszon lévő két egyforma allélra'
+},{
+	question:'GEN. Az uniformitás szabálya kimondja, hogy homozigóta szülők keresztezéséből származó utódok mindegyike',
+	answer:'N. Genotípusában azonos</br>B. Fenotípusában azonos</br><span class="lime">J. Geno és fenotípusában azonos</span></br>E. Geno és fenotípusában eltérő'
+},{
+	question:'GEN. A szegregáció törvénye kimondja, hogy az F1 nemzedék (heterozigóta) tagjainak keresztezéséből származó második utódnemzedék (F2) minden tagja',
+	answer:'N. Genotípusában azonos egymással</br>A. Fenotípusában azonos a szülőkkel</br>D. Geno és fenotípusában azonos egymással</br><span class="lime">A. Geno és fenotípusában a szülőktől eltérő lehet</span>'
+},{
+	question:'GEN. Két tulajdonság egymástól függetlenül kombinálódhat akkor',
+	answer:'<span class="lime">A. Ha a génjeik két különböző kromoszómán helyezkednek el</span></br><span class="lime">S. Ha ugyanazon a kromoszómán vannak, de a meiózis során crossing over történik köztük</span></br>E. Ha az őket hordozó egyed ivartalan módon szaporodik</br>G. Ha nincsenek jelen szelektív hatású környezeti tényezők'
+},{
+	question:'GEN. Az élettel nem összeegyeztethető elváltozásokat okozó génváltozat',
+	answer:'Y. Szubvitális</br><span class="lime">I. Letális</span></br>G. Pleiotróp</br>Ú. Mortális'
+},{
+	question:'GEN. A kodomináns öröklésmenetre példa:',
+	answer:'<span class="lime">K. Az AB0 vércsoportrendszer</span></br>N. A csodatölcsér színének öröklődése</br>Á. A borsószemek színének öröklődése</br>R. A kutyák fültartásának öröklődése'
+},{
+	question:'GEN. Melyik öröklődésmenetre jellemző, hogy a heterozigóták tünetmentesek?',
+	answer:'C. Autoszómális domináns</br><span class="lime">E. Autoszómális recesszív</span></br>H. X-hez kötött domináns</br>K. Egyik sem'
+},{
+	question:'GEN. Ha a beteg gyerek(ek) egyik szülője sem volt beteg, viszont a testvérek közül ugyanannyi fiú születik betegen, mint lány, akkor a betegség öröklődése:',
+	answer:'K. Autoszómális domináns</br><span class="lime">R. Autoszómális recesszív</span></br>O. X-hez kötött domináns</br>S. X-hez kötött recesszív'
+},{
+	question:'GEN. Egy tulajdonságra nézve hemizigóta akkor lehet valaki,',
+	answer:'H. Ha az adott lókuszon két egyforma allélja van</br>Á. Ha az adott lókuszon két különböző allélja van</br><span class="lime">T. ha az adott tulajdonság X-hez kötötten öröklődik, és az illető férfi</span></br>C. ha az adott tulajdonság Xhez kötötten öröklődik, és az illető nő'
+},{
+	question:'GEN. Mi az a Barr test?',
+	answer:'D. Eukromatikus X kromoszóma</br><span class="lime">M. Heterokromatikus X kromoszóma</span></br>I. Metakromatikus X kromoszóma</br>D. Bazofil festődésű szemcse az idegsejtek citoplazmájában'
+},{
+	question:'GEN. Mit magyaráz meg Lyon elmélete?',
+	answer:'<span class="lime">Í. Hogy miért inaktiválódik a nők egyik X kromoszómája</span></br>G. Hogy hogyan alakult ki az élet a Földön</br>X. Hogy hogyan épül fel a sejtmembrán</br>Y. Hogy hogyan kódolja a DNS a fehérjéket'
+},{
+	question:'GEN. A testmagasság',
+	answer:'H. Szomatikusan öröklődik</br><span class="lime">G. Multifaktoriálisan öröklődik</span></br>Á. Mitokondriálisan öröklődik</br>G. Meghatározása egyetlen gén feladata'
+},{
+	question:'GEN. A nagyszülő és unokája génjei ….%ban közösek',
+	answer:'<span class="lime">A. 25</span></br>K. 50</br>F. 60</br>J. 75'
+},{
+	question:'GEN. Egy ember testi sejtjében ….. db kromoszóma található',
+	answer:'É. 23</br>Á. 36</br><span class="lime">B. 46</span></br>F. 64'
+},{
+	question:'GEN. Ivari kromoszóma =',
+	answer:'H. automszóma</br>B. akroszóma</br>J. genoszóma</br><span class="lime">A. gonoszóma</span>'
+},{
+	question:'GEN. A kromoszómák vizsgálatához a sejtnek a sejtosztódás mely fázisában kell lennie?',
+	answer:'É. Anafázis</br>J. Telofázis</br><span class="lime">L. Metafázis</span></br>G. Profázis'
+},{
+	question:'GEN. A Down szindróma oka',
+	answer:'K. A 18as kromoszóma triszómiája</br>B. A 13as kromoszóma triszómiája</br><span class="lime">S. A 21es kromoszóma triszómiája</span></br>G. Deléció a 21es kromoszóma rövid karján'
+},{
+	question:'GEN. A 13as kromoszóma triszómiájának következménye a(z)',
+	answer:'A. Down kór</br><span class="lime">Z. Patau szindróma</span></br>C. Edwards szindróma</br>D. Turner szindróma'
+},{
+	question:'GEN. A Turner szindróma oka',
+	answer:'H. Egy testi kromoszóma triszómiája</br>D. Az X kromoszóma triszómiája</br><span class="lime">E. Az X kromoszóma monoszómiája</span></br>G. + egy Y kromoszóma (XYY)'
+},{
+	question:'GEN. A Klinefelter szindrómások kariotípusa',
+	answer:'B. 46,XXY</br><span class="lime">R. 47,XXY</span></br>C. 46,XYY</br>V. 46,XXX'
+},{
+	question:'GEN. A magzatvízből történő mintavétel a(z)',
+	answer:'H. Fötoszkópia</br>F. CVS</br><span class="lime">E. Amniocentézis</span></br>É. AFP'
+},{
+	question:'GEN. A citogenetika vizsgálja',
+	answer:'<span class="lime">N. A kromoszómák számbeli eltéréseit</span></br><span class="lime">C. A kromoszómák szerkezeti eltéréseit</span></br>L. A génmutációkat</br>F. A genetikai polimorfizmust'
+},{
+	question:'GEN. Milyen új, addig nem ismert dolgot bizonyítottak be a baktériumtranszformációs kísérletek?',
+	answer:'<span class="lime">S. hogy a DNS az információhordozó molekula</span></br>B. hogy a poliszacharid tokjukat elvesztett baktériumok nem tudnak betegséget okozni</br>C. hogy az egerek egy része immunis a Pneumococcus baktériumra</br>D. hogy bizonyos vírusok baktériumokat betegítenek meg'
+},{
+	question:'GEN. A baktériofágok',
+	answer:'A. baktériumokat fertőző baktériumok</br><span class="lime">É. a baktériumok vírusai</span></br>C. fagocitózisra képes baktériumok</br>J. baktériummal táplálkozó egysejtűek'
+},{
+	question:'GEN. A DNS kettős hélix szerkezetét ……. fedezte fel.',
+	answer:'G. Fox és Harada</br>B. Singer és Nicholson</br><span class="lime">T. Watson és Crick</span></br>J. Miller és Oparin'
+},{
+	question:'GEN. A restrikciós enzim a baktérium saját DNSét a ……….. alapján ismeri fel',
+	answer:'<span class="lime">M. A DNS nukleotidjaihoz kapcsolt metilcsoportok mintázatából</span></br>K. A bázissorrendből</br>C. A DNShez kapcsolódó speciális fehérjékből</br>B. A hasítási helyekből'
+},{
+	question:'GEN. A génsebészetben használt restrikciós endonukleázok a ………….. származnak',
+	answer:'<span class="lime">Á. Baktériumokból</span></br>B. Bakteriofágokból</br>D. Élesztő sejtekből</br>C. Állati sejtekből'
+},{
+	question:'GEN. Ahhoz, hogy egy rekombináns vektorba beépíthessük az emberi inzulin génjét, szükség van:',
+	answer:'A. Restrikciós endonukleázokra</br>B. Ligázra</br>C. Egyikre sem</br><span class="lime">S. Mindkettőre</span>'
+},{
+	question:'GEN. Egy tetszőleges DNS szakaszról nagyszámú másolatot készíthetünk',
+	answer:'A. Egy rekombináns plazmiddal megfertőzött baktériumtenyészettel</br>B. PCR-rel</br><span class="lime">N. Mindkettővel</span></br>H. Egyikkel sem'
+},{
+	question:'GEN. Mi NEM kell a PCR-hez (polimeráz láncreakció)?',
+	answer:'<span class="lime">A. Aktivált nukleotidok</span></br>J. Primerek</br>C. DNS polimeráz</br>A. Helikáz'
+},{
+	question:'GEN. A reverz transzkriptáz enzim',
+	answer:'A. DNSről DNSre másol</br>L. DNSt RNSre másol</br><span class="lime">K. RNSt DNSre másol</span></br>D. Az mRNSben tárolt információ alapján elkészíti a fehérjét'
+},{
+	question:'GEN. A gélelektroforézis a DNS darabokat a ……….. alapján választja szét',
+	answer:'A. Bázissorrendjük</br><span class="lime">R. Méretük</span></br>C. Töltésük</br>Ű. Génjeik'
+},{
+	question:'GEN. Fehérjék kimutatására a ……. technikát használjuk.',
+	answer:'L. Southern blot</br><span class="lime">Ó. Western blot</span></br>C. Northern blot</br>A. Eastern blot'
+},{
+	question:'GEN. A genomika egy élőlény ………… foglalkozik',
+	answer:'<span class="lime">J. DNS-ének összességével</span></br>B. Génjeinek összességével</br>C. Fehérjéinek összességével</br>D. Alléljainak összességével'
+},{
+	question:'GEN. Az emberi genom …….%-a sosem íródik át fehérjévé',
+	answer:'<span class="lime">A. 5</span></br>K. 32</br>C. 58A. 97'
+},{
+	question:'GEN. A gén chip technika',
+	answer:'<span class="lime">F. Egyszerre több 100 vagy 1000 gén vagy mRNS vizsgálatára alkalmas módszer</span></br>B. Egy számítógépes modellrendszer a gének kölcsönhatásának vizsgálatára</br>K. Egy fejlesztés alatt álló gyógymód neurológiai betegségek kezelésére</br>H. Egy DNS szakasz bázissorrendjének meghatározására alkalmas módszer'
+},{
+	question:'GEN. Milyen RNS nincs?',
+	answer:'Ö siRNS</br>C. miRNS</br><span class="lime">E. cRNS</span></br><span class="lime">L. nRNS</span>'
 }
 ];
 
