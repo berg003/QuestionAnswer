@@ -1,4 +1,4 @@
-var questionAnswers = [
+var kahootQuestionAnswers = [
 // Teszt
 {
 	question: 'Mikor alakult meg az Egészségügyi Világszervezet?',
@@ -144,8 +144,84 @@ var questionAnswers = [
 }
 ];
 
+summaryQuestionAnswers = [
+{
+	question:'Hippokratész',
+	answer:'- etikai kódex</br>- orvosi eskű</br>- 4 tulajdonság meghatározása</br>- mikor élt'
+},{
+	question:'Galenosz',
+	answer:'- első anatómia könyv</br>- mikor élt'
+},{
+	question:'Florence',
+	answer:'- születés</br>- első ápoló szakirodalom</br>- Londonban ápoló iskolát alapított</br>- krími háborúban hígénia elérése</br>- miért lámpás hölgy'
+},{
+	question:'Nursiai Benedek',
+	answer:'- első kolostori orvoslás'
+},{
+	question:'Szent Pál',
+	answer:'- szeretet</br>- empátia'
+},{
+	question:'Áprádházi Szent Erzsébet',
+	answer:'- Elesettek gyámolítója'
+},{
+	question:'Semmelweis Ignác Fülöp',
+	answer:'- Sebész, szülész</br>- anyák megmentője</br>- klórmészt takarító kezén érezte</br>- Bécsben és Szent Rókus kórházban dolgozott'
+},{
+	question:'Markusowszki',
+	answer:'- Orvosi hetilap</br>- Semmelweisnek tanácsolta, hogy írjon a gyermekágyi lázról</br>'
+},{
+	question:'Trugly Margit',
+	answer:'- Szent Rókus kórházban, Kútvölgyi kórházban, Bakáts téren a radiológiaia intézetben dolgozott</br>- Márta nővérek: szigorú képzés, de életpályát biztosított nekik'
+},{
+	question:'ICN (International Council of Nurses)',
+	answer:'- elismerte a vöröskeresztet és a márta nővérek iskoláját</br>- 1889-ben alakult</br>- szakmai civil szervezet</br> ápolás minőségén javítás is cél</br>- ápolók képzése</br>- ápolóknek érdekvédelmi szervezet</br>- szimboóluma F. Nightingale lámpája'
+},{
+	question:'WHO (World Health Organization)',
+	answer:'- feladata, célkitűzése:</br>-- minél kevesebb járvány</br>-- minél tovább éljenek az emberek</br>-- minél kevesebb csecsemő halálozás</br>-- munkahelyi ártalmak csökkentése</br>-- BNO kódrendszer: betegségek egységesítése<br>-- kézmosó kampány</br>- mióta van'
+},{
+	question:'Vöröskereszt és Vörösfélhold',
+	answer:'- humanitárius szervezet</br>- Henry Dunant hozta létre</br>- 1919ben alakult</br>- 60as évektől indult a szerveződés</br>- adománygyűjtés</br>- véradás</br>- katasztrófa mentés</br>- tanfolyamok'
+},{
+	question:'Virginia Henderson',
+	answer:'- igazi ápolási modell megalakítása</br>- ápolás egy segítő hivatás</br>- a beteg nem beteg, hanem páciens'
+},{
+	question:'Ápolási modellek',
+	answer:'- mi az ápolás lényege, erről szól</br>Oren: Henderson modelljét vitte tovább, deficit felmérése</br>- Rogers: prevencióra helyezi a hangsúlyt, alapellátásban jelentős</br>- Roy féle: beteg mennyire alkalmas alkalmazkodni a környezethez'
+},{
+	question:'Ápoló mit csinál',
+	answer:'- szükséglet felmérése</br>- megtervezés</br>- végrehajtás</br>- értékelés</br>- mindig ugyanez a sorrend, csak a prioritások változnak'
+},{
+	question:'Ápolás funkciói',
+	answer:'- nem önálló funkció</br>-- gyógyszerelés</br>-- mindennapos beavatkozások: katéterezés, vérvétel, stb</br>-- önálló: megfigyelés, szükségletek és komfort biztosítása</br>-- együttműködő: orvos segítése pl. hascsapolás, mellkasfunkció</br>-- beteg előkészítése</br>-- beteg megnyugtatása</br>-- eszközök elpakolása'
+},{
+	question:'',
+	answer:''
+},{
+	question:'',
+	answer:''
+},{
+	question:'',
+	answer:''
+},{
+	question:'',
+	answer:''
+},{
+	question:'',
+	answer:''
+}
+];
+
 function init() {
 	const list = document.getElementById('questions'); 
+	list.innerHTML = '';
+	var combobox = document.getElementById('questionType');
+	var value = combobox.options[combobox.selectedIndex].value;
+	var questionAnswers;
+	if (value == 'kahoot') {
+		questionAnswers = kahootQuestionAnswers;
+	} else {
+		questionAnswers = summaryQuestionAnswers;
+	}
 	
 	questionAnswers.forEach(item => {
 		let option = document.createElement('option');
@@ -156,6 +232,15 @@ function init() {
 
 function searchAnswer() {
 	const div = document.getElementById('answer');
+	var combobox = document.getElementById('questionType');
+	var value = combobox.options[combobox.selectedIndex].value;
+	var questionAnswers;
+	if (value == 'kahoot') {
+		questionAnswers = kahootQuestionAnswers;
+	} else {
+		questionAnswers = summaryQuestionAnswers;
+	}
+	
 	var question = document.getElementById('question').value;
 	questionAnswers.forEach(item => {
 		if (item.question == question) {

@@ -434,7 +434,7 @@ var shortQuestionAnswers = [
 },
 {
 	question: 'Peptidkötés',
-	answer: ' tk 34.o kép!'
+	answer: '<img src="img/pepitkotes.png">'
 },
 {
 	question: 'Perikarion',
@@ -913,8 +913,152 @@ var multiQuestionAnswers = [
 	question:'II/B. K. Replikáció; B. Transzkripció; E. Mindkettő; N. Egyik sem',
 	answer:'<span class="lime">K.</span> DNS szintézis</br><span class="lime">B.</span> RNS szintézis</br><span class="lime">E.</span> 5’→ 3’irányba halad</br><span class="lime">N.</span> 3’→ 5’ irányba halad</br><span class="lime">N.</span> A riboszómákon történik</br><span class="lime">E.</span> A bázipárosodás szabályai szerint halad'
 },{
-	question:'III/A. ',
-	answer: ''
+	question:'IV/A. Mettől meddig tart egy sejtciklus?',
+	answer: 'M. Az egyik sejtosztódás végétől a következő elejéig</br>A. A sejt keletkezésétől az apoptózisáig</br>Y. Az interfázis végétől az M-fázis elejéig</br><span class="lime">C. Az egyik sejtosztódás végétől a következő végéig</span>'
+},{
+	question:'IV/A. Mi jellemez egy prereplikációs fázisban lévő sejtet?',
+	answer: 'A. DNS szintézis folyik benne</br><span class="lime">S. 46db egy kromatidás kromoszóma található benne</span></br>R. haploid sejtek</br><span class="lime">A. kétszeres kromoszómagarnitúrával bírnak</span>'
+},{
+	question:'IV/A. Mi jellemez egy G0-fázisban lévő sejtet?',
+	answer: '<span class="lime">K. Kilépett a sejtciklusból</span></br>H. Hamarosan apoptotizál</br><span class="lime">A. Szükség esetén újra ciklusba léphet</span></br>M. Nincsenek benne szintetikus folyamatok'
+},{
+	question:'IV/A. Mely folyamatok beindításáért felelős az M-fázis promóciós faktora (MPF)?',
+	answer: '<span class="lime">D. A mitózis biokémiai és morfológiai változásai</span></br>H. A metabolikus folyamatok</br><span class="lime">D. A kromatin kondenzálódása</span></br>B. Az apoptózist elindító folyamatok'
+},{
+	question:'IV/A. Melyek a mitózis profázisának legfontosabb történései?',
+	answer: '<span class="lime">I. Kondenzálódnak a kromoszómák</span></br>U. Lebomlik a sejthártya</br><span class="lime">G. Eltűnik a magvacska</span></br>R. Haploid sejtek jönnek létre'
+},{
+	question:'IV/A. Mi a meiózis lényege?',
+	answer: '<span class="lime">V. A redukciós sejtosztódás</span></br>G. Haploid sejtből diploid keletkezik</br>E. Diploid sejtből diploid sejt keletkezik</br>R. Ősivarsejtek keletkezése'
+},{
+	question:'IV/A. Miből adódik a meiózis eredményeként előálló genetikai változatosság az utódsejtekben?',
+	answer: '<span class="lime">A. Az anyai és apai kromoszómapárok véletlenszerű szétválásából</span></br>K. A kromatidák véletlenszerű szétválásából</br><span class="lime">G. A crossing over jelenségéből</span></br>A. A kinetokor mikrotubulusok irányultságából'
+},{
+	question:'IV/A. Hogyan jöhet létre a jel erősítése az intracelluláris jelátvitel során?',
+	answer: 'R. Egyre több sejt kerül kapcsolatba a liganddal</br><span class="lime">Y. Az aktiválódó enzimek egynél több reakciót katalizálnak</span></br>C. Több sejtfelszíni receptor termelődik</br>S. A jelátvitel specifitásának erősödésével'
+},{
+	question:'IV/A. Hogyan működnek az ioncsatorna-receptorok?',
+	answer: '<span class="lime">U. A ligand jelenlététől függően vannak nyitva vagy csukva</span></br>O. Az ionok jelenlététől függően vannak nyitva vagy csukva</br>N. Ligandjaik ionok</br>K. Ionokból álló csatornák'
+},{
+	question:'IV/A. Hogyan nevezzük azt a jelenséget, melynek segítségével a sejt képes integrálni a ráérkező jeleket és eldönteni, hogy milyen biológiai választ ad?',
+	answer: 'P. Iniciációs degradáció</br>N. Kombinatoriális szignalizáció</br><span class="lime">I. Integrációs kombináció</span></br>C. Kombinációs reakció'
+},{
+	question:'IV/A. Mik azok a kaszpázok?',
+	answer: '<span class="lime">K. Az apoptózis végrehajtó fehérjéi</span></br><span class="lime">S. Proteázok, lebontó fehérjék</span></br>U. Mitokondriális fehérjék</br>R. Endoplazmatikus retikulum membránfehérjék'
+},{
+	question:'IV/A. Mely gének hibás működése hozható összefüggésbe a tumorképződéssel?',
+	answer: 'B. Tumorigén</br><span class="lime">Z. Kapuőr gén</span></br>C. Karcinogén</br><span class="lime">I. Tumorszuppresszor gén</span>'
+},{
+	question:'IV/A. Az ivaros szaporodáshoz elengedhetetlen',
+	answer: 'B. Hogy alakilag két különböző gaméta álljon rendelkezésre</br>E. Az ivari dimorfizmus kialakulása</br>T. Hogy a megtermékenyítés az anyai szervezeten belül történjen</br><span class="lime">G. Az ivarsejtek egyesülése</span></br>O. A hermafroditizmus kiküszöbölése'
+},{
+	question:'IV/A. A fötális here által termelt, a további hím nemi fejlődést meghatározó anyagok:',
+	answer: 'E. SRY</br><span class="lime">O. AMH</span></br>L. TDF</br><span class="lime">R. Tesztoszteron</span></br>F. HY'
+},{
+	question:'IV/A. Az ivari meghatározottság (nem-determináció) fogalmával kapcsolatos állítások közül válassza ki azokat, melyek igazak:',
+	answer: 'E. A genetikai nem mindig egyértelműen meghatározza a genitális nemet</br><span class="lime">Ú. A testis kialakulásának előfeltétele minden esetben az Y kromoszóma működése</span></br>J A másodlagos nemi jellegek kialakítását az LH közvetlenül irányítja</br>A. Előfordulhat, hogy a pszichoszexuális nem nem egyezik meg a genitális nemmel</br>T. A tesztoszteron jelenléte feltétlenül megakadályozza a külső nemi szervek női irányú differenciálódását.'
+},{
+	question:'IV/A. Milyen funkciót tölt be az akrozin?',
+	answer: 'H. Képes a corona radiata sejtek sejtkapcsoló kultúráinak feloldására</br><span class="lime">A. Specifikus kapcsolatot képes létrehozni a petesejt és a hímivarsejt között</span></br>M. A spermium mozgását irányítja</br><span class="lime">K. Képes feloldani a zona pellucidát</span>'
+},{
+	question:'IV/A. Mely állítások igazak az embriópajzsra?',
+	answer: '<span class="lime">M. Egyik felszínét az amnionüreg, a másikat a szikhólyag határolja</span></br>L. Egyik felszíne az anyai szövetekkel, másik a magzati szövetekkel érintkezik</br><span class="lime">Á. Az embrioblasztok differenciálódásából jön létre</span></br>D. A trofoblasztok differenciálódása során keletkezik'
+},{
+	question:'IV/A. Az idegrendszer kialakulása melyik képletből történik?',
+	answer: '<span class="lime">S. Gerinchúr</span></br>O. Szomita</br>H. Endoderma</br>S. Velőlemez'
+},{
+	question:'IV/A. K. Ektoderma; A. Mezoderma; L. Mindkettő; O. Egyik se',
+	answer: '<span class="lime">O</span>A szelvényeződés során alakul ki</br><span class="lime">K</span>Az idegrendszer telepe belőle fejlődik</br><span class="lime">K</span>A dúclécek belőle fejlődnek</br><span class="lime">A</span>A somiták jönnek létre belőle</br><span class="lime">L</span>A háromlemezes embriópajzs része</br><span class="lime">A</span>Ilyen eredetű a gerinchúr'
+},{
+	question:'IV/A. Í. Korion; G. Amnion; M. Mindkettő; A. Egyik sem',
+	answer: '<span class="lime">M</span>Magzatburok</br><span class="lime">Í</span>Külső felszínét bolyhok rögzítik az anyai szövetekhez</br><span class="lime">G</span>Üregét magzatvíz tölti ki</br><span class="lime">M</span>Részt vesz a placenta kialakításában</br><span class="lime">A</span>Anyai felszíne a peteburokból alakul ki</br><span class="lime">G</span>Hozzánő a külső magzatburok belső felszínéhez'
+},{
+	question:'IV/A. Jelölje meg a placenta által termelt polipeptidhormonokat!',
+	answer: '<span class="lime">U. Koriongonadotropin</span></br>V. Ösztrogén</br>É. Androgén</br><span class="lime">N. Koriotireotropin</span>'
+},{
+	question:'IV/A. N. Ovogenezis; A. Spermiogenezis; K. Mindkettő; T. Egyik sem',
+	answer: 'Van benne szaporodási és érési szakasz</br>Átalakulási szakasza is van</br>Szaporodási szakaszában meiózisok követik egymást</br>A meiózis végeredménye 1 ivarsejt'
+},{
+	question:'IV/A. M. Ovogenezis; E. Spermiogenezis; S. Mindkettő; R. Egyik sem',
+	answer: '<span class="lime">K</span>Van benne szaporodási és érési szakasz</br><span class="lime">A</span>Átalakulási szakasza is van</br><span class="lime">T</span>Szaporodási szakaszában meiózisok követik egymást</br><span class="lime">N</span>A meiózis végeredménye 1 ivarsejt'
+,{
+	question:'IV/A. M. Ovogenezis; E. Spermiogenezis; S. Mindkettő; R. Egyik sem',
+	answer: '<span class="lime">E</span>A meiózis végeredménye 4 ivarsejt</br><span class="lime">M</span>A meiózis a megtermékenyüléskor fejeződik be</br><span class="lime">I</span>A gonádokban játszódik le</br><span class="lime">S</span>Nemi hormonok hatására játszódik le</br><span class="lime">M</span>Az ivarsejtet tüszőhámsejtek veszik körbe</br><span class="lime">E</span>A Sertoli-féle sejtek segítik</br><span class="lime">R</span>Végeredményeként diploid sejtek keletkeznek'
+},{
+	question:'IV/A. +++: E; ++-: J; +-: K; -+: L; --: Ü',
+	answer: '<span class="lime">J</span>A szomitanyélből jönnek létre a vizeleti szervek telepei,mert az elővese és az ősvese gyorsan visszafejlődik.</br><span class="lime">Ü</span>A kardiogén lemezből kifejlődő kétoldali szívtelep egymással nem egyesül, mert a megszületéskor egységes a szívüreg.</br><span class="lime">K</span>A velőcső feji végén alakul ki az agy telepe, mert a központi idegrendszer mezodermális eredetű.'
+},{
+	question:'IV/B. Mely állítások igazak a sejtszaporodásra?',
+	answer: '<span class="lime">S. Sejtosztódásokon keresztül valósul meg</span></br>K. A kiindulási és az utódsejtek genetikailag mindig azonosak</br><span class="lime">E. Egyensúlyt tart a programozott sejthalállal</br>V. Csak egy lehetséges formáját ismerjük</span>'
+},{
+	question:'IV/B. Milyen szakaszokra osztható az interfázis?',
+	answer: 'X. G1, G2 és G3-fázisokra</br>É. G0, S és G2-fázisokra</br><span class="lime">M. G1, S és G2-fázisokra</span></br>N. S1, G és S2-fázisokra'
+},{
+	question:'IV/B. Mi biztosítja azt, hogy a DNS csak egyszer kettőződjék meg az S-fázisban?',
+	answer: 'I. A DNS polimerázok elhagyják a sejtmagot</br>A. Az „engedélyező” fehérjék aktiválódása</br>K. Elfogynak a nukleotidok</br><span class="lime">M. Az „engedélyező” fehérjék inaktiválódása</span>'
+},{
+	question:'IV/B. Mire szolgálnak a sejtciklus ellenőrzőpontjai (checkpoint)?',
+	answer: '<span class="lime">I. Az utódsejtek genetikai stabilitásának biztosítására</span></br><span class="lime">S. Ellenőrzésre kerül, hogy az előző fázis rendben lezajlott-e</span></br><span class="lime">I. Eldől, hogy a sejt tovább mehet-e a következő fázisba</span></br><span class="lime">N. Kiszűri a kritikus hibákat</span>'
+},{
+	question:'IV/B. Melyek a mitózis prometafázisának legfontosabb történései?',
+	answer: '<span class="lime">C. A maghártya vezikulumokra esik szét</span></br>K. Citokinezis</br>S. A kinetokór kapcsolódik a mikrotubulusokhoz</br>T. Kariokinezis'
+},{
+	question:'IV/B. Az alábbi állítások közül melyek igazak az I. meiotikus osztódás profázisára?',
+	answer: '<span class="lime">A. A homológ kromoszómák között egyes részletek kicserélődése történik</span></br>I. A kromatidák elválnak egymástól</br><span class="lime">Z. Ennek során történik a crossing over</span></br>V. Befűződik a sejthártya'
+},{
+	question:'IV/B. Mit jelent az a kifejezés, hogy egy sejt kilép a sejtciklusból?',
+	answer: 'I. Folytatja útját a sejtciklus fázisain keresztül, további osztódás irányába</br>B. G0 fázisú sejtté alakul</br><span class="lime">É. Proliferációs képességének feladása mellett differenciálódni kezd</span></br>A. Aktiválja az apoptózis folyamatait'
+},{
+	question:'IV/B. Mit jelent az, hogy a jelátvitel redundáns?',
+	answer: 'N. Különböző ligandok mindig eltérő hatást váltanak ki</br><span class="lime">L. Különböző ligandok kiválthatnak hasonló hatást</span></br>M. Különböző sejttípusokon ugyanazok a ligandok más-más hatást válthatnak ki</br>A. Különböző sejttípusokon más-más ligandok ugyanazt a hatást váltják ki'
+},{
+	question:'IV/B. Milyen hatással van a növekedési faktorok kötődése a receptorukra?',
+	answer: 'N. Másodlagos hírvivőket kezdenek el termelni</br><span class="lime">E. Két receptorfehérje egymáshoz kapcsolódik</span></br>C. A receptorok acetilálódnak</br>I. A receptorok enzimatikus aktivitása megszűnik'
+},{
+	question:'IV/B. Mi különbözteti meg az apoptózist a nekrózistól?',
+	answer: 'B. Semmi, a két elnevezés azonos folyamatot jelöl</br><span class="lime">T. Apoptóziskor nincs gyulladás</span></br>Á. A nekrózis során nem pusztulnak el a sejtek</br>L. Az apoptózis során nincs szerepe a külső szignáloknak</br>J. Kaszpázaktiválódás'
+},{
+	question:'IV/B. Mikor jönnek létre az apoptotikus testek?',
+	answer: 'R. A mitózis metafázisában</br>F. Metasztázis képződésekor</br><span class="lime">B. A sejthalál degradációs fázisában</span></br><span class="lime">E. a fehérjeszintézis végső szakaszában</span>'
+},{
+	question:'IV/B. Mit nevezünk látenciaperiódusnak?',
+	answer: 'K. Az első daganatsejt és a diagnózis között eltelt időt</br><span class="lime">N. A tumort kiváltó hatás és a daganat megjelenése között eltelt időt</span></br>A. A kezelés megkezdése és a terápiás hatás megjelenése között eltelt időt</br>L. A proliferáció serkentése és a tumoriniciáció megindulása között eltelt időt'
+},{
+	question:'IV/B. Az Y kromoszómán található, a nem meghatározásában jelentős gének:',
+	answer: '<span class="lime">A. SRY</span></br>E. TDF</br><span class="lime">M. HY</span></br>Z. AMH'
+},{
+	question:'IV/B. I. Női nemi működés; B. Hím nemi működés; Ő. Mindkettő; L. Egyik sem',
+	answer: '<span class="lime">I</span>Ciklikus jellegű</br><span class="lime">B</span>Folyamatos jellegű</br><span class="lime">Ő</span>A hipofízis hormonjai irányítják</br><span class="lime">L</span>Csak az öröklött tulajdonságok alakítják ki'
+},{
+	question:'IV/B. A gametogenezisre vonatkozó állítások közül válassza ki a hamisakat:',
+	answer: 'M. Ősivarsejtekből indul ki</br>J. Haploid ivarsejtek képződésével jár</br><span class="lime">K. Haploid sejtkből diploid sejtek keletkeznek</span></br>Ú. Lehetőséget ad a genetikai variabilitás kialakulására</br><span class="lime">E. Szaporodási szakaszában meiózisok történnek.</span>'
+},{
+	question:'IV/B. Mi történik az akroszómális reakció során?',
+	answer: '<span class="lime">V. Létrejön az akrozin aktív formája</span></br><span class="lime">E. Hialuronsav bontás történik</span></br><span class="lime">S. Feloldódik a zona pellucida</span></br>J. Megakadályozza a megtermékenyítést'
+},{
+	question:'IV/B. Az alábbi állítások közül melyek igazak a fejnyúlványra (chorda dorsalis)?',
+	answer: '<span class="lime">E. A mezodermából jön létre</span></br>D. Az endoderma alakítja ki</br><span class="lime">B. Indukálja a velőlemez differenciálódását</span></br>J. Az embrió idegrendszerének előtelepe'
+},{
+	question:'IV/B. L. Amnion; E. Korion; B. Mindkettő; R. Egyik sem',
+	answer: '<span class="lime">B</span>Magzatburok</br><span class="lime">E</span>Előbb jön létre</br><span class="lime">L</span>Üregét magzatvíz tölti ki</br><span class="lime">R</span>Anyai felszíne a méhnyálkahártyából alakul ki</br><span class="lime">E</span>Külső felszínét bolyhok rögzítik az anyai szövetekhez'
+},{
+	question:'IV/B. N. Ovogenezis; E. Spermiogenezis; D. Mindkettő; L. Egyik sem',
+	answer: '<span class="lime">N</span>A meiózis végeredménye 1 ivarsejt</br><span class="lime">D</span>Van benne szaporodási és érési szakasz</br><span class="lime">E</span>Átalakulási szakasza is van</br><span class="lime">L</span>Szaporodási szakaszában meiózisok követik egymást'
+},{
+	question:'IV/B. E. Ovogenezis; K. Spermiogenezis; Z. Mindkettő; N. Egyik sem',
+	answer: '<span class="lime">K</span>A meiózis végeredménye 4 ivarsejt</br><span class="lime">E</span>A meiózis a megtermékenyüléskor fejeződik be</br><span class="lime">Z</span>A gonádokban játszódik le</br><span class="lime">N</span>Végeredményeként diploid sejtek keletkeznek</br><span class="lime">E</span>Az ivarsejtet tüszőhámsejtek veszik körbe</br><span class="lime">N</span>A pubertással végetér</br><span class="lime">K</span>A Sertoli-féle sejtek segítik'
+},{
+	question:'IV/B. A köldökzsinórra az alábbi állítások igazak:',
+	answer: '<span class="lime">M. A megnyúlt hasnyélből jön létre</span></br><span class="lime">I. 2 artéria és egy véna fut benne</span></br><span class="lime">N. Belekerül az allantois és a szikhólyag maradványa</span></br>D. A korionburok veszi körbe'
+},{
+	question:'IV/B. Az idegrendszer kialakulása melyik képletből történik?',
+	answer: 'A. Gerinchúr</br>B. Szomita</br>C. Endoderma</br><span class="lime">T. Velőlemez</span>'
+},{
+	question:'IV/B. Mit nevezünk blasztocölnek?',
+	answer: 'A. Az amnion üregét</br>B. A szikhólyag üregét</br>C. A méh üregét</br><span class="lime">A. A hólyagcsíra üregét</span>'
+},{
+	question:'IV/B. Z: +++; Ő: ++; D: +-; I: -+; M: ---',
+	answer: '<span class="lime">Z</span>Az előbélből fejlődik a hasnyálmirigy és a máj is, mert annak hámmegvastagodásaiként indulnak fejlődésnek.</br><span class="lime">I</span>A gerinchúr a velőlemez indukciós hatására alakul ki, mert a sejtek pozíciófüggő determinációjában a morfogéngrádiensek alapvető fontossággal bírnak.</br><span class="lime">D</span>Az előagyhólyagot nyílirányú barázda osztja ketté kialakítva a két agyfélteke előtelepét, mert a velőcső a mezodermából kialakuló cső alakú képlet, mely kezdetben két teleppel fejlődik.</br><span class="lime">Ő</span>Az erek és a vérsejtek legelőször az extraembrionális mezodermában jelennek meg, mert a máj az embrió fő vérképző szerve.'
 }
 ];
 
@@ -1258,11 +1402,10 @@ var inspectionQuestionAnswers = [
 }
 ]
 
-
 function init() {
 	const list = document.getElementById('questions'); 
 	list.innerHTML = '';
-	var combobox = document.getElementById('questionType')
+	var combobox = document.getElementById('questionType');
 	var value = combobox.options[combobox.selectedIndex].value;
 	var questionAnswers;
 	if (value == 'small') {
@@ -1284,7 +1427,7 @@ function init() {
 
 function searchAnswer() {
 	const div = document.getElementById('answer');
-	var combobox = document.getElementById('questionType')
+	var combobox = document.getElementById('questionType');
 	var value = combobox.options[combobox.selectedIndex].value;
 	var questionAnswers;
 	if (value == 'small') {
