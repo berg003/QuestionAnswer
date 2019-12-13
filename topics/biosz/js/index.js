@@ -1697,14 +1697,14 @@ var inspectionQuestionAnswers = [
 	question: '9. Ismertesse a nem-determináció szintjeit és ezek tényezőit!',
 	answer: '<b>- Genetikai</b>: az ivari kr. összetételtől függ: XX, XY. A szexuális dimorfizmus fő irányítója egyértelműen az Y ivari kromoszóma. Ui. a nemi differenciálódás kulcsa az Y kromoszóma speciális területén, a rövid karon elhelyezkedő SRY (sex region of Y) gén. Az SRY gén egy transzkripciós faktort kódol (korábbi elnevezése TDF, testis determináló faktor), amely a DNS molekulához való kötődése révén további géneket tud aktiválni. Meghatározza a köv. 2 szintet is.</br><b>- Gonadális</b>:A TDF fokozza azon gének expresszióját, melyek a testis (ffi gonád) kialakulását teszik lehetővé. A kialakuló fötális here olyan vegyületeket termel, amelyek a hím nemi fejlődést segítik elő. Ezek közül különös jelentősége van a Müller cső kifejlődését gátló hormonnak /AMH Anti-Mullerian –Hormone/. Ugyancsak a fötális here által termelt tesztoszteron elősegíti, hogy a Wolff csőből kialakuljanak a hím belső nemi szervek /prosztata, ondóhólyag, ondóvezeték/.</br><b>- Genitális</b>:  tesztoszteron átalakulási terméke a dihidrotesztoszteron pedig a külső nemi szervek kifejlődését teszi lehetővé.</br><b>- Pszichoszexuális</b>: A negyedik – tanult, ill. tsd.-i elemekből is áll.'
 },{
-	question: '9. Ismertesse a megtermékenyítés sejtszintű folyamatait!',
-	answer: ''
+	question: '9. Ismertesse a megtermékenyítés (fertilizáció) sejtszintű folyamatait!',
+	answer: '1. ondósejt (spermium)nak közelednie kell az ovariumban(petefészek) található petesejthez, Kemotaktikus ingerek által.</br>2. perforálnia (átfúrnia) kell a petesejt falán (corona réteg a legkülsőbb), feji rész hatol csak át (örökítő anyag ebben), a farok hátramarad, de legújabb kutatások szerint farok is bejut, csak degenerálódik.</br>3. több spermium átjut ezen a védőrétegen, de csak egy juthat a petesejt magjához, többinél kortikális granulumok jelennek meg</br>4. zigota lesz a két sejt egyesüléséből'
 },{
 	question: '9. Ismertesse a pre-embrionális fejlődés történéseit a megtermékenyítés utántól a csíralemezek kialakulásáig bezárólag!',
-	answer: ''
+	answer: '<img src="img/embryogenesis.png"></br><iframe width="560" height="315" src="https://www.youtube.com/embed/dAOWQC-OBv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },{
 	question: '9. Ismertesse az embrionális fejlődés főbb mozzanatait a három csíralemez megjelenése utántól az organogenezis lezárulásáig! Mely terhességi hetek ezek?',
-	answer: ''
+	answer: '- embrionális szakasz:3. héttől 8.hétig, szervek kialakulása.</br>- pozíciófüggő determináció: csiralemezek mivé vállnak attól függ, hogy hol helyezkednek el és a morfogéngrádiensekből-> mester-regulátor (szelektor) fehérjék termelődnek, átalakítják a sejt expressziós mintázatát</br>Homeotikus gének(transzkripciós faktorok)</br>-szelvényeződés</br>- Ebben az időszakban fejlődnek ki a legfontosabb belső szervek kezdeményei és kialakul az embrió külső formája is</br>- A fejlődési rendellenességek kialakulásának szempontból kritikus ez az időszak, ugyanis külső kémiai (különböző vegyszerek, gyógyszerek), fizikai (sugárzások), vagy biológiai (fertőzéses) ártalmak, ún. noxák ebben az időszakban súlyos fejlődési rendellenességeket hozhatnak létre'
 }
 ]
 
