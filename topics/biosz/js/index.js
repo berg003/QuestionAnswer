@@ -1705,6 +1705,36 @@ var inspectionQuestionAnswers = [
 },{
 	question: '9. Ismertesse az embrionális fejlődés főbb mozzanatait a három csíralemez megjelenése utántól az organogenezis lezárulásáig! Mely terhességi hetek ezek?',
 	answer: '- embrionális szakasz:3. héttől 8.hétig, szervek kialakulása.</br>- pozíciófüggő determináció: csiralemezek mivé vállnak attól függ, hogy hol helyezkednek el és a morfogéngrádiensekből-> mester-regulátor (szelektor) fehérjék termelődnek, átalakítják a sejt expressziós mintázatát</br>Homeotikus gének(transzkripciós faktorok)</br>-szelvényeződés</br>- Ebben az időszakban fejlődnek ki a legfontosabb belső szervek kezdeményei és kialakul az embrió külső formája is</br>- A fejlődési rendellenességek kialakulásának szempontból kritikus ez az időszak, ugyanis külső kémiai (különböző vegyszerek, gyógyszerek), fizikai (sugárzások), vagy biológiai (fertőzéses) ártalmak, ún. noxák ebben az időszakban súlyos fejlődési rendellenességeket hozhatnak létre'
+},{
+	question:'10. Ismertesse a genetika tudományának tárgyát és a vizsgálómódszerek lehetőségeit!',
+	answer:''
+},{
+	question:'10. Ismertesse Mendel három törvényét! (allélokat bemutató Punnett táblákkal , hasadási arányokkal)',
+	answer:''
+},{
+	question:'10. Melyik az a két, meiotikus osztódás során bekövetkező folyamat, amely biztosítja a gének/tulajdonságok rekombinálódását, vagyis az utódokban megjelenő változatosságot az ivaros szaporodás során?',
+	answer:''
+},{
+	question:'10. Milyen öröklésmeneteket ismer? Az öröklésmenet megnevezése mellett, kérem ismertesse az allélok különböző lehetséges viszonyait példákkal, jellemzőkkel!',
+	answer:''
+},{
+	question:'10. Mit vizsgál a citogenetika és milyen vizsgálómódszereit ismeri? Hogyan kell ezeket kivitelezni?',
+	answer:''
+},{
+	question:'10. Milyen teratogenetikai ártó tényezőket, noxákat ismer?',
+	answer:''
+},{
+	question:'10. Ismertesse a mutációk típusait! (Akár több szempontból is)',
+	answer:''
+},{
+	question:'10. Ismertesse a tanult numerikus gonoszóma kromoszóma aberrációkat!',
+	answer:''
+},{
+	question:'10. Ismertesse a tanult strukturális autoszóma aberrációkat!',
+	answer:''
+},{
+	question:'10. Ismertesse a tanult  numerikus autoszóma aberrációkat!',
+	answer:''
 }
 ]
 

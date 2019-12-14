@@ -147,16 +147,16 @@ var kahootQuestionAnswers = [
 summaryQuestionAnswers = [
 {
 	question:'Hippokratész',
-	answer:'- etikai kódex</br>- orvosi eskű</br>- 4 tulajdonság meghatározása</br>- mikor élt'
+	answer:'- etikai kódex:a nem ártás elve (Primum nil nocere); a beteg érdeke a legfőbb törvény (salus aegroti suprema lex esto); a hatalommal való visszaélés tilalma; a titoktartás kötelezettsége</br>- orvosi eskű:</br>-- „Esküszöm a gyógyító Apollónra, Aszklépioszra és Hügieiára és Panakeiára és valamennyi istenre és istennőre, akiket ezennel tanúkul hívok, hogy minden erőmmel és tehetségemmel megtartom következő kötelességeimet:</br>-- tanáromat akitől e tudományt tanultam, úgy fogom tisztelni, mint szüleimet, vagyonomat megosztom vele, s ha rászorul, tartozásomat lerovom;</br>-- utódait testvéreimnek tekintem, oktatom őket ebben a tudományban, ha erre szentelik magukat, mégpedig díjtalanul;</br>-- továbbá az orvosi tudományt áthagyományozom fiaimra és azokra, akik az orvosi esküt leteszik, másokra azonban nem.</br>-- Tehetségemhez és tudásomhoz mérten fogom megszabni a betegek életmódját az ő javukra, és mindent elhárítok, ami ártana nekik.</br>-- Senkinek sem adok halálos mérget, akkor sem ha kérik, és erre vonatkozólag még tanácsot sem adok.</br>-- Hasonlóképpen nem segítek hozzá egyetlen asszonyt sem magzata elhajtásához.</br>-- Tisztán és szentül megőrzöm életemet és tudományomat.</br>-- Sohasem fogok hólyagkövet operálni, hanem átengedem ezt azoknak, akiknek ez a mesterségük.</br>-- Minden házba a beteg javára lépek be, s őrizkedni fogok minden szándékos károkozástól, különösen férfiak és nők szerelmi élvezetre használatától, akár szabadok, akár rabszolgák.</br>-- Amit kezelés közben látok vagy hallok – akár kezelésen kívül is a társadalmi érintkezésben, – nem fogom kifecsegni, hanem titokként megőrzöm.</br>-- Ha ezt az eskümet megtartom és nem szegem meg: örvendhessek életem fogytáig tudományomnak, s az életnek,</br>-- de ha esküszegő leszek, történjék ennek ellenkezője."</br>- 4 tulajdonság meghatározása: vér - szangvinikus; fekete epe: melankolikus; sárga epe: kolerikus; nyálka: flegmatikus</br>- mikor élt: Kosz, Kr. e. 460 – Larissza, Kr. e. 377 körül'
 },{
-	question:'Galenosz',
-	answer:'- első anatómia könyv</br>- mikor élt'
+	question:'Galénosz',
+	answer:'- első anatómia könyv</br>- mikor élt: Pergamon, 129 szeptembere – Róma, 216 körül'
 },{
-	question:'Florence',
-	answer:'- születés</br>- első ápoló szakirodalom</br>- Londonban ápoló iskolát alapított</br>- krími háborúban hígénia elérése</br>- miért lámpás hölgy'
+	question:'Florence Nightingale',
+	answer:'- mikor élt: Firenze, Toszkánai Nagyhercegség, 1820. május 12. – London, Egyesült Királyság, 1910. augusztus 13.</br>- első ápoló szakirodalom</br>- Londonban ápoló iskolát alapított</br>- krími háborúban hígénia elérése</br>- miért lámpás hölgy: hogy a nővérek és a sebesült katonák közötti, akkoriban mindennaposnak számító testi érintkezésnek elejét vegye, éjszakánként lámpással kezében járőrözött a kórház folyosóin.'
 },{
 	question:'Nursiai Benedek',
-	answer:'- első kolostori orvoslás'
+	answer:'- mikor élt: Nursia, 480 körül – Monte Cassino, 543/547. március 21.</br>- első kolostori orvoslás'
 },{
 	question:'Szent Pál',
 	answer:'- szeretet</br>- empátia'
@@ -193,21 +193,6 @@ summaryQuestionAnswers = [
 },{
 	question:'Ápolás funkciói',
 	answer:'- nem önálló funkció</br>-- gyógyszerelés</br>-- mindennapos beavatkozások: katéterezés, vérvétel, stb</br>-- önálló: megfigyelés, szükségletek és komfort biztosítása</br>-- együttműködő: orvos segítése pl. hascsapolás, mellkasfunkció</br>-- beteg előkészítése</br>-- beteg megnyugtatása</br>-- eszközök elpakolása'
-},{
-	question:'',
-	answer:''
-},{
-	question:'',
-	answer:''
-},{
-	question:'',
-	answer:''
-},{
-	question:'',
-	answer:''
-},{
-	question:'',
-	answer:''
 }
 ];
 
