@@ -17,242 +17,152 @@
 		  <option value="summary">Összegzés</option>
 	  </select>
 	  <a href="../../index.html"><input type="button" value="Vissza"></a>
-	  <div id="answer"></div>
-	  <h2>Fejezetek</h2>
-	  <table>
-		  <tr>
-			<td>I</td>
-			<td>Az ápolás története</td>
-		  <tr>
-			<td>II</td>
-			<td>Az ápolás története</td>
-		  </tr>
-		  <tr>
-			<td>III</td>
-			<td>Az ápolás története</td>
-		  </tr>
-		  <tr>
-			<td>IV</td>
-			<td>Az ápolás története</td>
-		  </tr>
-		  <tr>
-			<td>V</td>
-			<td>Vöröskereszt, WHO, ICN</td>
-		  </tr>
-		  <tr>
-			<td>VI</td>
-			<td>Ápolási modellek</td>			
-		  </tr>
-		</table>
-		<table class="wikitable">
+	  <div id="answer"></div></br>
+	  <div><b>BNO</b> - Betegségek Nemzetközi Osztályozása</br><b>ICD</b> - The International Statistical Classification of Diseases and Related Health Problems</div></br>
+	  <table class="wikitable">
 			<tbody>
 				<tr>
-					<th>Sorszám
-					</th>
-					<th>Főcsoport
-					</th>
-					<th>BNO kódok
-					</th>
+					<th>Sorszám</th>
+					<th>Főcsoport</th>
+					<th>BNO kódok</th>
+					<th><input type="button" onclick="hideWiki();" value="Elrejtés"></th>
 				</tr>
 				<tr>
-					<td>01
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-01_%E2%80%93_Fert%C5%91z%C5%91_%C3%A9s_parazit%C3%A1s_betegs%C3%A9gek" title="BNO-10-01 – Fertőző és parazitás betegségek">BNO-10-01 – Fertőző és parazitás betegségek</a>
-					</td>
-					<td>A00–B99
-					</td>
+					<td>01</td>					
+					<td>BNO-10-01 – Fertőző és parazitás betegségek</td>
+					<td>A00–B99</td>
+					<td><input type="button" onclick="showWiki('01_%E2%80%93_Fert%C5%91z%C5%91_%C3%A9s_parazit%C3%A1s_betegs%C3%A9gek');" value="Mutatás"></td>
+					
+					
 				</tr>
 				<tr>
-					<td>02
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-02_%E2%80%93_Daganatok" title="BNO-10-02 – Daganatok">BNO-10-02 – Daganatok</a>
-					</td>
-					<td>C00–D48
-					</td>
+					<td>02</td>
+					<td>BNO-10-02 – Daganatok</td>
+					<td>C00–D48</td>
+					<td><input type="button" onclick="showWiki('02_%E2%80%93_Daganatok');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>03
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-03_%E2%80%93_A_v%C3%A9r_%C3%A9s_a_v%C3%A9rk%C3%A9pz%C5%91_szervek_betegs%C3%A9gei_%C3%A9s_az_immunrendszert_%C3%A9rint%C5%91_bizonyos_rendelleness%C3%A9gek" title="BNO-10-03 – A vér és a vérképző szervek betegségei és az immunrendszert érintő bizonyos rendellenességek">BNO-10-03 – A vér és a vérképző szervek betegségei és az immunrendszert érintő bizonyos rendellenességek</a>
-					</td>
-					<td>D50–D89
-					</td>
+					<td>03</td>
+					<td>BNO-10-03 – A vér és a vérképző szervek betegségei és az immunrendszert érintő bizonyos rendellenességek</td>
+					<td>D50–D89</td>
+					<td><input type="button" onclick="showWiki('03_%E2%80%93_A_v%C3%A9r_%C3%A9s_a_v%C3%A9rk%C3%A9pz%C5%91_szervek_betegs%C3%A9gei_%C3%A9s_az_immunrendszert_%C3%A9rint%C5%91_bizonyos_rendelleness%C3%A9gek');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>04
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-04_%E2%80%93_Endokrin,_t%C3%A1pl%C3%A1lkoz%C3%A1si_%C3%A9s_anyagcsere_betegs%C3%A9gek" title="BNO-10-04 – Endokrin, táplálkozási és anyagcsere betegségek">BNO-10-04 – Endokrin, táplálkozási és anyagcsere betegségek</a>
-					</td>
-					<td>E00–E90
-					</td>
+					<td>04</td>
+					<td>BNO-10-04 – Endokrin, táplálkozási és anyagcsere betegségek</td>
+					<td>E00–E90</td>
+					<td><input type="button" onclick="showWiki('04_%E2%80%93_Endokrin,_t%C3%A1pl%C3%A1lkoz%C3%A1si_%C3%A9s_anyagcsere_betegs%C3%A9gek');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>05
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-05_%E2%80%93_Ment%C3%A1lis_%C3%A9s_viselked%C3%A9szavarok" title="BNO-10-05 – Mentális és viselkedészavarok">BNO-10-05 – Mentális és viselkedészavarok</a>
-					</td>
-					<td>F00–F99
-					</td>
+					<td>05</td>
+					<td>BNO-10-05 – Mentális és viselkedészavarok</td>
+					<td>F00–F99</td>
+					<td><input type="button" onclick="showWiki('05_%E2%80%93_Ment%C3%A1lis_%C3%A9s_viselked%C3%A9szavarok');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>06
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-06_%E2%80%93_Az_idegrendszer_betegs%C3%A9gei" title="BNO-10-06 – Az idegrendszer betegségei">BNO-10-06 – Az idegrendszer betegségei</a>
-					</td>
-					<td>G00–G99
-					</td>
+					<td>06</td>
+					<td>BNO-10-06 – Az idegrendszer betegségei</td>
+					<td>G00–G99</td>
+					<td><input type="button" onclick="showWiki('06_%E2%80%93_Az_idegrendszer_betegs%C3%A9gei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>07
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-07_%E2%80%93_A_szem_%C3%A9s_f%C3%BCggel%C3%A9keinek_betegs%C3%A9gei" title="BNO-10-07 – A szem és függelékeinek betegségei">BNO-10-07 – A szem és függelékeinek betegségei</a>
-					</td>
-					<td>H00–H59
-					</td>
+					<td>07</td>
+					<td>BNO-10-07 – A szem és függelékeinek betegségei</td>
+					<td>H00–H59</td>
+					<td><input type="button" onclick="showWiki('07_%E2%80%93_A_szem_%C3%A9s_f%C3%BCggel%C3%A9keinek_betegs%C3%A9gei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>08
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-08_%E2%80%93_A_f%C3%BCl_%C3%A9s_a_csecsny%C3%BAlv%C3%A1ny_megbeteged%C3%A9sei" title="BNO-10-08 – A fül és a csecsnyúlvány megbetegedései">BNO-10-08 – A fül és a csecsnyúlvány megbetegedései</a>
-					</td>
-					<td>H60–H95
-					</td>
+					<td>08</td>
+					<td>BNO-10-08 – A fül és a csecsnyúlvány megbetegedései</td>
+					<td>H60–H95</td>
+					<td><input type="button" onclick="showWiki('08_%E2%80%93_A_f%C3%BCl_%C3%A9s_a_csecsny%C3%BAlv%C3%A1ny_megbeteged%C3%A9sei');" value="Mutatás"> </td>
 				</tr>
 				<tr>
-					<td>09
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-09_%E2%80%93_A_kering%C3%A9si_rendszer_betegs%C3%A9gei" title="BNO-10-09 – A keringési rendszer betegségei">BNO-10-09 – A keringési rendszer betegségei</a>
-					</td>
-					<td>I00–I99
-					</td>
+					<td>09</td>
+					<td>BNO-10-09 – A keringési rendszer betegségei</td>
+					<td>I00–I99</td>
+					<td><input type="button" onclick="showWiki('09_%E2%80%93_A_kering%C3%A9si_rendszer_betegs%C3%A9gei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>10
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-10_%E2%80%93_A_l%C3%A9gz%C5%91rendszer_betegs%C3%A9gei" title="BNO-10-10 – A légzőrendszer betegségei">BNO-10-10 – A légzőrendszer betegségei</a>
-					</td>
-					<td>J00–J99
-					</td>
+					<td>10</td>
+					<td>BNO-10-10 – A légzőrendszer betegségei</td>
+					<td>J00–J99</td>
+					<td><input type="button" onclick="showWiki('10_%E2%80%93_A_l%C3%A9gz%C5%91rendszer_betegs%C3%A9gei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>11
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-11_%E2%80%93_Az_em%C3%A9szt%C5%91rendszer_betegs%C3%A9gei" title="BNO-10-11 – Az emésztőrendszer betegségei">BNO-10-11 – Az emésztőrendszer betegségei</a>
-					</td>
-					<td>K00–K93
-					</td>
+					<td>11</td>
+					<td>BNO-10-11 – Az emésztőrendszer betegségei</td>
+					<td>K00–K93</td>
+					<td><input type="button" onclick="showWiki('11_%E2%80%93_Az_em%C3%A9szt%C5%91rendszer_betegs%C3%A9gei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>12
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-12_%E2%80%93_A_b%C5%91r_%C3%A9s_b%C5%91ralatti_sz%C3%B6vet_betegs%C3%A9gei" title="BNO-10-12 – A bőr és bőralatti szövet betegségei">BNO-10-12 – A bőr és bőralatti szövet betegségei</a>
-					</td>
-					<td>L00–L99
-					</td>
+					<td>12</td>
+					<td>BNO-10-12 – A bőr és bőralatti szövet betegségei</td>
+					<td>L00–L99</td>
+					<td><input type="button" onclick="showWiki('12_%E2%80%93_A_b%C5%91r_%C3%A9s_b%C5%91ralatti_sz%C3%B6vet_betegs%C3%A9gei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>13
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-13_%E2%80%93_A_csont-izomrendszer_%C3%A9s_k%C3%B6t%C5%91sz%C3%B6vet_betegs%C3%A9gei" title="BNO-10-13 – A csont-izomrendszer és kötőszövet betegségei">BNO-10-13 – A csont-izomrendszer és kötőszövet betegségei</a>
-					</td>
-					<td>M00–M99
-					</td>
+					<td>13</td>
+					<td>BNO-10-13 – A csont-izomrendszer és kötőszövet betegségei</td>
+					<td>M00–M99</td>
+					<td><input type="button" onclick="showWiki('13_%E2%80%93_A_csont-izomrendszer_%C3%A9s_k%C3%B6t%C5%91sz%C3%B6vet_betegs%C3%A9gei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>14
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-14_%E2%80%93_Az_urogenit%C3%A1lis_rendszer_megbeteged%C3%A9sei" title="BNO-10-14 – Az urogenitális rendszer megbetegedései">BNO-10-14 – Az urogenitális rendszer megbetegedései</a>
-					</td>
-					<td>N00–N99
-					</td>
+					<td>14</td>
+					<td>BNO-10-14 – Az urogenitális rendszer megbetegedései</td>
+					<td>N00–N99</td>
+					<td><input type="button" onclick="showWiki('14_%E2%80%93_Az_urogenit%C3%A1lis_rendszer_megbeteged%C3%A9sei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>15
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-15_%E2%80%93_Terhess%C3%A9g,_sz%C3%BCl%C3%A9s_%C3%A9s_a_gyermek%C3%A1gy" title="BNO-10-15 – Terhesség, szülés és a gyermekágy">BNO-10-15 – Terhesség, szülés és a gyermekágy</a>
-					</td>
-					<td>O00–O99
-					</td>
+					<td>15</td>
+					<td>BNO-10-15 – Terhesség, szülés és a gyermekágy</td>
+					<td>O00–O99</td>
+					<td><input type="button" onclick="showWiki('15_%E2%80%93_Terhess%C3%A9g,_sz%C3%BCl%C3%A9s_%C3%A9s_a_gyermek%C3%A1gy');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>16
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-16_%E2%80%93_A_perinat%C3%A1lis_szakban_keletkez%C5%91_bizonyos_%C3%A1llapotok" title="BNO-10-16 – A perinatális szakban keletkező bizonyos állapotok">BNO-10-16 – A perinatális szakban keletkező bizonyos állapotok</a>
-					</td>
-					<td>P00–P96
-					</td>
+					<td>16</td>
+					<td>BNO-10-16 – A perinatális szakban keletkező bizonyos állapotok</td>
+					<td>P00–P96</td>
+					<td><input type="button" onclick="showWiki('16_%E2%80%93_A_perinat%C3%A1lis_szakban_keletkez%C5%91_bizonyos_%C3%A1llapotok');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>17
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-17_%E2%80%93_Velesz%C3%BCletett_rendelleness%C3%A9gek,_deformit%C3%A1sok_%C3%A9s_kromosz%C3%B3maabnormit%C3%A1sok" title="BNO-10-17 – Veleszületett rendellenességek, deformitások és kromoszómaabnormitások">BNO-10-17 – Veleszületett rendellenességek, deformitások és kromoszómaabnormitások</a>
-					</td>
-					<td>Q00–Q99
-					</td>
+					<td>17</td>
+					<td>BNO-10-17 – Veleszületett rendellenességek, deformitások és kromoszómaabnormitások</td>
+					<td>Q00–Q99</td>
+					<td><input type="button" onclick="showWiki('17_%E2%80%93_Velesz%C3%BCletett_rendelleness%C3%A9gek,_deformit%C3%A1sok_%C3%A9s_kromosz%C3%B3maabnormit%C3%A1sok');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>18
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-18_%E2%80%93_M%C3%A1shova_nem_oszt%C3%A1lyozott_panaszok,_t%C3%BCnetek_%C3%A9s_k%C3%B3ros_klinikai_%C3%A9s_laborat%C3%B3riumi_leletek" title="BNO-10-18 – Máshova nem osztályozott panaszok, tünetek és kóros klinikai és laboratóriumi leletek">BNO-10-18 – Máshova nem osztályozott panaszok, tünetek és kóros klinikai és laboratóriumi leletek</a>
-					</td>
-					<td>R00–R99
-					</td>
+					<td>18</td>
+					<td>BNO-10-18 – Máshova nem osztályozott panaszok, tünetek és kóros klinikai és laboratóriumi leletek</td>
+					<td>R00–R99</td>
+					<td><input type="button" onclick="showWiki('18_%E2%80%93_M%C3%A1shova_nem_oszt%C3%A1lyozott_panaszok,_t%C3%BCnetek_%C3%A9s_k%C3%B3ros_klinikai_%C3%A9s_laborat%C3%B3riumi_leletek');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>19
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-19_%E2%80%93_S%C3%A9r%C3%BCl%C3%A9s,_m%C3%A9rgez%C3%A9s_%C3%A9s_k%C3%BCls%C5%91_okok_bizonyos_egy%C3%A9b_k%C3%B6vetkezm%C3%A9nyei" title="BNO-10-19 – Sérülés, mérgezés és külső okok bizonyos egyéb következményei">BNO-10-19 – Sérülés, mérgezés és külső okok bizonyos egyéb következményei</a>
-					</td>
-					<td>S00–T98
-					</td>
+					<td>19</td>
+					<td>BNO-10-19 – Sérülés, mérgezés és külső okok bizonyos egyéb következményei</td>
+					<td>S00–T98</td>
+					<td><input type="button" onclick="showWiki('19_%E2%80%93_S%C3%A9r%C3%BCl%C3%A9s,_m%C3%A9rgez%C3%A9s_%C3%A9s_k%C3%BCls%C5%91_okok_bizonyos_egy%C3%A9b_k%C3%B6vetkezm%C3%A9nyei');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>20
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-20_%E2%80%93_A_morbidit%C3%A1s_%C3%A9s_mortalit%C3%A1s_k%C3%BCls%C5%91_okai" title="BNO-10-20 – A morbiditás és mortalitás külső okai">BNO-10-20 – A morbiditás és mortalitás külső okai</a>
-					</td>
-					<td>V01–Y98
-					</td>
+					<td>20</td>
+					<td>BNO-10-20 – A morbiditás és mortalitás külső okai</td>
+					<td>V01–Y98</td>
+					<td><input type="button" onclick="showWiki('20_%E2%80%93_A_morbidit%C3%A1s_%C3%A9s_mortalit%C3%A1s_k%C3%BCls%C5%91_okai');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>21
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-21_%E2%80%93_Az_eg%C3%A9szs%C3%A9gi_%C3%A1llapotot_%C3%A9s_eg%C3%A9szs%C3%A9g%C3%BCgyi_szolg%C3%A1latokkal_val%C3%B3_kapcsolatot_befoly%C3%A1sol%C3%B3_t%C3%A9nyez%C5%91k" title="BNO-10-21 – Az egészségi állapotot és egészségügyi szolgálatokkal való kapcsolatot befolyásoló tényezők">BNO-10-21 – Az egészségi állapotot és egészségügyi szolgálatokkal való kapcsolatot befolyásoló tényezők</a>
-					</td>
-					<td>Z00–Z99
-					</td>
+					<td>21</td>
+					<td>BNO-10-21 – Az egészségi állapotot és egészségügyi szolgálatokkal való kapcsolatot befolyásoló tényezők</td>
+					<td>Z00–Z99</td>
+					<td><input type="button" onclick="showWiki('21_%E2%80%93_Az_eg%C3%A9szs%C3%A9gi_%C3%A1llapotot_%C3%A9s_eg%C3%A9szs%C3%A9g%C3%BCgyi_szolg%C3%A1latokkal_val%C3%B3_kapcsolatot_befoly%C3%A1sol%C3%B3_t%C3%A9nyez%C5%91k');" value="Mutatás"></td>
 				</tr>
 				<tr>
-					<td>(22)
-					</td>
-					<td>
-						<a href="https://hu.wikipedia.org/wiki/BNO-10-22_%E2%80%93_Speci%C3%A1lis_k%C3%B3dok" title="BNO-10-22 – Speciális kódok">BNO-10-22 – Speciális kódok</a>
-					</td>
-					<td>U00–U99
-					</td>
+					<td>(22)</td>
+					<td>BNO-10-22 – Speciális kódok</td>
+					<td>U00–U99</td>
+					<td><input type="button" onclick="showWiki('22_%E2%80%93_Speci%C3%A1lis_k%C3%B3dok');" value="Mutatás"></td>
 				</tr>
 			</tbody>
 		</table>
+		<iframe id="wikiFrame" src="" style="visibility:hidden;width:100%;height:0px;"></iframe>
 	</body>
 </html>

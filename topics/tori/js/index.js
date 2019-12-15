@@ -239,14 +239,14 @@ function reset() {
 	document.getElementById('answer').innerHTML = '';
 }
 
-function showPdf(fileId) {
-	var pdfFrame = document.getElementById('pdfFrame');
-	pdfFrame.src = "https://docs.google.com/viewer?srcid=" + fileId + "&pid=explorer&efh=false&a=v&chrome=false&embedded=true";
-	pdfFrame.style.height='100%';
-	pdfFrame.style.visibility = null;
+function showWiki(fileId) {
+	var wikiFrame = document.getElementById('wikiFrame');
+	wikiFrame.src = "https://hu.wikipedia.org/wiki/BNO-10-" + fileId;
+	wikiFrame.style.height='100%';
+	wikiFrame.style.visibility = null;
 }
-function hidePdf() {
-	var pdfFrame = document.getElementById('pdfFrame');
-	pdfFrame.style.height=0;
-	pdfFrame.style.visibility = 'hidden';
+function hideWiki() {
+	var wikiFrame = document.getElementById('wikiFrame');
+	wikiFrame.style.height=0;
+	wikiFrame.style.visibility = 'hidden';
 }
