@@ -27,6 +27,7 @@ var questionAnswers = [
 },{
 	question:'',
 	answer:''
+}
 ];
 
 function init() {
