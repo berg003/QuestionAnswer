@@ -2,17 +2,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" href="../../img/szoc.png" type="image/x-icon" />
+		<link rel="icon" href="../../img/latin.png" type="image/x-icon" />
 		<script type="text/javascript" async="" src="js/index.js"></script>
-		<link rel="stylesheet" type="text/css" href="index.css"></link>
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"></link>
 		<title>Latin kérdés-válasz</title>
 	</head>
 	<body onload="init();">	
-	  <input list="questions" id="question">
+	  <input list="questions" id="question" placeholder="Keresés..">
 	  <datalist id="questions"></datalist>
-	  <input type="button" onclick="searchAnswer()" value="Keres">
-	  <input type="button" onclick="reset()" value="X">
-	  <a href="../../index.html"><input type="button" value="Vissza"></a>
+	  <img onclick="searchAnswer()" class="button" src="../../img/search.png">
+	  <img onclick="reset()" class="button" src="../../img/clear.png">	  
+	  <a href="../../index.html"><img class="button" src="../../img/home.png"></a>
 	  <div id="answer"></div>
+	  <a href="https://play.google.com/store/apps/details?id=org.alexander.berg.hungarianlatintranslator">Fordító Android App</a>
 	</body>
 </html>

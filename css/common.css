@@ -1,0 +1,6 @@
+.button{width:16px;height:16px;vertical-align:middle;}
+.button:hover {background: #dddddd;}
+
+table {border-collapse: collapse;}
+td, th {border: 2px solid #000000;text-align: left;padding: 2px;}
+tr:nth-child(even) {background-color: #dddddd;}

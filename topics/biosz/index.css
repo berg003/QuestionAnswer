@@ -4,16 +4,3 @@
 abbr[title] {
     text-decoration: underline dotted;
 }
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  border: 2px solid #000000;
-  text-align: left;
-  padding: 2px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}

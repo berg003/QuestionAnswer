@@ -5,6 +5,7 @@
 		<link rel="icon" href="../../img/biosz.png" type="image/x-icon" />
 		<script type="text/javascript" async="" src="js/index.js"></script>
 		<link rel="stylesheet" type="text/css" href="index.css"></link>
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"></link>
 		<title>Alkalmazott Biológia kérdés-válasz</title>
 	</head>
 	<body onload="init();">	
@@ -14,12 +15,11 @@
 		  <option value="multi">Rejtvény</option>
 		  <option value="small">Beugró</option>
 	   </select>
-	  <input list="questions" id="question">
+	  <input list="questions" id="question" placeholder="Keresés..">
 	  <datalist id="questions"></datalist>
-	  <input type="button" onclick="searchAnswer()" value="Keres">
-	  <input type="button" onclick="reset()" value="X">
-	  
-	  <a href="../../index.html"><input type="button" value="Vissza"></a>
+	  <img onclick="searchAnswer()" class="button" src="../../img/search.png">
+	  <img onclick="reset()" class="button" src="../../img/clear.png">	  
+	  <a href="../../index.html"><img class="button" src="../../img/home.png"></a>
 	  <div id="answer"></div>
 	  <h2>Megoldások</h2><input type="button" onclick="hideDocument('doc');" value="Elrejtés">
 	  <table>

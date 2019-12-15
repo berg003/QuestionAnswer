@@ -13,16 +13,3 @@ img[src*="oe_"], img[src*="vb_"]{
 .blue {
 	color:blue;
 }
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  border: 2px solid #000000;
-  text-align: left;
-  padding: 2px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}

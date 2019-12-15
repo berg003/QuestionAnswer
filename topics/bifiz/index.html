@@ -5,20 +5,21 @@
 		<link rel="icon" href="../../img/bifiz.png" type="image/x-icon" />
 		<script type="text/javascript" async="" src="js/index.js"></script>
 		<link rel="stylesheet" type="text/css" href="index.css"></link>
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"></link>
 		<title>Orvostechnika és biofizika alapjai kérdés-válasz</title>
 	</head>
 	<body onload="init();">	
-	  <input list="questions" id="question">
+	  <input list="questions" id="question" placeholder="Keresés..">
 	  <datalist id="questions"></datalist>
-	  <input type="button" onclick="searchAnswer()" value="Keres">
-	  <input type="button" onclick="reset()" value="X">
-	  <a href="../../index.html"><input type="button" value="Vissza"></a>
+	  <img onclick="searchAnswer()" class="button" src="../../img/search.png">
+	  <img onclick="reset()" class="button" src="../../img/clear.png">	  
+	  <a href="../../index.html"><img class="button" src="../../img/home.png"></a>
 	  <div id="answer"></div>
 	  <h2>Fejezetek</h2><input type="button" onclick="hidePdf();" value="Elrejtés">
 		<table>
 		  <tr>
 			<td>I</td>
-			<td>A kórház technikai szempontból</td>
+			<td>Kórház technikai szempontból</td>
 		  </tr>
 		  <tr>
 			<td>II</td>
