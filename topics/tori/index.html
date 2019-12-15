@@ -7,15 +7,16 @@
 		<link rel="stylesheet" type="text/css" href="index.css"></link>
 		<title>Ápolástörténet kérdés-válasz</title>
 	</head>
-	<body onload="init();">	
-	  <input list="questions" id="question" style="width:100%">
-	  <datalist id="questions"></datalist>
-	  <input type="button" onclick="searchAnswer()" value="Keres">
-	  <input type="button" onclick="reset()" value="X">
+	<body onload="init();">
 	  <select id="questionType" onchange="reset();init();">
 		  <option value="kahoot">Kahoot</option>
 		  <option value="summary">Összegzés</option>
-	  </select>
+	  </select>	
+	  <input list="questions" id="question">
+	  <datalist id="questions"></datalist>
+	  <input type="button" onclick="searchAnswer()" value="Keres">
+	  <input type="button" onclick="reset()" value="X">
+	  
 	  <a href="../../index.html"><input type="button" value="Vissza"></a>
 	  <div id="answer"></div></br>
 	  <div><b>BNO</b> - Betegségek Nemzetközi Osztályozása</br><b>ICD</b> - The International Statistical Classification of Diseases and Related Health Problems</div></br>

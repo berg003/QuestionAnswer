@@ -177,16 +177,16 @@ summaryQuestionAnswers = [
 	answer:'- elismerte a vöröskeresztet és a márta nővérek iskoláját</br>- 1889-ben alakult</br>- szakmai civil szervezet</br> ápolás minőségén javítás is cél</br>- ápolók képzése</br>- ápolóknek érdekvédelmi szervezet</br>- szimboóluma F. Nightingale lámpája'
 },{
 	question:'WHO (World Health Organization)',
-	answer:'- feladata, célkitűzése:</br>-- minél kevesebb járvány</br>-- minél tovább éljenek az emberek</br>-- minél kevesebb csecsemő halálozás</br>-- munkahelyi ártalmak csökkentése</br>-- BNO kódrendszer: betegségek egységesítése<br>-- kézmosó kampány</br>- mióta van'
+	answer:'- feladata, célkitűzése:</br>-- minél kevesebb járvány</br>-- minél tovább éljenek az emberek</br>-- minél kevesebb csecsemő halálozás</br>-- munkahelyi ártalmak csökkentése</br>-- BNO kódrendszer: betegségek egységesítése<br>-- kézmosó kampány</br>- mióta van: 1948. április 7-től'
 },{
 	question:'Vöröskereszt és Vörösfélhold',
-	answer:'- humanitárius szervezet</br>- Henry Dunant hozta létre</br>- 1919ben alakult</br>- 60as évektől indult a szerveződés</br>- adománygyűjtés</br>- véradás</br>- katasztrófa mentés</br>- tanfolyamok'
+	answer:'- humanitárius szervezet</br>- Henry Dunant hozta létre</br>- 1919ben alakult</br>- 60as évektől indult a szerveződés</br>- adománygyűjtés</br>- véradás</br>- katasztrófa mentés</br>- tanfolyamok</br>- 194 ország'
 },{
 	question:'Virginia Henderson',
 	answer:'- igazi ápolási modell megalakítása</br>- ápolás egy segítő hivatás</br>- a beteg nem beteg, hanem páciens'
 },{
 	question:'Ápolási modellek',
-	answer:'- mi az ápolás lényege, erről szól</br>Oren: Henderson modelljét vitte tovább, deficit felmérése</br>- Rogers: prevencióra helyezi a hangsúlyt, alapellátásban jelentős</br>- Roy féle: beteg mennyire alkalmas alkalmazkodni a környezethez'
+	answer:'- mi az ápolás lényege, erről szól</br>- Oren: Henderson modelljét vitte tovább, deficit felmérése</br>- Rogers: prevencióra helyezi a hangsúlyt, alapellátásban jelentős</br>- Roy féle: beteg mennyire alkalmas alkalmazkodni a környezethez'
 },{
 	question:'Ápoló mit csinál',
 	answer:'- szükséglet felmérése</br>- megtervezés</br>- végrehajtás</br>- értékelés</br>- mindig ugyanez a sorrend, csak a prioritások változnak'
@@ -244,6 +244,7 @@ function showWiki(fileId) {
 	wikiFrame.src = "https://hu.wikipedia.org/wiki/BNO-10-" + fileId;
 	wikiFrame.style.height='100%';
 	wikiFrame.style.visibility = null;
+	wikiFrame.scrollIntoView();
 }
 function hideWiki() {
 	var wikiFrame = document.getElementById('wikiFrame');

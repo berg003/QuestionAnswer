@@ -8,16 +8,17 @@
 		<title>Alkalmazott Biológia kérdés-válasz</title>
 	</head>
 	<body onload="init();">	
-	  <input list="questions" id="question" style="width:100%">
-	  <datalist id="questions"></datalist>
-	  <input type="button" onclick="searchAnswer()" value="Keres">
-	  <input type="button" onclick="reset()" value="X">
 	  <select id="questionType" onchange="reset();init();">
 		  <option value="inspection">Ellenőrző</option>
 		  <option value="image">Rajz</option>
 		  <option value="multi">Rejtvény</option>
 		  <option value="small">Beugró</option>
 	   </select>
+	  <input list="questions" id="question">
+	  <datalist id="questions"></datalist>
+	  <input type="button" onclick="searchAnswer()" value="Keres">
+	  <input type="button" onclick="reset()" value="X">
+	  
 	  <a href="../../index.html"><input type="button" value="Vissza"></a>
 	  <div id="answer"></div>
 	  <h2>Megoldások</h2><input type="button" onclick="hideDocument('doc');" value="Elrejtés">

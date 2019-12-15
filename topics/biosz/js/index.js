@@ -1707,33 +1707,51 @@ var inspectionQuestionAnswers = [
 	answer: '- embrionális szakasz:3. héttől 8.hétig, szervek kialakulása.</br>- pozíciófüggő determináció: csiralemezek mivé vállnak attól függ, hogy hol helyezkednek el és a morfogéngrádiensekből-> mester-regulátor (szelektor) fehérjék termelődnek, átalakítják a sejt expressziós mintázatát</br>Homeotikus gének(transzkripciós faktorok)</br>-szelvényeződés</br>- Ebben az időszakban fejlődnek ki a legfontosabb belső szervek kezdeményei és kialakul az embrió külső formája is</br>- A fejlődési rendellenességek kialakulásának szempontból kritikus ez az időszak, ugyanis külső kémiai (különböző vegyszerek, gyógyszerek), fizikai (sugárzások), vagy biológiai (fertőzéses) ártalmak, ún. noxák ebben az időszakban súlyos fejlődési rendellenességeket hozhatnak létre'
 },{
 	question:'10. Ismertesse a genetika tudományának tárgyát és a vizsgálómódszerek lehetőségeit!',
-	answer:''
+	answer:'- genetika: a gének, az öröklődés és az élőlények variációjának tudománya</br>- vizsgálómódszerei:</br>1. pedigréanalízis: Az egyed fenotípusának szintjén</br>2. citogenetika: a sejt/kromoszómák szintjén</br>3. molekuláris genetika: a makromolekulák szintjén'
 },{
 	question:'10. Ismertesse Mendel három törvényét! (allélokat bemutató Punnett táblákkal , hasadási arányokkal)',
-	answer:''
+	answer:'1. uniformitás = egyöntetűség törvénye. Két homozigóta szülő keresztezéséből származó első utódnemzedék (első filialis generáció=F1) egyöntetűen heterozigóta, feno/genotípusában azonos</br><img src="img/mendel_1.png"></br>2. F2 szegregáció = a tulajdonságok szétválásának törvénye: Az F1 generáció tagjait egymás között keresztezve a második utódnemzedékben (F2) megjelennek az eredeti szülői tulajdonságok, azaz a tulajdonságok szétválnak (szegregálódnak).</br><img src="img/mendel_2.png"></br> 3. A tulajdonságok független kombinálódásának elve: Amikor 2 tulajdonságot vizsgált egyszerre, azt találta, hogy az F2 generáció tagjaiban a szülői nemzedékben jelen nem lévő tulajdonságpárok is megjelentek, azaz a tulajdonságok szabadon kombinálódtak.</br><img src="img/mendel_3.png">'
 },{
 	question:'10. Melyik az a két, meiotikus osztódás során bekövetkező folyamat, amely biztosítja a gének/tulajdonságok rekombinálódását, vagyis az utódokban megjelenő változatosságot az ivaros szaporodás során?',
-	answer:''
+	answer:'<img src="img/interkromoszomalis.png"></br><img src="img/intrakromoszomalis.png">'
 },{
 	question:'10. Milyen öröklésmeneteket ismer? Az öröklésmenet megnevezése mellett, kérem ismertesse az allélok különböző lehetséges viszonyait példákkal, jellemzőkkel!',
+	answer:'1.Domináns-recesszív öröklődésmenet (X recesszív = XR, X domináns = XD) -> köztes változatnál a domináns lesz a nyerő</br>2. intermidier -> köztes változatnál kevert megoldás</br>3. kodomináns -> több domináns pl. vércsoportnál A,B domináns</br>nemhez kötött (mitokondrális)</br>4. több génes (mennyiségi tulajdonságok) -> testmagasság, bőrszín, de környezet is befolyásolja</br>5. génkölcsönhatások'
+},{
+	question:'11. Mit vizsgál a citogenetika és milyen vizsgálómódszereit ismeri? Hogyan kell ezeket kivitelezni?',
 	answer:''
 },{
-	question:'10. Mit vizsgál a citogenetika és milyen vizsgálómódszereit ismeri? Hogyan kell ezeket kivitelezni?',
+	question:'11. Milyen teratogenetikai ártó tényezőket, noxákat ismer?',
 	answer:''
 },{
-	question:'10. Milyen teratogenetikai ártó tényezőket, noxákat ismer?',
+	question:'11. Ismertesse a mutációk típusait! (Akár több szempontból is)',
 	answer:''
 },{
-	question:'10. Ismertesse a mutációk típusait! (Akár több szempontból is)',
+	question:'11. Ismertesse a tanult numerikus gonoszóma kromoszóma aberrációkat!',
 	answer:''
 },{
-	question:'10. Ismertesse a tanult numerikus gonoszóma kromoszóma aberrációkat!',
+	question:'11. Ismertesse a tanult strukturális autoszóma aberrációkat!',
 	answer:''
 },{
-	question:'10. Ismertesse a tanult strukturális autoszóma aberrációkat!',
+	question:'11. Ismertesse a tanult  numerikus autoszóma aberrációkat!',
 	answer:''
 },{
-	question:'10. Ismertesse a tanult  numerikus autoszóma aberrációkat!',
+	question:'12. Rajzolja le, hogy Griffith 1928-ban végzett baktériumtranszformációs kísérletének menetét!Egy mondatban fogalmazza meg, hogy miért igazolja ez, hogy a DNS az örökítő anyag!',
+	answer:''
+},{
+	question:'12. ',
+	answer:''
+},{
+	question:'12. ',
+	answer:''
+},{
+	question:'12. ',
+	answer:''
+},{
+	question:'12. ',
+	answer:''
+},{
+	question:'12. ',
 	answer:''
 }
 ]
