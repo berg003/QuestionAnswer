@@ -196,9 +196,7 @@ summaryQuestionAnswers = [
 }
 ];
 
-function init() {
-	const list = document.getElementById('questions'); 
-	list.innerHTML = '';
+function getQuestionAnswers() {
 	var combobox = document.getElementById('questionType');
 	var value = combobox.options[combobox.selectedIndex].value;
 	var questionAnswers;
@@ -207,36 +205,7 @@ function init() {
 	} else {
 		questionAnswers = summaryQuestionAnswers;
 	}
-	
-	questionAnswers.forEach(item => {
-		let option = document.createElement('option');
-		option.value = item.question;
-		list.appendChild(option);
-	});
-};
-
-function searchAnswer() {
-	const div = document.getElementById('answer');
-	var combobox = document.getElementById('questionType');
-	var value = combobox.options[combobox.selectedIndex].value;
-	var questionAnswers;
-	if (value == 'kahoot') {
-		questionAnswers = kahootQuestionAnswers;
-	} else {
-		questionAnswers = summaryQuestionAnswers;
-	}
-	
-	var question = document.getElementById('question').value;
-	questionAnswers.forEach(item => {
-		if (item.question == question) {
-			document.getElementById('answer').innerHTML = item.answer;			
-		}
-	});
-}
-
-function reset() {
-	document.getElementById('question').value = '';
-	document.getElementById('answer').innerHTML = '';
+	return questionAnswers;
 }
 
 function showWiki(fileId) {

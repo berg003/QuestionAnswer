@@ -785,29 +785,8 @@ var questionAnswers = [
 },
 ];
 
-function init() {
-	const list = document.getElementById('questions'); 
-	
-	questionAnswers.forEach(item => {
-		let option = document.createElement('option');
-		option.value = item.question;
-		list.appendChild(option);
-	});
-};
-
-function searchAnswer() {
-	const div = document.getElementById('answer');
-	var question = document.getElementById('question').value;
-	questionAnswers.forEach(item => {
-		if (item.question == question) {
-			document.getElementById('answer').innerHTML = item.answer;			
-		}
-	});
-}
-
-function reset() {
-	document.getElementById('question').value = '';
-	document.getElementById('answer').innerHTML = '';
+function getQuestionAnswers() {
+	return questionAnswers;
 }
 
 function showPdf(fileId) {
@@ -815,6 +794,7 @@ function showPdf(fileId) {
 	pdfFrame.src = "https://docs.google.com/viewer?srcid=" + fileId + "&pid=explorer&efh=false&a=v&chrome=false&embedded=true";
 	pdfFrame.style.height='100%';
 	pdfFrame.style.visibility = null;
+	pdfFrame.scrollIntoView();
 }
 function hidePdf() {
 	var pdfFrame = document.getElementById('pdfFrame');

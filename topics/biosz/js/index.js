@@ -637,13 +637,13 @@ var imageQuestionAnswers = [
 	answer:'<img src="img/griffith.png"></br>A hőkezeléssel megölt kórokozóból kiszabaduló DNS-t felvette a másik típusú baktérium, ettől megváltoztak a tulajdonságai'
 },{
 	question:'Mi a PCR reakció lényege? Mit kell a kémcsőbe tenni, hogy megvalósuljon? Mire használható?',
-	answer:'- Összemérés után a hőmérsékletet változtatva amplifikálhatjuk a primerek által kijelölt DNS szakaszt </br>- PCR hozzávalók: Célszekvencia, Primerek, DNS-polimeráz, Nukleotidok</br>- Gyors DNS repodukció'
+	answer:'- A PCR reakció egy DNS sokszorozó módszer, mellyel rövid DNS szakaszok pár óra alatt láncreakció szerűen milliós példányszámban termelhetőek.</br>- Összemérés után a hőmérsékletet változtatva amplifikálhatjuk a primerek által kijelölt DNS szakaszt.'
 },{
 	question:'Melyek a Humán Genom Project legfőbb tanulságai?',
-	answer:'- hány génünk van</br>- kb 20-30e fehérje kódoló gén</br>- gének a genom 1%a</br>- részletesen kereshetőek gének, betegségek, adatok, cikkek</br>- számos örökletes betegségért felelős szekvenciát sikerült beazonosítani</br>- A gyógyszeripar is új lehetőségekhez jutott. Gyógyszer-tervezés, mellékhatás felmérés in silicio – számítógépes programokkal'
+	answer:'- Egy nagyszabású projekt volt 1996 és 2006 között, amely feltárta a teljes emberi genomot egészen a nukleotidok szintjéig és azonosította a benne található összes gént.</br>- Az emberi genom a petesejt vagy hímivarsejt teljes genetikai tartalma.'
 },{
 	question:'Fogalmazza meg a genetikai manipuláció lényegét, példákkal!',
-	answer:'amikor nem csak vizsgáljuk, hanem meg is változtatjuk az élőlények örökítőanyagát...</br>- 3 szülős gyerek, ahol egy másik nő petesejtjét ültetik be az eredeti nőbe és úgy született meg a gyerek.'
+	answer:'- Az élő szervezetek sejtekből épülnek fel. Tudósok felfedezték, hogyan másolható a sejtekben található információ, vagy hogyan klónozhatóak a gének úgy, hogy új állat- és növény egyedek jöjjenek létre.</br>- A genetikai manipuláció a gének megváltoztatása, kiütése, behelyezése, kicserélése.</br>- Genetikai manipuláció ismert példái: Dolly, a birka, az első klónozott emlős, továbbá varangyosbéka ill. Pók egyedek génjeinek hozzáadása zöldségekhez'
 }
 ]
 
@@ -1716,16 +1716,16 @@ var inspectionQuestionAnswers = [
 	answer:'<img src="img/interkromoszomalis.png"></br><img src="img/intrakromoszomalis.png">'
 },{
 	question:'10. Milyen öröklésmeneteket ismer? Az öröklésmenet megnevezése mellett, kérem ismertesse az allélok különböző lehetséges viszonyait példákkal, jellemzőkkel!',
-	answer:'1.Domináns-recesszív öröklődésmenet (X recesszív = XR, X domináns = XD) -> köztes változatnál a domináns lesz a nyerő</br>2. intermidier -> köztes változatnál kevert megoldás</br>3. kodomináns -> több domináns pl. vércsoportnál A,B domináns</br>nemhez kötött (mitokondrális)</br>4. több génes (mennyiségi tulajdonságok) -> testmagasság, bőrszín, de környezet is befolyásolja</br>5. génkölcsönhatások'
+	answer:'1.Domináns-recesszív öröklődésmenet (X recesszív = XR, X domináns = XD) -> köztes változatnál a domináns lesz a nyerő</br>2. intermidier -> köztes változatnál kevert megoldás</br>3. kodomináns -> több domináns pl. vércsoportnál A,B domináns</br>nemhez kötött (mitokondriális)</br>4. több génes (mennyiségi tulajdonságok) -> testmagasság, bőrszín, de környezet is befolyásolja</br>5. génkölcsönhatások'
 },{
 	question:'11. Mit vizsgál a citogenetika és milyen vizsgálómódszereit ismeri? Hogyan kell ezeket kivitelezni?',
-	answer:''
+	answer:'- A klinikai genetikai vizsgálatok egy része a kromoszómák elemzésén alapuló citogenetikai vizsgálat.</br>- A citogenetikában alkalmazott eljárások lehetővé teszik egyes sejtek (a perifériás vér limfocitái, csontvelő, fibroblasztok, magzatvíz sejtek, korionboholy sejtek) testüregen kívüli szaporítását és kromoszóma garnitúrájuk elemzését.</br>- A kromoszómák a mitotikusan osztódó sejtek metafázisában a legalkalmasabbak arra, hogy különböző festési technikákkal vizsgálhatók legyenek.</br>Kivitelezés:</br>1. Limfocita kinyerés</br>2. Limfocita	tenyésztés</br>3. Kromoszómák mikroszkópos vizsgálata</br>4. Karyogram kirakása'
 },{
 	question:'11. Milyen teratogenetikai ártó tényezőket, noxákat ismer?',
-	answer:''
+	answer:'<img src="img/noxak.png">'
 },{
 	question:'11. Ismertesse a mutációk típusait! (Akár több szempontból is)',
-	answer:''
+	answer:'- csíravonalban következett (öröklődik), szomatikus</br>- fizikai(ionizáló sugárzás), kémiai(szerves oldószerek), biológiai(vírusok)</br>- előnyös, hátrányos, közömbös</br>- pontmutáció, génmutáció, kromoszóma-mutáció, genom-mutáció'
 },{
 	question:'11. Ismertesse a tanult numerikus gonoszóma kromoszóma aberrációkat!',
 	answer:''
@@ -1739,27 +1739,25 @@ var inspectionQuestionAnswers = [
 	question:'12. Rajzolja le, hogy Griffith 1928-ban végzett baktériumtranszformációs kísérletének menetét!Egy mondatban fogalmazza meg, hogy miért igazolja ez, hogy a DNS az örökítő anyag!',
 	answer:''
 },{
-	question:'12. ',
+	question:'12. Mi volt Hershey és Chase kísérletének lényege (rajz)? Milyen következtetést vontak le belőle?',
 	answer:''
 },{
-	question:'12. ',
+	question:'12. Sorolja fel, hogy milyen összetevőket szükséges a kémcsőbe tenni ahhoz, hogy a PCR reakció lejátszódjék! Miért van szükség az amplifikációra?',
 	answer:''
 },{
-	question:'12. ',
-	answer:''
+	question:'12. Mi a PCR reakció lényege? Mire használhatjuk?',
+	answer:'-  PCR reakció egy DNS sokszorozó módszer, mellyel rövid DNS szakaszok pár óra alatt láncreakció szerűen milliós példányszámban termelhetőek.</br>- Összemérés után a hőmérsékletet változtatva amplifikálhatjuk a primerek által kijelölt DNS szakaszt.'
 },{
-	question:'12. ',
-	answer:''
+	question:'12. Milyen adatokkal szolgált a Human Genom Project (HGP)? Sorolja fel néhány tanulságát!',
+	answer:'- Egy nagyszabású projekt volt 1996 és 2006 között, amely feltárta a teljes emberi genomot egészen a nukleotidok szintjéig és azonosította a benne található összes gént.</br>- Az emberi genom a petesejt vagy hímivarsejt teljes genetikai tartalma.'
 },{
-	question:'12. ',
-	answer:''
+	question:'12. Fogalmazza meg a genetikai manipuláció lényegét, példákkal!',
+	answer:'- Az élő szervezetek sejtekből épülnek fel.</br>- Tudósok felfedezték, hogyan másolható a sejtekben található információ, vagy hogyan klónozhatóak a gének úgy, hogy új állat- és növény egyedek jöjjenek létre.</br>- A genetikai manipuláció a gének megváltoztatása, kiütése, behelyezése, kicserélése.</br>- Genetikai manipuláció ismert példái: Dolly, a birka, az első klónozott emlős, továbbá varangyosbéka ill. Pók egyedek génjeinek hozzáadása zöldségekhez'
 }
-]
+];
 
-function init() {
-	const list = document.getElementById('questions'); 
-	list.innerHTML = '';
-	var combobox = document.getElementById('questionType');
+function getQuestionAnswers() {
+	var combobox = document.getElementById('questionType');	
 	var value = combobox.options[combobox.selectedIndex].value;
 	var questionAnswers;
 	if (value == 'small') {
@@ -1771,50 +1769,5 @@ function init() {
 	} else {
 		questionAnswers = inspectionQuestionAnswers;
 	}
-	
-	questionAnswers.forEach(item => {
-		let option = document.createElement('option');
-		option.value = item.question;
-		list.appendChild(option);
-	});
-};
-
-function searchAnswer() {
-	const div = document.getElementById('answer');
-	var combobox = document.getElementById('questionType');
-	var value = combobox.options[combobox.selectedIndex].value;
-	var questionAnswers;
-	if (value == 'small') {
-		questionAnswers = shortQuestionAnswers;
-	} else if (value == 'image') {
-		questionAnswers = imageQuestionAnswers;
-	} else if (value == 'multi') {
-		questionAnswers = multiQuestionAnswers;
-	} else {
-		questionAnswers = inspectionQuestionAnswers;
-	}
-	
-	var question = document.getElementById('question').value;
-	questionAnswers.forEach(item => {
-		if (item.question == question) {
-			document.getElementById('answer').innerHTML = item.answer;			
-		}
-	});
-}
-
-function reset() {
-	document.getElementById('question').value = '';
-	document.getElementById('answer').innerHTML = '';
-}
-
-function showDocument(fileId, type) {
-	var documentFrame = document.getElementById(type + 'Frame');
-	documentFrame.src = "https://docs.google.com/viewer?srcid=" + fileId + "&pid=explorer&efh=false&a=v&chrome=false&embedded=true";
-	documentFrame.style.height='100%';
-	documentFrame.style.visibility = null;
-}
-function hideDocument(type) {
-	var documentFrame = document.getElementById(type + 'Frame');
-	documentFrame.style.height=0;
-	documentFrame.style.visibility = 'hidden';
+	return questionAnswers;
 }
