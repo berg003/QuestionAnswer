@@ -634,7 +634,7 @@ var imageQuestionAnswers = [
 	answer:'<img src="img/triglicerid.png">'
 },{
 	question:'Kérem, rajzolja le Griffith 1928-ban végzett baktériumtranszformációs kísérletének menetét! Egy mondatban fogalmazza meg, hogy miért igazolja ez, hogy DNS az örökítő anyag!',
-	answer:'<img src="img/griffith.png"></br>A hőkezeléssel megölt kórokozóból kiszabaduló DNS-t felvette a másik típusú baktérium, ettől megváltoztak a tulajdonságai'
+	answer:'<img src="img/transformation.png"></br>A hőkezeléssel megölt kórokozóból kiszabaduló DNS-t felvette a másik típusú baktérium, ettől megváltoztak a tulajdonságai'
 },{
 	question:'Mi a PCR reakció lényege? Mit kell a kémcsőbe tenni, hogy megvalósuljon? Mire használható?',
 	answer:'- A PCR reakció egy DNS sokszorozó módszer, mellyel rövid DNS szakaszok pár óra alatt láncreakció szerűen milliós példányszámban termelhetőek.</br>- Összemérés után a hőmérsékletet változtatva amplifikálhatjuk a primerek által kijelölt DNS szakaszt.'
@@ -1728,22 +1728,22 @@ var inspectionQuestionAnswers = [
 	answer:'- csíravonalban következett (öröklődik), szomatikus</br>- fizikai(ionizáló sugárzás), kémiai(szerves oldószerek), biológiai(vírusok)</br>- előnyös, hátrányos, közömbös</br>- pontmutáció, génmutáció, kromoszóma-mutáció, genom-mutáció'
 },{
 	question:'11. Ismertesse a tanult numerikus gonoszóma kromoszóma aberrációkat!',
-	answer:''
+	answer:'- superfeminizmus (XXX)</br>- supermasculinizmus(XXY)</br>- Turner-sy (X0)</br>- Klinefelter (XXY)'
 },{
 	question:'11. Ismertesse a tanult strukturális autoszóma aberrációkat!',
-	answer:''
+	answer:'- macskanyávogás-szindróma (gége rendellenes fejlődés)</br>- Angelman-szindróma</br>- Prader-Willi-szindróma</br>- fra-X-szindróma(törékeny, főleg ffi)'
 },{
 	question:'11. Ismertesse a tanult  numerikus autoszóma aberrációkat!',
-	answer:''
+	answer:'- Patau-sy (3évig él, arcfejlődési rendellenes)</br>- Edwards sy(1-1,5évig,görcsös kéz, belső szervi rendellenesség)</br>- down sy'
 },{
 	question:'12. Rajzolja le, hogy Griffith 1928-ban végzett baktériumtranszformációs kísérletének menetét!Egy mondatban fogalmazza meg, hogy miért igazolja ez, hogy a DNS az örökítő anyag!',
-	answer:''
+	answer:'<img src="img/transformation.png"></br>A hőkezeléssel megölt kórokozóból kiszabaduló DNS-t felvette a másik típusú baktérium, ettől megváltoztak a tulajdonságai.'
 },{
 	question:'12. Mi volt Hershey és Chase kísérletének lényege (rajz)? Milyen következtetést vontak le belőle?',
-	answer:''
+	answer:'<img src="img/hershey.png"></br>izotópos jelölésekkel bizonyították, hogy csak a nukleinsav jut be, tehát ez tartalmazza a genetikai információt.'
 },{
 	question:'12. Sorolja fel, hogy milyen összetevőket szükséges a kémcsőbe tenni ahhoz, hogy a PCR reakció lejátszódjék! Miért van szükség az amplifikációra?',
-	answer:''
+	answer:'- Célszekvencia, Primerek, DNS-polimeráz, Nukleotidok kellenek a kémcsőbe</br>- A célszekvencia megtöbbszörözése érdekében kell az amplifikáció'
 },{
 	question:'12. Mi a PCR reakció lényege? Mire használhatjuk?',
 	answer:'-  PCR reakció egy DNS sokszorozó módszer, mellyel rövid DNS szakaszok pár óra alatt láncreakció szerűen milliós példányszámban termelhetőek.</br>- Összemérés után a hőmérsékletet változtatva amplifikálhatjuk a primerek által kijelölt DNS szakaszt.'
