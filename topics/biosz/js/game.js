@@ -1,0 +1,280 @@
+var questionAnswers=[
+	{
+		question: 'Hogyan változott a légkör az élet megjelenését követően?',
+		answers: {
+			'Oxidálóból redukálóvá vált' : false,
+			'Egyre több oxigén lett benne' : true,
+			'Egyre több széndioxid lett benne' : false,
+			'Redukálóból oxidáló lett' : true
+		}
+	},{
+		question: 'Az endoszimbiózisról a következő állítás igaz:',
+		answers: {
+			'Ez a mód volt a kompartmentek keletkezésének kizárólagos útja' : false,
+			'Az autogén móddal együtt vezetett a prokarióták kialakulásához' : false,
+			'Az ősi prokarióták többsége így táplálkozott a sejtfalán keresztül' : false,
+			'Sejtfalát veszített ősi prokarióta így tett szert egyes sejtszervekre' : true
+		}
+	},{
+		question: 'Jelölje meg a lipidek közös jellemzőit!',
+		answers: {
+			'Szerves anyagok' : true,
+			'Gyűrűs molekularészletek jellemzik' : false,
+			'Szerves oldószerekben jól oldódnak' : true,
+			'Észterek' : false
+		}
+	},{
+		question: 'Az alábbi molekulák közül melyek lehetnek egy triglicerid molekula részei',
+		answers: {
+			'Glicerin': true,
+			'Telített zsírsavak': true,
+			'Telítetlen zsírsavak': true,
+			'Likopin': false
+		}
+	},{
+		question: 'Melyik állítás nem igaz a glicerinre?',
+		answers: {
+			'hidroxil-csoportokat tartalmaz': false,
+			'3 szénatom van benne': false,
+			'kettős kötést tartalmaz': true,
+			'Észterkötés kialakítására képes': false 
+		}
+	},{
+		question: 'Válassza ki a helyes megállapításokat!',
+		answers: {
+			'A zsírsavak és a glicerin közötti észterkötések egymás után jönnek létre': true,
+			'A zsírsavak szintézise a mitokondrium mátrixban folyik': false,
+			'A zsírsavakat a CoA molekula szállítja oda a glicerinhez': true,
+			'A telítetlen zsírsavakból jönnek létre a telítettek a deszaturáz segítségével': false
+		}
+	},{
+		question: 'Válassza ki a helyes megállapításokat!',
+		answers: {
+			'Az esszenciális zsírsavak mindig rendelkezésre állnak a szervezetünkben': false,
+			'A trigliceridek mindhárom hidroxilcsoportját zsírsavlánc észteresíti': true,
+			'A zsírsavak és a glicerin közötti észterkötések egyszerre jönnek létre': false,
+			'A foszfatidokban a glicerin egyik hidroxi4lcsoportjához egy foszforsav kapcsolódik': true
+		}
+	},{
+		question: 'Válassza ki az alábbi poliszacharidok közül a nitrogént is tartalmazókat!',
+		answers: {
+			'Keményítő': false,
+			'Cellulóz': false,
+			'Glikogén': false,
+			'Kitin': true
+		}
+	},{
+		question: 'Az alábbi folyamatok közül válassza ki az energiaigényeseket!',
+		answers: {
+			'Fotoszintézis': true,
+			'Poliszacharidok előállítása': true,
+			'Glükoneogenezis': true,
+			'Biológiai oxidáció': false
+		}
+	},{
+		question: 'Mely állítások igazak az aminosavak R oldalláncára?',
+		answers: {
+			'20 féle fordul elő a természetben': true,
+			'egy adott aminosav méretének meghatározója': true,
+			'lehet poláris vagy apoláris': true,
+			'purin vagy pirimidin': false
+		}
+	},{
+		question: 'Mely atomok vesznek részt a peptidkötés kialakításában?',
+		answers: {
+			'C, S, N, H': false,
+			'K. C, O, N, He': false,
+			'C, O, Na, H': false,
+			'C, O, N, H': true
+		}
+	},{
+		question: 'Mit tudunk a polipeptidlánc 2 végéről?',
+		answers: {
+			'Egyik vége biztos, hogy N-vég, a másik azonban néha lehet S-vég': false,
+			'Egyik vége biztos, hogy N-vég, a másik azonban néha lehet C-vég is': false,
+			'Mindkét vége lehet N-vég, vagy C-vég, de sohasem különböző': false,
+			'Egyik vége biztos, hogy N-vég, a másik vége biztos, hogy C-vég': true 
+		}
+	},{
+		question: 'Válassza ki, melyik molekulacsoport tekinthető a nukleinsavak monomerjének!',
+		answers: {
+			'Purinok': false,
+			'Pirimidinek': false,
+			'Ribóz vagy dezoxiribóz': false,
+			'Nukleotid': true
+		}
+	},{
+		question: 'Miből áll egy nukleotid?',
+		answers: {
+			'Szulfát, pentóz, N-tartalmú szerves bázis': false,
+			'Hexóz, purin, pirimidin': false,
+			'Foszfát, pentóz, N-tartalmú szerves bázis': true,
+			'Szulfát, pirimidin, aminócsoport' : false
+		}
+	},{
+		question: 'Mikor keletkezett bolygónk, a Föld?',
+		answers: {
+			'15 milliárd évvel ezelőtt': false,
+			'4.6 milliárd évvel ezelőtt': true,
+			'10 millió évvel ezelőtt': false,
+			'3.8 milliárd évvel ezelőtt': false
+		}
+	},{
+		question: 'Az endoszimbiózisról a következő állítás igaz:',
+		answers: {
+			'Ez a mód volt a kompartmentek keletkezésének kizárólagos útja': false,
+			'Az autogén móddal együtt vezetett a prokarióták kialakulásához': false,
+			'Az ősi prokarióták többsége így táplálkozott a sejtfalán keresztül': false,
+			'Sejtfalát veszített ősi prokarióta így tett szert egyes sejtszervekre': true 
+		}
+	},{
+		question: 'Mit modellezett Miller 1953-as kísérlete?',
+		answers: {
+			'Az első sejtek keletkezését': false,
+			'Koacervátumok létrejöttét': false,
+			'A kémiai evolúció bizonyos folyamatait': true,
+			'Az élet keletkezését':false
+		}
+	},{
+		question: 'Hogyan változott a légkör az élet megjelenését követően?',
+		answers: {
+			'Oxidálóból redukálóvá vált': false,
+			'Egyre több nitrogén lett benne': false,
+			'Egyre több széndioxid lett benne': false,
+			'Redukálóból oxidáló lett': true
+		}
+	},{
+		question: 'A vízmolekulára igaz, hogy',
+		answers: {
+			'Ugyan szerves vegyület, de az élőlényekben csak közegként funkcionál.': false,
+			'A biokémiai folyamatokban csak közvetett szerepet játszik.': false,
+			'Hidrátburok kialakítási képessége apoláris jellegének köszönhető.': false,
+			'Szervetlen poláris jellegű molekula, mely hidrogén-hidak kialakítására képes.': true
+		}
+	},{
+		question: 'Jelölje meg a lipidek közös jellemzőit!',
+		answers: {
+			'Szerves anyagok': true,
+			'Gyűrűs molekularészletek jellemzik': false,
+			'Szerves oldószerekben jól oldódnak': true,
+			'Észterek': false
+		}
+	},{
+		question: 'Válassza ki a helyes megállapításokat!',
+		answers: {
+			'Az esszenciális zsírsavak mindig rendelkezésre állnak a szervezetünkben': false,
+			'A trigliceridek mindhárom hidroxilcsoportját zsírsavlánc észteresíti': true,
+			'A zsírsavak és a glicerin közötti észterkötések egyszerre jönnek létre':false ,
+			'A foszfatidokban a glicerin egyik hidroxilcsoportjához egy foszforsav kapcsolódik': true
+		}
+	},{
+		question: 'Válassza ki a foszfatidokra igaz megállapításokat!',
+		answers: {
+			'A glicerin harmadik hidroxilgyökéhez egy telítetlen zsírsavlánc kapcsolódik': false,
+			'A biológiai membránok fontos építőelemei': true,
+			'A prosztaglandinok is ilyenek': false,
+			'Kettős oldódási tulajdonsággal bírnak': true 
+		}
+	},{
+		question: 'Válassza ki a szénhidrátokra mint vegyületcsoportra igaz megállapításokat!',
+		answers: {
+			'A Föld szervesanyagkészletének legnagyobb részét képezik': true,
+			'Információhordozó molekulák': false,
+			'Szénből, oxigénből és hidrogénből állnak': true,
+			'Valamennyi édes ízű, jól emészthető': false 
+		}
+	},{
+		question: 'Az alábbiak közül mely monoszacharid csoportokban találunk biológiailag jelentős molekulákat?',
+		answers: {
+			'Triózok': true,
+			'Tetrózok': false,
+			'Pentózok': true,
+			'Októzok': false
+		}
+	},{
+		question: 'Válassza ki az alábbi poliszacharidok közül a nitrogént is tartalmazókat!',
+		answers: {
+			'Keményítő': false,
+			'Cellulóz': false,
+			'Glikogén': false,
+			'Kitin': true
+		}
+	},{
+		question: 'Az alábbi folyamatok közül válassza ki az energiaigényeseket!',
+		answers: {
+			'Fotoszintézis': true,
+			'Poliszacharidok előállítása': true,
+			'Glükoneogenezis': true,
+			'Biológiai oxidáció': false
+		}
+	},{
+		question: 'Válassza ki azokat a funkciós csoportokat, amelyek megtalálhatóak valamennyi aminosavban!',
+		answers: {
+			'Karboxilcsoport': true,
+			'Ketocsoport': false,
+			'Aminocsoport': true,
+			'Étercsoport': false
+		}
+	},{
+		question: 'Hány féle csoport kapcsolódhat a központi szénatomhoz az élőlények fehérjéit felépítő aminosavakban?',
+		answers: {
+			'4': false,
+			'20': false,
+			'24': false,
+			'23': true
+		}
+	},{
+		question: 'Mit tudunk a polipeptidlánc 2 végéről?',
+		answers: {
+			'Egyik vége biztos, hogy N-vég, a másik azonban néha lehet S-vég': false,
+			'Egyik vége biztos, hogy N-vég, a másik azonban néha lehet C-vég is': false,
+			'Mindkét vége lehet N-vég, vagy C-vég, de sohasem különböző': false,
+			'Egyik vége biztos, hogy N-vég, a másik vége biztos, hogy C-vég': true 
+		}
+	},{
+		question: 'Válassza ki, melyik molekulacsoport tekinthető a nukleinsavak monomerjének!',
+		answers: {
+			'Purinok': false,
+			'Pirimidinek': false,
+			'Ribóz vagy dezoxiribóz': false,
+			'Nukleotid': true
+		}
+	},{
+		question: 'Az alábbi molekulák közül válassza ki a koenzimeket!',
+		answers: {
+			'ATP': false,
+			'NAD': true,
+			'AMP': false,
+			'FAD': true
+		}
+	},{
+		question: 'A pirimidinvázas N-tartalmú szerves bázisokra igaz, hogy',
+		answers: {
+			'Velük szemben mindig purinvázas bázis helyezkedik el a kettős hélixben': true,
+			'Egy 6 és egy 5 tagú gyűrűből áll': false,
+			'A nukleotidok felépítésében nem vesz részt': false,
+			'Ribóz vagy dezoxiribóz vesz részt a felépítésében' : false
+		}
+	}
+]
+
+function initQuestionAnswerHtml() {
+	var questionAnswer = questionAnswers[Math.floor(Math.random() * questionAnswers.length)];
+	document.getElementById('question').innerHTML = questionAnswer.question;
+	var questions = '';	
+	for (var i in questionAnswer.answers) {
+		questions += '<input type="checkbox" name="answer" value="' + questionAnswer.answers[i] + '"><span>'+i+'</span></br>';
+	}
+	document.getElementById('answers').innerHTML = questions;
+}
+
+function checkAnswers() {
+	var answers = document.getElementsByName('answer');
+	for (var i in answers) {
+		if (answers[i].value == 'true' && answers[i].checked == true || (answers[i].value == 'false' && answers[i].checked == false)) {
+			document.getElementsByTagName('span')[i].className = 'lime';
+		} else {
+			document.getElementsByTagName('span')[i].className = 'red';
+		}
+	}
+}
