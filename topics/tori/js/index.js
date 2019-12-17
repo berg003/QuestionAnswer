@@ -193,6 +193,12 @@ summaryQuestionAnswers = [
 },{
 	question:'Ápolás funkciói',
 	answer:'- nem önálló funkció</br>-- gyógyszerelés</br>-- mindennapos beavatkozások: katéterezés, vérvétel, stb</br>-- önálló: megfigyelés, szükségletek és komfort biztosítása</br>-- együttműködő: orvos segítése pl. hascsapolás, mellkasfunkció</br>-- beteg előkészítése</br>-- beteg megnyugtatása</br>-- eszközök elpakolása'
+},{
+	question:'Magyar Ápolási Egyesület',
+	answer:'- civil szervezet, ápolók hozták létre</br>- icn kicsiben</br>- jogalkotásba beleszólhatnak -> ápolói béralkotásnál szerepet játszhatnak</br>- 2012 konferencia'
+},{
+	question:'Magyar Egészségügyi Szakdolgozói Kamara',
+	answer:'- állami szervezet</br>- eü-ben dolgozóknak kötelező belépni</br>- elnök: Dr Balogh Zoltán'
 }
 ];
 

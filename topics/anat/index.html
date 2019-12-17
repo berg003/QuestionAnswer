@@ -7,7 +7,11 @@
 		<link rel="stylesheet" type="text/css" href="../../css/common.css"></link>
 		<title>Anatómia Tételek</title>
 	</head>
-	<body onload="init();">	
+	<body onload="init();">
+	  <select id="questionType" onchange="reset();init();">
+		  <option value="inspection">Tétel</option>
+		  <option value="image">Képlet</option>
+	  </select>
 	  <input list="questions" id="question" placeholder="Keresés..">
 	  <datalist id="questions"></datalist>
 	  <img onclick="searchAnswer()" class="button" src="../../img/search.png">
