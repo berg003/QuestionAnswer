@@ -1004,12 +1004,9 @@ var multiQuestionAnswers = [
 	answer:'<span class="lime">Z. Karboxil csoportjával</span></br>T. Aminocsoportjával</br>Ó. Oldalláncával</br>D. Foszfátcsoportjával'
 },{
 	question:'III/B. Mikor következik be a fehérjeszintézis terminációs szakasza?',
-	answer:'L. Amikor elfogytak az aminosavak</br>E. Amikor a riboszóma a stopkodonhoz ért</br>A. Amikor a riboszóma az antikodonhoz ért</br>K. Amikor elfogytak a tRNS-ek'
+	answer:'L. Amikor elfogytak az aminosavak</br><span class="lime">E. Amikor a riboszóma a stopkodonhoz ért</span></br>A. Amikor a riboszóma az antikodonhoz ért</br>K. Amikor elfogytak a tRNS-ek'
 },{
 	question:'III/B. U. Kód; M. Kodon; T. Mindkettő; N. Egyik se',
-	answer:''
-},{
-	question:'III/B. ',
 	answer:'<span class="lime">T</span> Kihagyás- és átfedésmentes</br><span class="lime">T</span> Egyértelmű, degenerált, univerzális</br><span class="lime">M</span> RNS szekvencia</br><span class="lime">U</span> DNS szekvencia</br><span class="lime">N</span> A transzláció során jön létre'
 },{
 	question:'III/B. U:+++; J++-; K:+-; A:-+; T:--',
@@ -1115,7 +1112,7 @@ var multiQuestionAnswers = [
 	answer: '<span class="lime">M. Egyik felszínét az amnionüreg, a másikat a szikhólyag határolja</span></br>L. Egyik felszíne az anyai szövetekkel, másik a magzati szövetekkel érintkezik</br><span class="lime">Á. Az embrioblasztok differenciálódásából jön létre</span></br>D. A trofoblasztok differenciálódása során keletkezik'
 },{
 	question:'IV/A. Az idegrendszer kialakulása melyik képletből történik?',
-	answer: '<span class="lime">S. Gerinchúr</span></br>O. Szomita</br>H. Endoderma</br>S. Velőlemez'
+	answer: 'S. Gerinchúr</br>O. Szomita</br>H. Endoderma</br><span class="lime">S. Velőlemez</span>'
 },{
 	question:'IV/A. K. Ektoderma; A. Mezoderma; L. Mindkettő; O. Egyik se',
 	answer: '<span class="lime">O</span>A szelvényeződés során alakul ki</br><span class="lime">K</span>Az idegrendszer telepe belőle fejlődik</br><span class="lime">K</span>A dúclécek belőle fejlődnek</br><span class="lime">A</span>A somiták jönnek létre belőle</br><span class="lime">L</span>A háromlemezes embriópajzs része</br><span class="lime">A</span>Ilyen eredetű a gerinchúr'
@@ -1139,7 +1136,7 @@ var multiQuestionAnswers = [
 	answer: '<span class="lime">J</span>A szomitanyélből jönnek létre a vizeleti szervek telepei,mert az elővese és az ősvese gyorsan visszafejlődik.</br><span class="lime">Ü</span>A kardiogén lemezből kifejlődő kétoldali szívtelep egymással nem egyesül, mert a megszületéskor egységes a szívüreg.</br><span class="lime">K</span>A velőcső feji végén alakul ki az agy telepe, mert a központi idegrendszer mezodermális eredetű.'
 },{
 	question:'IV/B. Mely állítások igazak a sejtszaporodásra?',
-	answer: '<span class="lime">S. Sejtosztódásokon keresztül valósul meg</span></br>K. A kiindulási és az utódsejtek genetikailag mindig azonosak</br><span class="lime">E. Egyensúlyt tart a programozott sejthalállal</br>V. Csak egy lehetséges formáját ismerjük</span>'
+	answer: '<span class="lime">S. Sejtosztódásokon keresztül valósul meg</span></br>K. A kiindulási és az utódsejtek genetikailag mindig azonosak</br><span class="lime">E. Egyensúlyt tart a programozott sejthalállal</span></br>V. Csak egy lehetséges formáját ismerjük'
 },{
 	question:'IV/B. Milyen szakaszokra osztható az interfázis?',
 	answer: 'X. G1, G2 és G3-fázisokra</br>É. G0, S és G2-fázisokra</br><span class="lime">M. G1, S és G2-fázisokra</span></br>N. S1, G és S2-fázisokra'
@@ -1220,7 +1217,7 @@ var multiQuestionAnswers = [
 	answer:'<span class="lime">D. A mezodermából jön létre</span></br>C. Az endoderma alakítja ki</br><span class="lime">E. Indukálja a velőlemez differenciálódását</span></br>Á. Az embrió idegrendszerének előtelepe'
 },{
 	question:'GEN. Mit jelent a sejtek poziciófüggő determinációja az egyedfejlődés során?',
-	answer:'N. A sejt sorsát a környezete határozza meg</br>K. Mintázatkialakulás alapjául szolgál</br>I. A morfogéngrádiens alapvető fontossággal bír ennek során</br>L. A sejtek elvándorlását jelenti'
+	answer:'<span class="lime">N. A sejt sorsát a környezete határozza meg</span></br><span class="lime">K. Mintázatkialakulás alapjául szolgál</span></br><span class="lime">I. A morfogéngrádiens alapvető fontossággal bír ennek során</span></br>L. A sejtek elvándorlását jelenti'
 },{
 	question:'GEN. Jelölje be a polispermiózisra igaz állításokat!',
 	answer:'<span class="lime">Ö. Következményeként poliploidia áll elő</span></br>F. Következményeként ikerképződés áll elő</br><span class="lime">N. Ember esetében életképtelen zigóta jön létre</span></br>O. A sikeres megtermékenyítőképesség előfeltétele'
