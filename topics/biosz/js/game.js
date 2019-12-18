@@ -608,36 +608,204 @@ var questionAnswers=[
 			'Az emberi ivarsejtek összességét': false
 		}
 	},{
-		question:'',
+		question:'Az alábbi kijelentések közül melyik igaz az endoplazmatikus retikulum ciszternájára?',
 		answers: {
-			'': ,
-			'': ,
-			'': ,
-			'': 
+			'Egyetlen összefüggő üreg': true,
+			'Lapos membránzsákok elhatárolódó üregei': false,
+			'A citoplazma üregétől membrán választja el': true,
+			'Sok kis zsírcsepp tölti ki': false
 		}
 	},{
-		question:'',
+		question:'Milyen kötőhelyeket találunk a riboszómán?',
 		answers: {
-			'': ,
-			'': ,
-			'': ,
-			'': 
+			'Antikodon': false,
+			'Aktivált aminosav kötőhelye': false,
+			'Aminosavaktiváló enzim kötőhelye': false,
+			'A- és P-lókusz': true
 		}
 	},{
-		question:'',
+		question:'Milyen kötőhelyeket találunk a t-RNS-en?',
 		answers: {
-			'': ,
-			'': ,
-			'': ,
-			'': 
+			'Antikodon': true,
+			'Aktivált aminosav kötőhelye': true,
+			'Aminosavaktiváló enzim kötőhelye': true,
+			'A- és P-lókusz': false
 		}
 	},{
-		question:'',
+		question:'A kodon és az antikodon milyen kötéstípussal kapcsolódik össze?',
 		answers: {
-			'': ,
-			'': ,
-			'': ,
-			'': 
+			'Ionos kötés': false,
+			'H-híd': true,
+			'Kovalens': false,
+			'Van der Waals': false
+		}
+	},{
+		question:'Mit jelent a „lötyögés” a kodon és az antikodon kapcsolódásánál?',
+		answers: {
+			'Harmadik helyen lévő bázisok kapcsolódása nem mindig komplementer': true,
+			'Az antikodonban néha uracil helyett timint találunk': false,
+			'Második helyen lévő bázisok kapcsolódása nem mindig komplementer': false,
+			'Az aminosavhoz való kötődés nem mindig kovalens kötés': false
+		}
+	},{
+		question:'Hol található az A(akceptor)-lókusz?',
+		answers: {
+			'A riboszóma kis alegységén': true,
+			'A riboszóma nagy alegységén': false,
+			'Az ivari kromoszómákon': false,
+			'Az mRNS-en': false
+		}
+	},{
+		question:'Mitől függ az, hogy az  A(akceptor)-lókusz milyen tRNS-t köt meg?',
+		answers: {
+			'Az A-lókusz területére eső kodontól': true,
+			'A riboszóma nagy alegységétől': false,
+			'A rendelkezésre álló aminosavtól': false,
+			'A peptidil transzferáz működésétől': false
+		}
+	},{
+		question:'Mi a peptidil transzferáz feladata?',
+		answers: {
+			'A tRNS kötése az A-lókuszhoz': false,
+			'Az mRNS kötése a kis alegyéghez': false,
+			'A peptidkötés kialakítása': true,
+			'Az üres tRNS eltávolítása': false
+		}
+	},{
+		question:'Az fehérjeszintézis során az újabb és újabb peptidkötések kialakulására mely funkciós csoportok között kerül sor?',
+		answers: {
+			'A P-lókuszon lévő aminosav aminocsoportja és az A-lókuszon lévő karboxil csoportja között': false,
+			'A P-lókuszon lévő aminosav karboxil csoportja és az A-lókuszon lévő aminocsoportja között': true,
+			'A P-lókuszon és az A-lókuszon lévő aminosav aminocsoportjai között': false,
+			'A P-lókuszon és az A-lókuszon lévő aminosav karboxil csoportjai között': false
+		}
+	},{
+		question:'Mikor következik be a fehérjeszintézis terminációs szakasza?',
+		answers: {
+			'Amikor elfogytak az aminosavak': false,
+			'Amikor a riboszóma a stopkodonhoz ért': true,
+			'Amikor a riboszóma az antikodonhoz ért': false,
+			'Amikor elfogytak a tRNS-ek': false
+		}
+	},{
+		question:'Mit nevezünk poliriboszómának?',
+		answers: {
+			'Az egy tRNS-re felfűzött riboszómákat': false,
+			'Az egy polipeptidláncra felfűzött riboszómákat': false,
+			'Az egy mRNS-re felfűzött riboszómákat': true,
+			'Az egy ER membránfelszínen ülő riboszómákat': false
+		}
+	},{
+		question:'Milyen poszttranszlációs módosulások érinthetik a fehérjéket?',
+		answers: {
+			'Splicing': false,
+			'Glikoziláció': true,
+			'Dezamináció': false,
+			'Kénhidak kialakulása': true
+		}
+	},{
+		question:'Az alábbi folyamatok közül melyek tartoznak a Golgi-apparátus feladatai közé?',
+		answers: {
+			'Fehérjék átalakítása, továbbítása': true,
+			'A sejt energiatermelő folyamatai': false,
+			'Lipidek átalakítása, továbbítása': true,
+			'Reaktív oxigén származékok eliminálása': false
+		}
+	},{
+		question:'Mit nevezünk diktioszómának?',
+		answers: {
+			'A Golgiról lefűződő vezikulumot': false,
+			'A Golgi-apparátus egy szerkezeti elemét': true,
+			'Az ER Golgi felé eső részét': false,
+			'A reziduális testeket': false
+		}
+	},{
+		question:'Mi történik a Golgi-apparátus ciszternáiban a fehérjékkel?',
+		answers: {
+			'Szintetizálódnak': false,
+			'Érnek': true,
+			'Denaturálódnak': false,
+			'Lebontódnak': false
+		}
+	},{
+		question:'Mik azok a szignálfoltok?',
+		answers: {
+			'A Golgi-apparátus cisz ill. transz oldalát jelző foltok': false,
+			'Címzésként működő aminósav kombinációk': true,
+			'A transzláció kezdőhelyét jelző szekvenciák': false,
+			'A fehérje származására utaló lipidkomponens': false
+		}
+	},{
+		question:'Hogyan jönnek létre a szekunder lizoszómák?',
+		answers: {
+			'A tercier lizoszómák átalakulásával': false,
+			'Fúzió útján': true,
+			'Exocitózissal': false,
+			'A primer lizoszómákból': true
+		}
+	},{
+		question:'Mik azok a reziduália testek?',
+		answers: {
+			'Az emészthetetlen anyagokból keletkezett zárványok': true,
+			'Az endocitózissal bekerült tartaléktápanyagok': false,
+			'Exocitócissal az intercelluláris térbe került anyagok': false,
+			'Kiválasztott fehérjék': false
+		}
+	},{
+		question:'Mit tudunk a mitokondrium eredetéről?',
+		answers: {
+			'A Golgiból fűződött le': false,
+			'Az endoszimbionta elmélettel magyarázható': true,
+			'Autogén úton jött létre': false,
+			'A maghártyáról fűződött le': false
+		}
+	},{
+		question:'Mi jellemzi a mitokondrium külső memránját?',
+		answers: {
+			'Porinok ülnek benne': true,
+			'A citrátkör enzimjei süllyednek bele': false,
+			'Felszíne sima': false,
+			'Lemezek vagy csövek formájában felgyűrődik': false
+		}
+	},{
+		question:'Mi a mitokondrium legfontosabb funkciója?',
+		answers: {
+			'Glikogén bontás': false,
+			'Szabad gyökök eliminálása': false,
+			'Fehérjeszintézis': true,
+			'ATP szintézis': true
+		}
+	},{
+		question:'Mitől függ, hogy hány mitokondrium van a sejtben?',
+		answers: {
+			'A sejt energiaigényétől': true,
+			'A megvilágított órák számától': false,
+			'A sejtciklustól': false,
+			'A differenciáltsági állapottól': false
+		}
+	},{
+		question:'Mi tölti ki a mitokondrium intermembrán terét?',
+		answers: {
+			'Citoplazma': false,
+			'Víz': false,
+			'Kocsonyás anyag': false,
+			'Citoszol': true
+		}
+	},{
+		question:'Hol találjuk a citrátciklus enzimjeit?',
+		answers: {
+			'Citoszólban': false,
+			'Citoplazmában': false,
+			'Intermembrán térben': false,
+			'Mitokondrium mátrixban': true
+		}
+	},{
+		question:'Hol találjuk az ATP-szintázt?',
+		answers: {
+			'Mitokondrium belső membránjában': true,
+			'Intermembrán térben': false,
+			'Mitokondrium mátrixban': false,
+			'A mitokondrium külső membránjában': false
 		}
 	}
 ]
