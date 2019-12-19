@@ -1123,9 +1123,6 @@ var multiQuestionAnswers = [
 	question:'IV/A. Jelölje meg a placenta által termelt polipeptidhormonokat!',
 	answer: '<span class="lime">U. Koriongonadotropin</span></br>V. Ösztrogén</br>É. Androgén</br><span class="lime">N. Koriotireotropin</span>'
 },{
-	question:'IV/A. N. Ovogenezis; A. Spermiogenezis; K. Mindkettő; T. Egyik sem',
-	answer: 'Van benne szaporodási és érési szakasz</br>Átalakulási szakasza is van</br>Szaporodási szakaszában meiózisok követik egymást</br>A meiózis végeredménye 1 ivarsejt'
-},{
 	question:'IV/A. M. Ovogenezis; E. Spermiogenezis; S. Mindkettő; R. Egyik sem',
 	answer: '<span class="lime">K</span>Van benne szaporodási és érési szakasz</br><span class="lime">A</span>Átalakulási szakasza is van</br><span class="lime">T</span>Szaporodási szakaszában meiózisok követik egymást</br><span class="lime">N</span>A meiózis végeredménye 1 ivarsejt'
 },{

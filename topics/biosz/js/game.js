@@ -1682,7 +1682,20 @@ var questionAnswers=[
 			'nRNS': true
 		}
 	}
-]
+];
+
+var changedQuestion = false;
+
+function addGoodAnswers () {
+	if (typeof(Storage) !== "undefined") {
+		if (localStorage.goodAnswers && changedQuestion == true) {
+		  localStorage.goodAnswers = Number(localStorage.goodAnswers)+1;
+		} else if (!localStorage.goodAnswers) {
+		  localStorage.goodAnswers = 0;
+		}
+		document.getElementById('goodAnswers').innerHTML = localStorage.goodAnswers;
+	}
+}
 
 function initQuestionAnswerHtml() {
 	var questionAnswer = questionAnswers[Math.floor(Math.random() * questionAnswers.length)];
@@ -1692,15 +1705,27 @@ function initQuestionAnswerHtml() {
 		questions += '<input type="checkbox" name="answer" value="' + questionAnswer.answers[i] + '"><span>'+i+'</span></br>';
 	}
 	document.getElementById('answers').innerHTML = questions;
+	changedQuestion = true;
+}
+
+function init() {
+	addGoodAnswers();
+	initQuestionAnswerHtml();	
 }
 
 function checkAnswers() {
+	var allGood = true;
 	var answers = document.getElementsByName('answer');
-	for (var i in answers) {
+	for (var i = 0; i < answers.length; i++) {			
 		if (answers[i].value == 'true' && answers[i].checked == true || (answers[i].value == 'false' && answers[i].checked == false)) {
 			document.getElementsByTagName('span')[i].className = 'lime';
 		} else {
 			document.getElementsByTagName('span')[i].className = 'red';
+			allGood = false;
 		}
 	}
+	if (allGood == true && changedQuestion == true) {
+		addGoodAnswers();
+	}
+	changedQuestion = false;
 }
