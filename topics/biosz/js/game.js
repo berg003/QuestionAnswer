@@ -1685,6 +1685,7 @@ var questionAnswers=[
 ];
 
 var changedQuestion = false;
+var recentQuestionAnswerIndex = null;
 
 function addGoodAnswers () {
 	if (typeof(Storage) !== "undefined") {
@@ -1698,7 +1699,8 @@ function addGoodAnswers () {
 }
 
 function initQuestionAnswerHtml() {
-	var questionAnswer = questionAnswers[Math.floor(Math.random() * questionAnswers.length)];
+	var index = Math.floor(Math.random() * questionAnswers.length);
+	var questionAnswer = questionAnswers[index];
 	document.getElementById('question').innerHTML = questionAnswer.question;
 	var questions = '';	
 	for (var i in questionAnswer.answers) {
@@ -1706,6 +1708,7 @@ function initQuestionAnswerHtml() {
 	}
 	document.getElementById('answers').innerHTML = questions;
 	changedQuestion = true;
+	recentQuestionAnswerIndex = index;
 }
 
 function init() {
@@ -1726,6 +1729,7 @@ function checkAnswers() {
 	}
 	if (allGood == true && changedQuestion == true) {
 		addGoodAnswers();
+		questionAnswers.slice(recentQuestionAnswerIndex,1);
 	}
 	changedQuestion = false;
 }
