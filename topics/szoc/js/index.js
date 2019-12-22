@@ -1,8 +1,13 @@
 var questionAnswers = [
 // Teszt
+
+{
+	question: '3. Nevezzen meg három az egészségszociológiát legitimáló tényezőt!',
+	answer: '- Az egészség társadalmi térben szerveződik</br>- Az egészség interdiszciplináris megközelítést igényel</br>- Az ember biopszichoszociális lény</br>- Betegségszemlélet vs. egészségszemlélet</br>- A gyógyítás új komponensei: megelőzés, rehabilitáció, társadalmi reintegráció, a kezelés kulturális aspektusai, stb.</br> - A betegségek oksági magyarázatában a környezeti tényezők váltak főszereplővé</br>- XX század közepétől újabb paradigmaváltás</br>- A járványszerűen terjedő fertőző betegségek dominanciáját  felváltják az idült degeneratív betegségek</br>- Természetei kórokozók helyett társadalmi faktorok okoznak megbetegedéseket'
+},
 {
 	question: '9. Mit tartalmaz David Armstrong pszichoanalitikai egészségértelmezési modellje??',
-	answer: '-A betegségek pszichogenetikai sajátosságaira koncentrál</br>- Jellemzően az egyéni késztetések, szükségletek és ösztönök, illetve ezek társadalmi kontrolljának és korlátainak konfliktusát helyezi előtérbe. (Tudattalanban zajlanak.)'
+	answer: '- A betegségek pszichogenetikai sajátosságaira koncentrál</br>- Jellemzően az egyéni késztetések, szükségletek és ösztönök, illetve ezek társadalmi kontrolljának és korlátainak konfliktusát helyezi előtérbe. (Tudattalanban zajlanak.)'
 },{
 	question: '10. Mit tartalmaz David Armstrong magatartáselméleti egészségértelmezési modellje?',
 	answer: '- Bizonyos magatartási modellek (hiperaktivitás, mértéktelen alkoholfogyasztás, figyelemzavar) önmagukban is betegségként érzékelhetők</br>- Előidéznek, hozzájárulnak betegségek kialakulásához: kockázati magatartások, veszélyeztető viselkedések, káros cselekedetek.'

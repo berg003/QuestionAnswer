@@ -1684,8 +1684,20 @@ var questionAnswers=[
 	}
 ];
 
+/*var questionAnswers=[
+{
+	choice: ['choice1', 'choice2', 'choice3'],
+	answers: {
+		'answer1': 0,
+		'answer2': 1,
+		'answer3': 2
+	}
+}
+];*/
+
 var changedQuestion = false;
 var recentQuestionAnswerIndex = null;
+var coice = null;
 
 function addGoodAnswers () {
 	if (typeof(Storage) !== "undefined") {
@@ -1701,12 +1713,28 @@ function addGoodAnswers () {
 function initQuestionAnswerHtml() {
 	var index = Math.floor(Math.random() * questionAnswers.length);
 	var questionAnswer = questionAnswers[index];
-	document.getElementById('question').innerHTML = questionAnswer.question;
-	var questions = '';	
-	for (var i in questionAnswer.answers) {
-		questions += '<input type="checkbox" name="answer" value="' + questionAnswer.answers[i] + '"><span>'+i+'</span></br>';
+	var answers = '';
+	if (questionAnswer.question != null) {
+		coice = false;
+		document.getElementById('question').innerHTML = questionAnswer.question;
+		for (var i in questionAnswer.answers) {
+			answers += '<input type="checkbox" name="answer" value="' + questionAnswer.answers[i] + '"><span>'+i+'</span></br>';
+		}
+	} else {
+		coice = true;
+		var combobox = '<select>';
+		var questions = '';
+		for (var i in questionAnswer.choice) {
+			questions += ' ' + questionAnswer.choice[i];
+			combobox += '<option value="'+questionAnswer.choice[i]+'">'+questionAnswer.choice[i]+'</option>';
+		}
+		document.getElementById('question').innerHTML=questions;
+		combobox += '</select>'
+		for (var i in questionAnswer.answers) {
+			answers += combobox + '<span class="inline" answer='+questionAnswer.answers[i]+'>'+[i]+'</span></br>';
+		}
 	}
-	document.getElementById('answers').innerHTML = questions;
+	document.getElementById('answers').innerHTML = answers;
 	changedQuestion = true;
 	recentQuestionAnswerIndex = index;
 }
@@ -1718,13 +1746,26 @@ function init() {
 
 function checkAnswers() {
 	var allGood = true;
-	var answers = document.getElementsByName('answer');
-	for (var i = 0; i < answers.length; i++) {			
-		if (answers[i].value == 'true' && answers[i].checked == true || (answers[i].value == 'false' && answers[i].checked == false)) {
-			document.getElementsByTagName('span')[i].className = 'lime';
-		} else {
-			document.getElementsByTagName('span')[i].className = 'red';
-			allGood = false;
+	if (coice == false) {
+		var answers = document.getElementsByName('answer');
+		for (var i = 0; i < answers.length; i++) {
+			if (answers[i].value == 'true' && answers[i].checked == true || (answers[i].value == 'false' && answers[i].checked == false)) {
+				document.getElementsByTagName('span')[i].className = 'lime';
+			} else {
+				document.getElementsByTagName('span')[i].className = 'red';
+				allGood = false;
+			}
+		}
+	} else {
+		var answers = document.getElementsByTagName('select');
+		for (var i = 0; i < answers.length; i++) {
+			var answerSpan = document.getElementsByTagName('span')[i];
+			if (answers[i].selectedIndex == answerSpan.getAttribute('answer')) {
+				answerSpan.className = 'lime';
+			} else {
+				answerSpan.className = 'red';
+				allGood = false;
+			}
 		}
 	}
 	if (allGood == true && changedQuestion == true) {

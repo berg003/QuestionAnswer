@@ -1,11 +1,10 @@
 function init() {
-	const list = document.getElementById('questions'); 
-	list.innerHTML = '';	
+	const list = document.getElementById('questions');
+	var questions = '';
 	getQuestionAnswers().forEach(item => {
-		let option = document.createElement('option');
-		option.value = item.question;
-		list.appendChild(option);
+		questions += '<option>'+item.question+'</option>'
 	});
+	list.innerHTML = questions;
 };
 
 function searchAnswer() {
@@ -29,6 +28,7 @@ function showDocument(fileId, type) {
 	documentFrame.style.height='100%';
 	documentFrame.style.visibility = null;
 	documentFrame.scrollIntoView();
+	documentFrame.contentWindow.document.body.focus();
 }
 function hideDocument(type) {
 	var documentFrame = document.getElementById(type + 'Frame');
